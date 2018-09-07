@@ -1,2 +1,21 @@
 # main-site
-Arkavidia 5.0 IT and Informatics Festival, organized by Himpunan Mahasiswa Informatika ITB
+
+## Project setup
+```
+yarn install
+```
+
+### Compiles and hot-reloads for development
+```
+yarn run serve
+```
+
+### Compiles and minifies for production
+```
+yarn run build
+```
+
+### Lints and fixes files
+```
+yarn run lint
+```
