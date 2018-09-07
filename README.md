@@ -1,21 +1,14 @@
-# main-site
+![Arkavidia 5.0 Logo](https://static.arkavidia.id/5/images/logo-full.svg)
 
-## Project setup
-```
-yarn install
-```
+> Enlighten Indonesian Next Generation Through IT
 
-### Compiles and hot-reloads for development
-```
-yarn run serve
-```
+[Arkavidia Informatics and IT Festival](https://arkavidia.id) is a nationwide annual event that hopefully can inspire and grant new knowledge for society, also to give positive impact for Indonesia.
 
-### Compiles and minifies for production
-```
-yarn run build
-```
+## Vision
+> Arkavidia as a movement to inspire Indonesians to answer global challenge in Information Technology
 
-### Lints and fixes files
-```
-yarn run lint
-```
+## Mission
+
+- Introducing latest technology to students.
+- Improving students participation in nationwide competition.
+- Improving perspective of Indonesians in IT sector.
