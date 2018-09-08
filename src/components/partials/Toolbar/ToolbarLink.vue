@@ -1,10 +1,10 @@
 <template>
-  <v-btn flat :to=to>{{title}}</v-btn>
+  <v-btn flat :to=to :href=href>{{title}}</v-btn>
 </template>
 <script>
 export default {
   name: 'ToolbarLink',
-  props: ["to","title"]
+  props: ["to","title","href"]
 }
 </script>
 

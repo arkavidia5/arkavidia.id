@@ -1,6 +1,6 @@
 ![Arkavidia 5.0 Logo](https://static.arkavidia.id/5/images/logo-full.svg)
 
-## Enlighten Indonesian Next Generation Through IT
+## Awakening Indonesian Future Generation Through IT
 
 [Arkavidia Informatics and IT Festival](https://arkavidia.id) is a nationwide annual event that hopefully can inspire and grant new knowledge for society, also to give positive impact for Indonesia.
 
