@@ -19,3 +19,8 @@ export default {
 }
 </script>
 
+<style scoped>
+  .v-list__tile--active>.v-list__tile__title {
+    color: red !important;
+  }
+</style>

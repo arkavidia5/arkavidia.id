@@ -36,6 +36,6 @@ export default {
 
 <style>
   .futura-bt {
-    font-family: 'Futura Md BT'
+    font-family: 'Futura Md BT Bold'
   }
 </style>
