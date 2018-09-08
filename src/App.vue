@@ -4,6 +4,7 @@
     <v-content>
       <router-view></router-view>
     </v-content>
+    <Footer/> 
   </v-app>
 </template>
 
@@ -11,7 +12,7 @@
 import Home from './components/pages/Home.vue'
 import About from './components/pages/About.vue'
 import Toolbar from './components/partials/Toolbar.vue'
-
+import Footer from './components/partials/Footer.vue'
 import VueRouter from 'vue-router'
 const routes = [
   {path: "/", component: Home},
@@ -29,6 +30,7 @@ export default {
   components: {
     Home,
     Toolbar,
+    Footer,
   }
 }
 
@@ -37,5 +39,8 @@ export default {
 <style>
   .futura-bt {
     font-family: 'Futura Md BT Bold'
+  }
+  .no-decoration {
+    text-decoration: none !important;
   }
 </style>

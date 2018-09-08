@@ -19,8 +19,8 @@
   </v-toolbar>
 </template>
 <script>
-import ToolbarDropdown from './ToolbarDropdown'
-import ToolbarLink from './ToolbarLink'
+import ToolbarDropdown from './Toolbar/ToolbarDropdown'
+import ToolbarLink from './Toolbar/ToolbarLink'
 export default {
   name: 'Toolbar',
   components: {
