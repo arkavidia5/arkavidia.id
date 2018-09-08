@@ -1,8 +1,10 @@
 <template>
   <v-app class="secondary">
     <Toolbar/>
-    <v-content>
-      <router-view></router-view>
+    <v-content style="padding-top: 55px;">
+      <transition name="fade">
+        <router-view></router-view>
+      </transition>
     </v-content>
     <Footer/> 
   </v-app>
@@ -28,7 +30,6 @@ export default {
   name: 'App',
   router,
   components: {
-    Home,
     Toolbar,
     Footer,
   }
@@ -40,7 +41,31 @@ export default {
   .futura-bt {
     font-family: 'Futura Md BT Bold'
   }
+  * {
+    font-family: 'Futura Md BT';
+  }
+  .bold {
+    font-family: 'Futura Md BT Bold';
+  }
   .no-decoration {
     text-decoration: none !important;
+  }
+  .full-page {
+    height: 100vh;
+  }
+  .no-padding {
+    padding: 0;
+  }
+  .fade-enter-active, .fade-leave-active {
+    transition-property: opacity;
+    transition-duration: .25s;
+  }
+
+  .fade-enter-active {
+    transition-delay: .25s;
+  }
+
+  .fade-enter, .fade-leave-active {
+    opacity: 0;
   }
 </style>
