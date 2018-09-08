@@ -11,24 +11,39 @@
         </router-link>
     </v-toolbar-title>
     <v-spacer></v-spacer>
-    <v-btn icon>
-        <v-icon>search</v-icon>
-    </v-btn>
-    <v-btn icon>
-        <v-icon>apps</v-icon>
-    </v-btn>
-    <v-btn icon>
-        <v-icon>refresh</v-icon>
-    </v-btn>
-    <v-btn icon>
-        <v-icon>more_vert</v-icon>
-    </v-btn>
+    <toolbar-link title="Home" to="/"/>
+    <toolbar-dropdown title="Events" :items=events />
+    <toolbar-dropdown title="Competitions" :items=competitions />
+    <toolbar-link title="About" to="/about" />
+    <toolbar-link title="Login" to="https://app.arkavidia.id/login"/>
   </v-toolbar>
 </template>
 <script>
+import ToolbarDropdown from './ToolbarDropdown'
+import ToolbarLink from './ToolbarLink'
 export default {
-  name: 'Toolbar'
+  name: 'Toolbar',
+  components: {
+      'toolbar-dropdown': ToolbarDropdown,
+      'toolbar-link': ToolbarLink
+  },
+  data: () => ({
+    events: [
+      {title: "Seminar", to: "/event/seminar"},
+      {title: "IT Festival", to: "/event/festival"}
+    ],
+    competitions: [
+      {title: "Technovation", to: "/competition/technovation"},
+      {title: "Programming Contest", to: "/competition/cp"},
+      {title: "Capture the Flag", to: "/competition/ctf"},
+      {title: "Arkalogica", to: "/competition/arkalogica"}
+    ]
+  })
 }
-
-
 </script>
+<style scoped>
+  * {
+    font-family: 'Futura Md BT'
+  }
+</style>
+
