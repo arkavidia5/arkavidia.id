@@ -41,12 +41,19 @@ export default {
   .futura-bt {
     font-family: 'Futura Md BT Bold'
   }
+  .futura-bt.bold {
+    font-family: 'Futura Md BT Bold';
+  }
+  .futura-lt.bold {
+    font-family: 'FuturaLT'
+  }
+  .futura-lt.bold {
+    font-family: 'FuturaLT-Bold'
+  }
   * {
     font-family: 'Futura Md BT';
   }
-  .bold {
-    font-family: 'Futura Md BT Bold';
-  }
+
   .no-decoration {
     text-decoration: none !important;
   }

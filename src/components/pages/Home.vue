@@ -1,18 +1,15 @@
 <template>
-  <v-container fluid>
-    <v-slide-y-transition mode="out-in">
-      <v-layout column align-center>
-        <img src="@/assets/logo.png" alt="Vuetify.js" class="mb-5">
-        <blockquote>
-          &#8220;First, solve the problem. Then, write the code.&#8221;
-          <footer>
-            <small>
-              <em>&mdash;John Johnson</em>
-            </small>
-          </footer>
-        </blockquote>
-      </v-layout>
-    </v-slide-y-transition>
+  <v-container fluid no-padding>
+    <v-layout row section landing >
+      <v-responsive :aspect-ratio="19/9">
+        <h1 class="futura-lt bold" style="font-size:3vw;position:absolute;bottom: 37%; left: 10%;">
+          Awakening Future Generation's Potential
+        </h1>
+        <h1 class="futura-lt bold" style="font-size:5vw;bottom:25%;left:10%;position:absolute">
+          Through IT
+        </h1>
+      </v-responsive>
+    </v-layout>
   </v-container>
 </template>
 
@@ -40,5 +37,14 @@ li {
 }
 a {
   color: #42b983;
+}
+.landing {
+  width: 100%;
+  position: relative;  
+}
+.landing>div{
+   background-image: url('https://static.arkavidia.id/5/images/landing-bg-2.svg');
+  background-size: 102%;
+  background-position: bottom;
 }
 </style>

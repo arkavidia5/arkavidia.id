@@ -8,5 +8,4 @@ Vue.use(Vuetify, {
         secondary: '#FFFEF2',
         accent: '#F69320'
     },
-    red: '#EC4624',
 });
