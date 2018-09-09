@@ -4,8 +4,8 @@
         <router-link to="/" style="text-decoration: none;">
             <v-layout>
                 <img src="https://static.arkavidia.id/5/images/logo.svg" alt="" height="40">
-                <h1 class="futura-bt" style="margin-left: 10px; text-decoration: none !important;">
-                    Arkavidia 5.0
+                <h1 class="futura-bt bold" style="margin-left: 10px; text-decoration: none !important;">
+                    ARKAVIDIA 5.0
                 </h1>
             </v-layout>
         </router-link>
