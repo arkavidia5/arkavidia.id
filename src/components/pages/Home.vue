@@ -2,13 +2,20 @@
   <v-container fluid no-padding>
     <v-layout row section landing >
       <v-responsive :aspect-ratio="19/9">
-        <h1 class="futura-lt bold" style="font-size:3vw;position:absolute;bottom: 37%; left: 10%;">
+        <h1 class="futura-lt bold" style="font-size:3vw;position:absolute;bottom: 36%; left: 10%;">
           Awakening Future Generation's Potential
         </h1>
-        <h1 class="futura-lt bold" style="font-size:5vw;bottom:25%;left:10%;position:absolute">
+        <h1 class="futura-lt bold" style="font-size:5vw;bottom:24%;left:10%;position:absolute">
           Through IT
         </h1>
       </v-responsive>
+    </v-layout>
+    <v-layout row gradient down>
+    
+    </v-layout>
+
+    <v-layout row gradient up>
+
     </v-layout>
   </v-container>
 </template>
@@ -46,5 +53,15 @@ a {
    background-image: url('https://static.arkavidia.id/5/images/landing-bg-2.svg');
   background-size: 102%;
   background-position: bottom;
+}
+.gradient.down {
+  background: linear-gradient(to bottom,#04464F,#04464F,transparent);
+  height: 80px;
+  margin-top:-1px;
+}
+.gradient.up{
+  background: linear-gradient(to bottom,transparent,#04464F,#04464f);
+  height: 80px;
+  margin-top:-1px;
 }
 </style>
