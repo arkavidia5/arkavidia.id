@@ -2,7 +2,7 @@
   <v-container fluid>
     <v-slide-y-transition mode="out-in">
       <v-layout column align-center>
-          This is About Page!
+          This is FAQ Page!
       </v-layout>
     </v-slide-y-transition>
   </v-container>
@@ -10,7 +10,7 @@
 
 <script>
 export default {
-  name: 'About',
+  name: 'FAQ',
   props: {
     msg: String
   }
