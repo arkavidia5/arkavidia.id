@@ -1,10 +1,13 @@
 <template>
-  <v-toolbar fixed light color="transparent" flat>
-    <v-toolbar-title class="primary--text">
+  <v-toolbar fixed v-bind:light="this.backgroundStyle.opacity < 0.8" v-bind:dark="this.backgroundStyle.opacity >= 0.8" color="transparent" flat v-scroll="onScroll">
+    <v-layout class="background" primary v-bind:style="backgroundStyle">
+      &nbsp;
+    </v-layout>
+    <v-toolbar-title>
         <router-link to="/" style="text-decoration: none;">
             <v-layout>
                 <img src="https://static.arkavidia.id/5/images/logo.svg" alt="" height="40">
-                <h1 class="futura-bt bold" style="margin-left: 10px; text-decoration: none !important;">
+                <h1 class="futura-bt bold" v-bind:class="{'white--text': backgroundStyle.opacity >=0.8}" style="margin-left: 10px; text-decoration: none !important;">
                     ARKAVIDIA 5.0
                 </h1>
             </v-layout>
@@ -37,13 +40,31 @@ export default {
       {title: "Programming Contest", to: "/competition/cp"},
       {title: "Capture the Flag", to: "/competition/ctf"},
       {title: "Arkalogica", to: "/competition/arkalogica"}
-    ]
-  })
+    ],
+    offsetTop: 0,
+    backgroundStyle: {
+      opacity:0,
+    }
+  }),
+  methods: {
+    onScroll (e) {
+      this.offsetTop = window.pageYOffset || document.documentElement.scrollTop
+      this.backgroundStyle.opacity = this.offsetTop/ 300;
+    }
+  }
 }
 </script>
 <style scoped>
   * {
     font-family: 'Futura Md BT'
+  }
+  .background {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    left:0;
+    top:0;
+    z-index: -100;
   }
 </style>
 
