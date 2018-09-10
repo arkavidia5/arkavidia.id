@@ -13,20 +13,20 @@
         <v-toolbar-side-icon @click.stop="drawer = !drawer"></v-toolbar-side-icon>
     </v-toolbar>
     <v-navigation-drawer app v-model="drawer" disable-resize-watcher>
+      <v-list>
       <DrawerListItem to="/"  title="Home" active/>
       
       <DrawerListGroup title="Events" :items=events />
       <DrawerListGroup title="Competitions" :items=competitions />
       <DrawerListItem to="/about" title="About"/>
       <a href="https://app.arkavidia.id/login" class="no-decoration">
-        <v-list>
             <v-list-tile>
                 <v-list-tile-content>
                 <v-list-tile-title>Login</v-list-tile-title>
                 </v-list-tile-content>
             </v-list-tile>
-        </v-list>
-    </a>
+      </a>  
+      </v-list>
   </v-navigation-drawer>
  </div>
 </template>
