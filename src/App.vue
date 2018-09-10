@@ -1,7 +1,7 @@
 <template>
   <v-app class="secondary">
-    <Toolbar/>
-    <NavigationDrawer/>
+    <Toolbar v-if="this.$vuetify.breakpoint.mdAndUp"/>
+    <NavigationDrawer v-else/>
     <v-content style="padding-top: 55px;">
       <transition name="fade">
         <router-view></router-view>

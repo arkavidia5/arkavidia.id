@@ -1,5 +1,5 @@
 <template>
- <div class="hidden-sm-and-up">
+ <div >
      <v-toolbar color="primary" dark fixed app flat>
         <v-toolbar-title>
             <v-layout row align-center >
