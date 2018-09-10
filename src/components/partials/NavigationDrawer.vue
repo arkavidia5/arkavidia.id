@@ -12,7 +12,7 @@
         <v-spacer></v-spacer>
         <v-toolbar-side-icon @click.stop="drawer = !drawer"></v-toolbar-side-icon>
     </v-toolbar>
-    <v-navigation-drawer app v-model="drawer">
+    <v-navigation-drawer app v-model="drawer" disable-resize-watcher>
       <DrawerListItem to="/"  title="Home" active/>
       
       <DrawerListGroup title="Events" :items=events />
