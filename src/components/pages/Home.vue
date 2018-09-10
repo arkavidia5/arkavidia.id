@@ -57,14 +57,14 @@
     </v-layout>
     <v-layout primary row white--text >
       <v-container>
-        <v-layout row>
-          <v-flex md4 box-wrapper>
+        <v-layout row wrap>
+          <v-flex md4 xs12 box-wrapper>
             <h3 class="futura-lt bold">Sponsors</h3>
             <v-flex white sponsor-box mt-2>
 
             </v-flex>
           </v-flex>
-          <v-flex md8 p-3 box-wrapper>
+          <v-flex md8 xs12 p-3 box-wrapper>
             <h3 class="futura-lt bold">
               Media Partners
             </h3>
