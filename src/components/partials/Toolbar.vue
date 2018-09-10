@@ -1,5 +1,5 @@
 <template>
-  <v-toolbar fixed light color="transparent" class="elevation-0">
+  <v-toolbar fixed light color="transparent" flat hidden-xs-only>
     <v-toolbar-title class="primary--text">
         <router-link to="/" style="text-decoration: none;">
             <v-layout>

@@ -1,11 +1,13 @@
 <template>
   <v-app class="secondary">
     <Toolbar/>
+    <NavigationDrawer/>
     <v-content style="padding-top: 55px;">
       <transition name="fade">
         <router-view></router-view>
       </transition>
     </v-content>
+
     <Footer/> 
   </v-app>
 </template>
@@ -15,6 +17,7 @@ import Home from './components/pages/Home.vue'
 import About from './components/pages/About.vue'
 import Toolbar from './components/partials/Toolbar.vue'
 import Footer from './components/partials/Footer.vue'
+import NavigationDrawer from './components/partials/NavigationDrawer.vue'
 import VueRouter from 'vue-router'
 const routes = [
   {path: "/", component: Home},
@@ -32,7 +35,9 @@ export default {
   components: {
     Toolbar,
     Footer,
+    NavigationDrawer
   }
+ 
 }
 
 </script>
