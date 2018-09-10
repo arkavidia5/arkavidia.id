@@ -49,7 +49,7 @@ export default {
   methods: {
     onScroll (e) {
       this.offsetTop = window.pageYOffset || document.documentElement.scrollTop
-      this.backgroundStyle.opacity = this.offsetTop/ 300;
+      this.backgroundStyle.opacity = this.offsetTop == 0 ? 0 : 1;
     }
   }
 }
@@ -65,6 +65,8 @@ export default {
     left:0;
     top:0;
     z-index: -100;
+    transition: 0.5s ease-in-out;
   }
+  
 </style>
 
