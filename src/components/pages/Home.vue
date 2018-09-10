@@ -16,13 +16,75 @@
         What's on Arkavidia?
       </h1>
     </v-layout>
+    <PageBreak/>
+     <v-layout row section events justify-center>
+      <h1 class="futura-lt bold heading">
+        Events
+      </h1>
+    </v-layout>
+    <PageBreak/>
+     <v-layout row section competitions justify-center>
+      <h1 class="futura-lt bold heading">
+        Competitions
+      </h1>
+    </v-layout>
+    <PageBreak/>
+     <v-layout row section schedule justify-center>
+      <h1 class="futura-lt bold heading">
+        Schedule
+      </h1>
+    </v-layout>
     <v-layout row gradient up/>
+    <v-layout row social white--text primary justify-center="">
+      <v-container>
+        <v-layout row justify-center="">
+          <h2>
+            Visit our Social Media
+          </h2>
+        </v-layout>
+        <v-layout row justify-center mt-3>
+            <a href="https://www.facebook.com/arkavidia/" target="_" class="no-decoration ml-1 mr-1">
+              <img src="https://static.arkavidia.id/5/images/social/white/fb-01.svg" alt="" height="30">
+            </a>
+            <a href="https://www.twitter.com/arkavidia_/" target="_" class="no-decoration ml-1 mr-1">
+              <img src="https://static.arkavidia.id/5/images/social/white/twitter-01.svg" alt="" height="30">
+            </a>
+            <a href="https://www.instagram.com/arkavidia/" target="_" class="no-decoration ml-1 mr-1">
+              <img src="https://static.arkavidia.id/5/images/social/white/insta-01.svg" alt="" height="30">
+            </a>
+        </v-layout>
+      </v-container>
+    </v-layout>
+    <v-layout primary row white--text >
+      <v-container>
+        <v-layout row>
+          <v-flex md4 box-wrapper>
+            <h3 class="futura-lt bold">Sponsors</h3>
+            <v-flex white sponsor-box mt-2>
+
+            </v-flex>
+          </v-flex>
+          <v-flex md8 p-3 box-wrapper>
+            <h3 class="futura-lt bold">
+              Media Partners
+            </h3>
+            <v-flex white medpar-box mt-2>
+
+            </v-flex>
+          </v-flex>
+        </v-layout>
+      </v-container>
+    </v-layout>
   </v-container>
 </template>
 
 <script>
+import PageBreak from '@/components/partials/PageBreak'
 export default {
   name: 'Home',
+  components: {
+    PageBreak
+  },
   props: {
     msg: String
   }
@@ -65,8 +127,15 @@ a {
   background: linear-gradient(to bottom,transparent,#04464F,#04464F);
 }
 .heading {
-  font-size: 2.5vw;
+  font-size: 2rem;
   color: #04464F;
 }
 
+.sponsor-box, .medpar-box {
+  width: 100%;
+  height: 300px;
+}
+.box-wrapper {
+  padding: 15px;
+}
 </style>
