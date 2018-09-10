@@ -19,10 +19,11 @@ export default {
   .page-break__wrapper {
     display: flex;
     justify-content: center;
+    width: 100%;
   }
   .page-break {
     padding: 30px;
-    width: 70%;
+    width: 90%;
     height: 30px;
     display: flex;
     align-items: center;
@@ -39,8 +40,8 @@ export default {
     align-items: center;
   }
   .inner-circle {
-    width: 30px;
-    height: 30px;
+    width: 20px;
+    height: 20px;
     border: 3px solid #179FA4;
     border-radius: 50%;
   }
