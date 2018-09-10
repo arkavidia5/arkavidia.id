@@ -2,10 +2,10 @@
   <v-container fluid no-padding>
     <v-layout row section landing>
       <v-responsive :aspect-ratio="18/9" class="primary--text">
-        <h1 class="futura-lt bold" style="font-size:2.8vw;position:absolute;bottom: 35%; left: 10%;">
+        <h1 class="futura-lt bold" style="font-size:3.2vw;position:absolute;bottom: 34.5%; left: 10%;">
           Awakening Future Generation's Potential
         </h1>
-        <h1 class="futura-lt bold" style="font-size:4.8vw;bottom:25%;left:10%;position:absolute">
+        <h1 class="futura-lt bold" style="font-size:4.6vw;bottom:24%;left:10%;position:absolute">
           Through IT
         </h1>
       </v-responsive>
@@ -127,7 +127,7 @@ a {
   background: linear-gradient(to bottom,transparent,#04464F,#04464F);
 }
 .heading {
-  font-size: 2rem;
+  font-size: 52sp;
   color: #04464F;
 }
 

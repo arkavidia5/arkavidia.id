@@ -23,4 +23,10 @@ export default {
   .v-list__tile--active>.v-list__tile__title {
     color: red !important;
   }
+  .v-list.theme--light {
+    background: #FFFEF2;
+  }
+  .v-list.theme--dark{
+    background: #04464F;
+  }
 </style>

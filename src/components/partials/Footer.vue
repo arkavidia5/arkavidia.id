@@ -1,5 +1,5 @@
 <template>
-  <v-footer color="primary" dark height="80">
+  <v-footer color="primary" dark height="60">
     <v-container fluid style="padding:15px 3% 0 3%;" mb-2 >
       <v-layout row class="horizontal-line">
       </v-layout>
@@ -46,6 +46,7 @@ export default {
     height: 3px;
     margin-bottom: 9px;
   }
+ 
 </style>
 
 
