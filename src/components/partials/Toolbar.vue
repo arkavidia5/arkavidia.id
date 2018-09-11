@@ -47,7 +47,7 @@ export default {
     }
   }),
   methods: {
-    onScroll (e) {
+    onScroll () {
       this.offsetTop = window.pageYOffset || document.documentElement.scrollTop
       this.backgroundStyle.opacity = this.offsetTop == 0 ? 0 : 1;
     }
