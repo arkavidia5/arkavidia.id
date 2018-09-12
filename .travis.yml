@@ -19,6 +19,8 @@ cache:
     - node_modules
 before_deploy:
   - cd dist
+  - touch CNAME
+  - CNAME << "preview.arkavidia.id"
 deploy:
   provider: pages
   skip-cleanup: true
