@@ -72,9 +72,9 @@
 
             </v-flex>
           </v-flex>
-        </v-layout> -->
+        </v-layout>
       </v-container>
-    </v-layout>
+    </v-layout> -->
   </v-container>
 </template>
 
