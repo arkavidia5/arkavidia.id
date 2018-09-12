@@ -28,6 +28,7 @@ deploy:
     branch: develop
   file: dist/
   repo: arkavidia5/preview
+  keep-history: true
   target_branch: master
 
 
