@@ -55,7 +55,7 @@
         </v-layout>
       </v-container>
     </v-layout>
-    <v-layout primary row white--text >
+    <!-- <v-layout primary row white--text >
       <v-container>
         <v-layout row wrap>
           <v-flex md4 xs12 box-wrapper>
@@ -72,7 +72,7 @@
 
             </v-flex>
           </v-flex>
-        </v-layout>
+        </v-layout> -->
       </v-container>
     </v-layout>
   </v-container>
