@@ -20,7 +20,7 @@ cache:
 before_deploy:
   - cd dist
   - touch CNAME
-  - CNAME << "preview.arkavidia.id"
+  - echo "preview.arkavidia.id" > CNAME
 deploy:
   provider: pages
   skip-cleanup: true
