@@ -1,5 +1,5 @@
 <template>
-  <v-footer color="primary" dark height="60">
+  <v-footer color="primary" dark style="height: unset">
     <v-container fluid style="padding:15px 3% 0 3%;" mb-2 >
       <v-layout row class="horizontal-line">
       </v-layout>
