@@ -1,21 +1,24 @@
 language: node_js
-branches:
-  only:
-    - master
-    - develop
 os:
   - linux
 node_js: 9.5.0
+branches:
+  only:
+  - master
+  - develop
 
 install:
   - yarn
 script:
   - yarn lint
   - yarn build
+
 cache:
   yarn: true
   directories:
     - node_modules
+before_deploy:
+  - cd dist
 deploy:
   provider: pages
   skip-cleanup: true
@@ -24,3 +27,7 @@ deploy:
   on:
     branch: develop
   file: dist/
+  repo: arkavidia5/preview
+  target_branch: master
+
+
