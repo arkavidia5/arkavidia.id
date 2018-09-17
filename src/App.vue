@@ -114,4 +114,7 @@ export default {
     font-size: 52sp;
     color: #04464F;
   }
+  .flex-column {
+    flex-direction: column;
+  }
 </style>

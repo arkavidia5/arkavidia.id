@@ -25,11 +25,11 @@
           </h1>
          </v-layout>
         <v-layout row justify-center mt-4>          
-          <router-link to="/event/seminar" class="d-flex justify-center align-center no-decoration black--text mr-4" style="flex-direction:column" >
+          <router-link to="/event/seminar" class="d-flex justify-center align-center no-decoration black--text mr-4 flex-column" >
             <img src="https://static.arkavidia.id/5/images/icons/itfestival.svg" alt="itfest-ico" height="120">
             <h3 style="margin-top:4px;">IT Festival</h3>
           </router-link>
-          <router-link to="/event/seminar" class="d-flex justify-center align-center no-decoration black--text ml-4" style="flex-direction:column" >
+          <router-link to="/event/seminar" class="d-flex justify-center align-center no-decoration black--text ml-4 flex-column"  >
             <img src="https://static.arkavidia.id/5/images/icons/seminar.svg" alt="seminar-ico" height="120">
             <h3 style="margin-top:4px;">Seminar</h3>
           </router-link>
@@ -37,17 +37,51 @@
        </v-container>
     </v-layout>
     <PageBreak/>
-     <v-layout row section competitions justify-center>
-      <h1 class="futura-lt bold heading">
-        Competitions
-      </h1>
+    <v-layout row section competitions justify-center>
+      <v-container justify-center>
+        <v-layout row justify-center>
+          <h1 class="futura-lt bold heading">
+            Competitions
+          </h1>
+        </v-layout>
+        <v-layout row justify-center style="margin-top:30px;">
+        <v-flex md6 sm8 xs12 justify-center>
+        <v-layout row justify-center wrap>
+          <v-flex md3 xs6>
+          <router-link to="/competition/cp" class="d-flex justify-center align-center no-decoration black--text ml-4 flex-column" >
+            <img src="https://static.arkavidia.id/5/images/icons/cp.svg" alt="cp-ico" height="80">
+            <h3 style="margin-top:4px; text-align:center" class="competition-text">Competitive <br> Programming</h3>
+          </router-link>
+          </v-flex>
+          <v-flex md3 xs6>
+          <router-link to="/competition/technovation" class="d-flex justify-center align-center no-decoration black--text ml-4 flex-column" >
+            <img src="https://static.arkavidia.id/5/images/icons/technovation.svg" alt="technovation-ico" height="80">
+            <h3 style="margin-top:4px; text-align:center" class="competition-text">Technovation</h3>
+          </router-link>
+          </v-flex>
+          <v-flex md3 xs6>
+          <router-link to="/competition/ctf" class="d-flex justify-center align-center no-decoration black--text ml-4 flex-column" >
+            <img src="https://static.arkavidia.id/5/images/icons/ctf.svg" alt="ctf-ico" height="80">
+            <h3 style="margin-top:4px; text-align:center;" class="competition-text">Capture <br> the Flag</h3>
+          </router-link>
+          </v-flex>
+          <v-flex md3 xs6>  
+          <router-link to="/competition/arkalogica" class="d-flex justify-center align-center no-decoration black--text ml-4 flex-column" >
+            <img src="https://static.arkavidia.id/5/images/icons/arkalogica.svg" alt="arkalogica-ico" height="80">
+            <h3 style="margin-top:4px; text-align:center" class="competition-text">Arkalogica</h3>
+          </router-link>
+          </v-flex>
+        </v-layout>
+        </v-flex>
+        </v-layout>
+      </v-container>
     </v-layout>
-    <PageBreak/>
+    <!-- <PageBreak/>
      <v-layout row section schedule justify-center>
       <h1 class="futura-lt bold heading">
         Schedule
       </h1>
-    </v-layout>
+    </v-layout> -->
   </v-container>
 </template>
 
@@ -88,6 +122,12 @@ a {
    background-image: url('https://static.arkavidia.id/5/images/landing-bg-2.svg');
   background-size: 102%;
   background-position: bottom;
+}
+.competition-text {
+  display: flex;
+  height: 50px;
+  justify-content:center;
+  align-items:center;
 }
 
 </style>

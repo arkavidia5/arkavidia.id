@@ -26,7 +26,7 @@
       </v-container>
     </v-layout>
     
-      <v-layout primary row white--text >
+    <!-- <v-layout primary row white--text >
       <v-container>
         <v-layout row wrap>
           <v-flex md4 xs12 box-wrapper>
@@ -45,7 +45,7 @@
           </v-flex>
         </v-layout>
       </v-container>
-    </v-layout>
+    </v-layout> -->
       <v-layout row class="horizontal-line">
       </v-layout>
       <v-layout row wrap>
