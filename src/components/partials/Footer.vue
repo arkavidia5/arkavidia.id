@@ -1,8 +1,11 @@
 <template>
+  <v-container fluid no-padding>
+  <v-layout row gradient up/>
   <v-footer color="primary" dark style="height: unset">
     
     <v-container fluid style="padding:15px 3% 0 3%;" mb-2 >
-         <v-layout row social white--text primary justify-center="">
+      
+      <v-layout row social white--text primary justify-center="">
       <v-container>
         <v-layout row justify-center="">
           <h2>
@@ -65,7 +68,7 @@
       </v-layout>
     </v-container>
   </v-footer>
-  
+  </v-container>
 </template>
 
 <script>

@@ -11,16 +11,30 @@
       </v-responsive>
     </v-layout>
     <v-layout row gradient down/>
-    <v-layout row section whats-on justify-center>
+    <!-- <v-layout row section whats-on justify-center>
       <h1 class="futura-lt bold heading">
         What's on Arkavidia?
       </h1>
-    </v-layout>
-    <PageBreak/>
+    </v-layout> -->
+    <!-- <PageBreak/> -->
      <v-layout row section events justify-center>
-      <h1 class="futura-lt bold heading">
-        Events
-      </h1>
+       <v-container>
+         <v-layout row justify-center>
+          <h1 class="futura-lt bold heading">
+            Events
+          </h1>
+         </v-layout>
+        <v-layout row justify-center mt-4>          
+          <router-link to="/event/seminar" class="d-flex justify-center align-center no-decoration black--text mr-4" style="flex-direction:column" >
+            <img src="https://static.arkavidia.id/5/images/icons/itfestival.svg" alt="itfest-ico" height="120">
+            <h3 style="margin-top:4px;">IT Festival</h3>
+          </router-link>
+          <router-link to="/event/seminar" class="d-flex justify-center align-center no-decoration black--text ml-4" style="flex-direction:column" >
+            <img src="https://static.arkavidia.id/5/images/icons/seminar.svg" alt="seminar-ico" height="120">
+            <h3 style="margin-top:4px;">Seminar</h3>
+          </router-link>
+        </v-layout>
+       </v-container>
     </v-layout>
     <PageBreak/>
      <v-layout row section competitions justify-center>
@@ -34,7 +48,6 @@
         Schedule
       </h1>
     </v-layout>
-    <v-layout row gradient up style="margin-bottom: -1px;"/>
   </v-container>
 </template>
 
@@ -76,18 +89,5 @@ a {
   background-size: 102%;
   background-position: bottom;
 }
-.gradient {
-  height: 60px;
-}
-.gradient.down {
-  background: linear-gradient(to bottom,#04464F,#04464F,transparent);
-  margin-top:-1px;
-}
-.gradient.up{
-  background: linear-gradient(to bottom,transparent,#04464F,#04464F);
-}
-.heading {
-  font-size: 52sp;
-  color: #04464F;
-}
+
 </style>

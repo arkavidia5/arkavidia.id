@@ -98,4 +98,20 @@ export default {
   .fade-enter, .fade-leave-active {
     opacity: 0;
   }
+
+  .gradient {
+    height: 60px;
+  }
+  .gradient.down {
+    background: linear-gradient(to bottom,#04464F,#04464F,transparent);
+    margin-top:-1px;
+  }
+  .gradient.up{
+    background: linear-gradient(to bottom,transparent,#04464F,#04464F);
+    margin-bottom: -1px;
+  }
+  .heading {
+    font-size: 52sp;
+    color: #04464F;
+  }
 </style>
