@@ -34,47 +34,7 @@
         Schedule
       </h1>
     </v-layout>
-    <v-layout row gradient up/>
-    <v-layout row social white--text primary justify-center="">
-      <v-container>
-        <v-layout row justify-center="">
-          <h2>
-            Visit our Social Media
-          </h2>
-        </v-layout>
-        <v-layout row justify-center mt-3>
-            <a href="https://www.facebook.com/arkavidia/" target="_" class="no-decoration ml-1 mr-1">
-              <img src="https://static.arkavidia.id/5/images/social/white/fb-01.svg" alt="" height="30">
-            </a>
-            <a href="https://www.twitter.com/arkavidia_/" target="_" class="no-decoration ml-1 mr-1">
-              <img src="https://static.arkavidia.id/5/images/social/white/twitter-01.svg" alt="" height="30">
-            </a>
-            <a href="https://www.instagram.com/arkavidia/" target="_" class="no-decoration ml-1 mr-1">
-              <img src="https://static.arkavidia.id/5/images/social/white/insta-01.svg" alt="" height="30">
-            </a>
-        </v-layout>
-      </v-container>
-    </v-layout>
-    <!-- <v-layout primary row white--text >
-      <v-container>
-        <v-layout row wrap>
-          <v-flex md4 xs12 box-wrapper>
-            <h3 class="futura-lt bold">Sponsors</h3>
-            <v-flex white sponsor-box mt-2>
-
-            </v-flex>
-          </v-flex>
-          <v-flex md8 xs12 p-3 box-wrapper>
-            <h3 class="futura-lt bold">
-              Media Partners
-            </h3>
-            <v-flex white medpar-box mt-2>
-
-            </v-flex>
-          </v-flex>
-        </v-layout>
-      </v-container>
-    </v-layout> -->
+    <v-layout row gradient up style="margin-bottom: -1px;"/>
   </v-container>
 </template>
 
@@ -129,13 +89,5 @@ a {
 .heading {
   font-size: 52sp;
   color: #04464F;
-}
-
-.sponsor-box, .medpar-box {
-  width: 100%;
-  height: 300px;
-}
-.box-wrapper {
-  padding: 15px;
 }
 </style>
