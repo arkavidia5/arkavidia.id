@@ -15,7 +15,7 @@
 
 
 # Development 
-[![Build Status](https://travis-ci.org/arkavidia5/arkavidia.id.svg?branch=develop](https://travis-ci.org/arkavidia5/arkavidia.id)
+[![Build Status](https://travis-ci.org/arkavidia5/arkavidia.id.svg?branch=develop)](https://travis-ci.org/arkavidia5/arkavidia.id)
 ## Prerequisite
   - Yarn
 ## Install Dependencies
