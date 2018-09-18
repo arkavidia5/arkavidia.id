@@ -111,7 +111,7 @@ export default {
     margin-bottom: -1px;
   }
   .heading {
-    font-size: 52sp;
+    font-size: 2rem;
     color: #04464F;
   }
   .flex-column {
