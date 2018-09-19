@@ -60,8 +60,8 @@
             <v-flex md8>
               <v-layout row v-bind:justify-end="this.$vuetify.breakpoint.mdAndUp" v-bind:justify-center="this.$vuetify.breakpoint.smAndDown">
               <router-link class="white--text no-decoration" to="/about">About</router-link>
-              <router-link class="white--text no-decoration" to="/faq">FAQ</router-link>
-              <router-link class="white--text no-decoration" to="/contact">Contact Us</router-link>
+              <!-- <router-link class="white--text no-decoration" to="/faq">FAQ</router-link>
+              <router-link class="white--text no-decoration" to="/contact">Contact Us</router-link> -->
               </v-layout>
             </v-flex>
           </v-layout>

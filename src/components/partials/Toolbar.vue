@@ -15,10 +15,10 @@
     </v-toolbar-title>
     <v-spacer></v-spacer>
     <toolbar-link title="Home" to="/"/>
-    <toolbar-dropdown title="Events" :items=events />
-    <toolbar-dropdown title="Competitions" :items=competitions />
+    <!-- <toolbar-dropdown title="Events" :items=events />
+    <toolbar-dropdown title="Competitions" :items=competitions /> -->
     <toolbar-link title="About" to="/about" />
-    <toolbar-link title="Login" href="https://app.arkavidia.id/login"/>
+    <!-- <toolbar-link title="Login" href="https://app.arkavidia.id/login"/> -->
   </v-toolbar>
 </template>
 <script>

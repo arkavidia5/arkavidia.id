@@ -16,16 +16,16 @@
       <v-list>
       <DrawerListItem to="/"  title="Home" active/>
       
-      <DrawerListGroup title="Events" :items=events />
-      <DrawerListGroup title="Competitions" :items=competitions />
+      <!-- <DrawerListGroup title="Events" :items=events />
+      <DrawerListGroup title="Competitions" :items=competitions /> -->
       <DrawerListItem to="/about" title="About"/>
-      <a href="https://app.arkavidia.id/login" class="no-decoration">
+      <!-- <a href="https://app.arkavidia.id/login" class="no-decoration">
             <v-list-tile>
                 <v-list-tile-content>
                 <v-list-tile-title>Login</v-list-tile-title>
                 </v-list-tile-content>
             </v-list-tile>
-      </a>  
+      </a>   -->
       </v-list>
   </v-navigation-drawer>
  </div>
@@ -44,16 +44,16 @@
       return {
         drawer: false,
         right: null,
-        events: [
-            {title: "Seminar", to: "/event/seminar"},
-            {title: "IT Festival", to: "/event/festival"}
-        ],
-        competitions: [
-          {title: "Technovation", to: "/competition/technovation"},
-          {title: "Programming Contest", to: "/competition/cp"},
-          {title: "Capture the Flag", to: "/competition/ctf"},
-          {title: "Arkalogica", to: "/competition/arkalogica"}
-        ]
+        // events: [
+        //     {title: "Seminar", to: "/event/seminar"},
+        //     {title: "IT Festival", to: "/event/festival"}
+        // ],
+        // competitions: [
+        //   {title: "Technovation", to: "/competition/technovation"},
+        //   {title: "Programming Contest", to: "/competition/cp"},
+        //   {title: "Capture the Flag", to: "/competition/ctf"},
+        //   {title: "Arkalogica", to: "/competition/arkalogica"}
+        // ]
       }
     }
   }
