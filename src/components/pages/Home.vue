@@ -54,7 +54,7 @@
           </router-link>
           </v-flex>
           <v-flex md3 xs6>
-          <router-link to="#" class="d-flex justify-center align-center no-decoration black--text flex-column" >
+          <router-link to="/competition/technovation" class="d-flex justify-center align-center no-decoration black--text flex-column" >
             <img src="https://static.arkavidia.id/5/images/icons/technovation.svg" alt="technovation-ico" height="80">
             <h3 style="margin-top:4px; text-align:center" class="competition-text">Technovation</h3>
           </router-link>

@@ -20,7 +20,7 @@ import About from './components/pages/About.vue'
 // import CTF from './components/pages/CTF.vue'
 // import FAQ from './components/pages/FAQ.vue'
 // import Festival from './components/pages/Festival.vue'
-// import Technovation from './components/pages/Technovation.vue'
+import Technovation from './components/pages/Technovation.vue'
 // import Arkalogica from './components/pages/Arkalogica.vue';
 // import Seminar from './components/pages/Seminar.vue';
 
@@ -36,7 +36,7 @@ const routes = [
   // {path: "/contact", component: Contact},
   // {path: "/competition/cp", component: CP},
   // {path: "/competition/ctf", component: CTF},
-  // {path: "/competition/technovation", component: Technovation},
+  {path: "/competition/technovation", component: Technovation},
   // {path: "/competition/arkalogica", component: Arkalogica},
   // {path: "/event/festival", component: Festival},
   // {path: "/event/seminar", component: Seminar}, 
