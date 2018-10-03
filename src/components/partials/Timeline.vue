@@ -4,11 +4,12 @@
             <div class="timeline-content">
                 <img src="../../assets/icon_pendaftaran.svg" class="img-timeline" alt="pendaftaran" />
             </div>
-            <div class="timeline-right-pos">
-              <h2>PENDAFTARAN</h2>
-              <p>5 - 25 November 2018</p>
-              <p>Lorem Ipsun tralala lilil</p>
-            </div>
+        </div>
+
+        <div class="content-right-unimg">
+          <h2>PENDAFTARAN</h2>
+          <p>5-25 November 2018</p>
+          <p>Penjelasannya gan!</p>
         </div>
 
         <div class="timeline-container timeline-right">
@@ -17,16 +18,34 @@
             </div>
         </div>
 
+        <div class="content-left-unimg">
+          <h2>BABAK PENYISIHAN</h2>
+          <p>26 November 2018 - 19 Januari 2019</p>
+          <p>Penjelasannya gan!</p>
+        </div>
+
         <div class="timeline-container timeline-left">
             <div class="timeline-content">
                 <img src="../../assets/icon_pengumuman.svg" class="img-timeline" alt="pengumuman" />
             </div>
         </div>
 
+        <div class="content-right-unimg">
+          <h2>PENGUMUMAN</h2>
+          <p>XX Oktober 2018 - YY Desember 2018</p>
+          <p>Penjelasannya gan!</p>
+        </div>
+
         <div class="timeline-container timeline-right">
             <div class="timeline-content">
                 <img src="../../assets/icon_final.svg" class="img-timeline" alt="final" />
             </div>
+        </div>
+
+        <div class="content-left-unimg">
+          <h2>FINAL PRESENTASI</h2>
+          <p>XX Oktober 2018 - YY Desember 2018</p>
+          <p>Penjelasannya gan!</p>
         </div>
     </div>
 </template>
@@ -36,9 +55,22 @@ export default {
 }
 </script>
 <style>
-.timeline-right-pos {
-  margin-left: 700px;
-  margin-top: -100px;
+.content-right-unimg {
+  padding: 10px 40px;
+  position: relative;
+  background-color: inherit;
+  width: 150%;
+  margin-top: -150px;
+  margin-bottom: 50px;
+}
+
+.content-left-unimg {
+  padding: 10px 40px;
+  position: relative;
+  background-color: inherit;
+  width: 50%;
+  margin-top: -130px;
+  margin-bottom: 50px;
 }
 
 .img-timeline {
@@ -64,17 +96,10 @@ export default {
 }
 
 .timeline-container {
-    padding: 10px 40px;
+    padding: 10px 10px;
     position: relative;
     background-color: inherit;
     width: 50%;
-}
-
-.timeline-container-paragraph {
-  padding: 10px 40px;
-  position: relative;
-  background-color: inherit;
-  width: 50%;
 }
 
 .timeline-container::after {
