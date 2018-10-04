@@ -44,7 +44,7 @@
                   <v-layout row class="dash-size line-fill margin-bottom-sm">
                   </v-layout>
                   <p class="text-xs-center">
-                    COMING SOON!
+                    <Timeline />
                   </p>
             </v-flex>
           </v-layout>
@@ -71,8 +71,12 @@
                   <h1 class="sherpa-blue heading-large shadow-yellow margin-bottom-sm" align="left">QUESTIONS</h1>
                   <v-layout row class="dash-size line-fill margin-bottom-sm">
                   </v-layout>
-                  <p class="text-xs-center">
-                    COMING SOON!
+                  <p class="text-xs">
+                    <Accordion headerMsg="Sistem lombanya seperti apa?" contentMsg="Kaya gini nih!" />
+                    <Accordion headerMsg="Sistem lombanya seperti apa?" contentMsg="Kaya gini nih!" />
+                    <Accordion headerMsg="Sistem lombanya seperti apa?" contentMsg="Kaya gini nih!" />
+                    <Accordion headerMsg="Sistem lombanya seperti apa?" contentMsg="Kaya gini nih!" />
+                    <Accordion headerMsg="Sistem lombanya seperti apa?" contentMsg="Kaya gini nih!" />
                   </p>
             </v-flex>
           </v-layout>
@@ -83,8 +87,14 @@
 </template>
 
 <script>
+import Accordion from '../partials/Accordion'
+import Timeline from '../partials/Timeline'
 export default {
   name: 'Technovation',
+  components: {
+    Accordion, 
+    Timeline
+  },
   props: {
     msg: String
   }

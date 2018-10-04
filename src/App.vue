@@ -18,7 +18,7 @@ import About from './components/pages/About.vue'
 // import Contact from './components/pages/Contact.vue'
 // import CP from './components/pages/CP.vue'
 // import CTF from './components/pages/CTF.vue'
-// import FAQ from './components/pages/FAQ.vue'
+import FAQ from './components/pages/FAQ.vue'
 // import Festival from './components/pages/Festival.vue'
 import Technovation from './components/pages/Technovation.vue'
 // import Arkalogica from './components/pages/Arkalogica.vue';
@@ -32,7 +32,7 @@ import VueRouter from 'vue-router'
 const routes = [
   {path: "/", component: Home},
   {path: "/about", component: About},
-  // {path: "/faq", component: FAQ},
+  {path: "/faq", component: FAQ},
   // {path: "/contact", component: Contact},
   // {path: "/competition/cp", component: CP},
   // {path: "/competition/ctf", component: CTF},
