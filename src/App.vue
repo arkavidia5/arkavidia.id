@@ -1,5 +1,5 @@
 <template>
-  <v-app class="secondary">
+  <v-app class="secondary" id="main-app-wrapper">
     <Toolbar v-if="this.$vuetify.breakpoint.mdAndUp"/>
     <NavigationDrawer v-else/>
     <v-content style="padding-top: 55px;">
@@ -54,6 +54,20 @@ export default {
     Toolbar,
     Footer,
     NavigationDrawer
+  },
+  methods: {
+    checkRoute(to) {
+      if(to.path.includes("competition")) {
+       $('#main-app-wrapper').addClass('competition');
+      } else {
+        $('#main-app-wrapper').removeClass('competition');
+      }
+    }
+  },
+  watch: {
+    $route (to, from){
+      this.checkRoute(to);
+    }
   }
  
 }
@@ -61,6 +75,12 @@ export default {
 </script>
 
 <style>
+  #main-app-wrapper.competition {
+    background-image: url('./assets/bg_pattern.png') !important;
+    background-size: 80%;
+    background-position: top left;
+    background-repeat: repeat;
+  }
   .futura-bt {
     font-family: 'Futura Md BT Bold'
   }

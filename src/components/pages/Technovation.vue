@@ -101,13 +101,7 @@ export default {
 }
 </script>
 
-<style>
-.technovation-background {
-  background: url('../../assets/bg_pattern.png');
-  background-size: 80%;
-  background-position: center top;
-  background-repeat: repeat;  
-}
+<style scoped>
   .sherpa-blue {
     color: #04464F;
   }
