@@ -2,7 +2,7 @@
   <v-app class="secondary" id="main-app-wrapper">
     <Toolbar v-if="this.$vuetify.breakpoint.mdAndUp"/>
     <NavigationDrawer v-else/>
-    <v-content style="padding-top: 55px;">
+    <v-content style="margin-top: 40px;">
       <transition name="fade">
         <router-view></router-view>
       </transition>
@@ -13,6 +13,7 @@
 </template>
 
 <script>
+import $ from 'jquery'
 import Home from './components/pages/Home.vue'
 import About from './components/pages/About.vue'
 // import Contact from './components/pages/Contact.vue'
@@ -56,17 +57,20 @@ export default {
     NavigationDrawer
   },
   methods: {
-    checkRoute(to) {
-      if(to.path.includes("competition")) {
-       $('#main-app-wrapper').addClass('competition');
+    checkRoute(path) {
+      if(path.includes("competition")) {
+       $('.v-content').addClass('competition');
       } else {
-        $('#main-app-wrapper').removeClass('competition');
+        $('.v-content').removeClass('competition');
       }
     }
   },
+  mounted: function(){
+    this.checkRoute(window.location.pathname)
+  },
   watch: {
-    $route (to, from){
-      this.checkRoute(to);
+    $route (to){
+      this.checkRoute(to.path);
     }
   }
  
@@ -75,7 +79,7 @@ export default {
 </script>
 
 <style>
-  #main-app-wrapper.competition {
+  .v-content.competition {
     background-image: url('./assets/bg_pattern.png') !important;
     background-size: 80%;
     background-position: top left;
