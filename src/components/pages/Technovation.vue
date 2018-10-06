@@ -4,19 +4,16 @@
       <v-responsive :aspect-ratio="1.60 " class="row technovation-background">
         <v-container>
           <v-layout row margin-bottom-xl>
-            <v-flex sm12 xs10 offset-xs1 >
+            <v-flex sm12 xs10 md8 offset-xs1 >
                   <p class="text-stroke heading-medium line-height-small margin-bottom-none">Competition 
                     <span class="dash-box">_</span>
                   </p>
                   <h1 class="sherpa-blue heading-large shadow-yellow margin-bottom-sm" align="left">TECHNOVATION</h1>
                   <v-layout row>
-                    <v-flex md9 xs8 class="d-flex flex-column">
+                    <v-flex class="d-flex flex-column">
                       <p class="content-text margin-bottom-xs">
                         Lomba Technovation merupakan lomba pengembangan ide perangkat luak yang dapat diikuti oleh setiap mahasiswa-mahasiswi di Indonesia. Titik berat pada lomba ini adalah ide yang inovatif, feasible, sustainable, dan seberapa besar manfaat yang diberikan untuk kemajuan Indonesia, terutama di bidang IT.
                       </p>
-                      <!-- <svg class="dash-height dash-fill margin-bottom-sm">
-                        <rect width="20%" height="100%"/>
-                      </svg> -->
                       <v-layout row class="dash-size line-fill margin-bottom-sm">
                       </v-layout>
                       <v-layout row>
@@ -27,10 +24,11 @@
                       </v-layout>
 
                     </v-flex>
-                    <v-flex md3 xs4 class="d-flex flex-column">
-                      <img src="../../assets/tower.svg" alt="technovation-ico" height="200rem">
-                    </v-flex>
+                  
                   </v-layout>
+            </v-flex>
+            <v-flex md4 xs4 class="d-flex flex-column ">
+              <img src="../../assets/tower.svg" alt="technovation-ico" height="250px">
             </v-flex>
           </v-layout>
           <hr size="3rem" class="margin-bottom-md line-fill">
