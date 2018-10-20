@@ -17,7 +17,7 @@
                       <v-layout row class="dash-size line-fill margin-bottom-sm">
                       </v-layout>
                       <v-layout row>
-                        <a href="https://static.arkavidia.id/5/rulebook/Arkavidia5_Technovation_Rulebook_20181020.pdf" class="no-decoration" target="_blank">
+                        <a href="https://static.arkavidia.id/5/rulebook/Arkavidia5_Technovation_Rulebook_v20181020.pdf" class="no-decoration" target="_blank">
                           <v-btn class="box-stroke">Unduh Rulebook
                           </v-btn>
                         </a>
@@ -49,10 +49,10 @@
               </v-layout>
               <v-layout row>
                   <Timeline>
-                    <TimelineItem direction="right" image="https://static.arkavidia.id/5/images/icons/techovation/icon_pendaftaran.svg" title="PENDAFTARAN" time="8 - 15 November 2018" description="Pendaftaran dilakukan secara online melalui website"/>
-                    <TimelineItem direction="left" image="https://static.arkavidia.id/5/images/icons/techovation/icon_penyisihan.svg" title="BABAK PENYISIHAN" time="5 November 2018 - 19 Januari 2019" description="Penyisihan dilakukan secara online"/> 
-                    <TimelineItem direction="right" image="https://static.arkavidia.id/5/images/icons/techovation/icon_pengumuman.svg" title="PENGUMUMAN FINALIS" time="23 Januari 2018" description="Pengumuman finalis di media sosial Arkavidia 5.0"/> 
-                    <TimelineItem direction="left" image="https://static.arkavidia.id/5/images/icons/techovation/icon_final.svg" title="FINAL" time="9 Februari 2018" description="Final dilakukan onsite di ITB"/> 
+                    <TimelineItem direction="right" image="https://static.arkavidia.id/5/images/icons/competition/icon_pendaftaran.svg" title="PENDAFTARAN" time="8 - 15 November 2018" description="Pendaftaran dilakukan secara online melalui website"/>
+                    <TimelineItem direction="left" image="https://static.arkavidia.id/5/images/icons/competition/icon_penyisihan.svg" title="BABAK PENYISIHAN" time="5 November 2018 - 19 Januari 2019" description="Penyisihan dilakukan secara online"/> 
+                    <TimelineItem direction="right" image="https://static.arkavidia.id/5/images/icons/competition/icon_pengumuman.svg" title="PENGUMUMAN FINALIS" time="23 Januari 2018" description="Pengumuman finalis di media sosial Arkavidia 5.0"/> 
+                    <TimelineItem direction="left" image="https://static.arkavidia.id/5/images/icons/competition/icon_final.svg" title="FINAL" time="9 Februari 2018" description="Final dilakukan onsite di ITB"/> 
                   </Timeline>
               </v-layout>    
             </v-flex>

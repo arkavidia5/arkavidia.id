@@ -8,16 +8,16 @@
                   <p class="text-stroke heading-medium line-height-small margin-bottom-none">Competition 
                     <span class="dash-box">_</span>
                   </p>
-                  <h1 class="sherpa-blue heading-large shadow-yellow margin-bottom-sm" align="left">TECHNOVATION</h1>
+                  <h1 class="sherpa-blue heading-large shadow-yellow margin-bottom-sm" align="left">PROGRAMMING CONTEST</h1>
                   <v-layout row>
                     <v-flex class="d-flex flex-column">
                       <p class="content-text margin-bottom-xs">
-                        Lomba Technovation merupakan lomba pengembangan ide perangkat luak yang dapat diikuti oleh setiap mahasiswa-mahasiswi di Indonesia. Titik berat pada lomba ini adalah ide yang inovatif, feasible, sustainable, dan seberapa besar manfaat yang diberikan untuk kemajuan Indonesia, terutama di bidang IT.
+                        Kompetisi ini bertujuan unto menguji kemampuan berpikir logis dan komputasional. Peserta akan dituntut untuk menggunakan algoritma atan struktur data yang temat untuk menyelesaikan setiap persoalan. Ketepatan dan kecepatan dalam menyelesaikan persoalan merupakan kunci dalam kompetisi ini.
                       </p>
                       <v-layout row class="dash-size line-fill margin-bottom-sm">
                       </v-layout>
                       <v-layout row>
-                        <a href="https://static.arkavidia.id/5/rulebook/Arkavidia5_Technovation_Rulebook_20181020.pdf" class="no-decoration" target="_blank">
+                        <a href="https://static.arkavidia.id/5/rulebook/Arkavidia5_CP_Rulebook_v20181020.pdf" class="no-decoration" target="_blank">
                           <v-btn class="box-stroke">Unduh Rulebook
                           </v-btn>
                         </a>
@@ -30,7 +30,7 @@
                   </v-layout>
             </v-flex>
             <v-flex md4 xs4 class="d-flex flex-column ">
-              <img src="../../assets/tower.svg" alt="technovation-ico" height="250px">
+              <img src="../../assets/tower_cp.svg" alt="technovation-ico" height="250px">
             </v-flex>
           </v-layout>
           <hr size="3rem" class="margin-bottom-md line-fill">
@@ -49,10 +49,10 @@
               </v-layout>
               <v-layout row>
                   <Timeline>
-                    <TimelineItem direction="right" image="https://static.arkavidia.id/5/images/icons/techovation/icon_pendaftaran.svg" title="PENDAFTARAN" time="8 - 15 November 2018" description="Pendaftaran dilakukan secara online melalui website"/>
-                    <TimelineItem direction="left" image="https://static.arkavidia.id/5/images/icons/techovation/icon_penyisihan.svg" title="BABAK PENYISIHAN" time="20 Januari 2018" description="Penyisihan dilakukan secara online"/> 
-                    <TimelineItem direction="right" image="https://static.arkavidia.id/5/images/icons/techovation/icon_pengumuman.svg" title="PENGUMUMAN FINALIS" time="23 Januari 2018" description="Pengumuman finalis di media sosial Arkavidia 5.0"/> 
-                    <TimelineItem direction="left" image="https://static.arkavidia.id/5/images/icons/techovation/icon_final.svg" title="FINAL" time="9 Februari 2018" description="Final dilakukan onsite di ITB"/> 
+                    <TimelineItem direction="right" image="https://static.arkavidia.id/5/images/icons/competition/icon_pendaftaran.svg" title="PENDAFTARAN" time="8 - 15 November 2018" description="Pendaftaran dilakukan secara online melalui website"/>
+                    <TimelineItem direction="left" image="https://static.arkavidia.id/5/images/icons/competition/icon_type.svg" title="BABAK PENYISIHAN" time="20 Januari 2018" description="Penyisihan dilakukan secara online"/> 
+                    <TimelineItem direction="right" image="https://static.arkavidia.id/5/images/icons/competition/icon_pengumuman.svg" title="PENGUMUMAN FINALIS" time="23 Januari 2018" description="Pengumuman finalis di media sosial Arkavidia 5.0"/> 
+                    <TimelineItem direction="left" image="https://static.arkavidia.id/5/images/icons/competition/icon_podium.svg" title="FINAL" time="9 Februari 2018" description="Final dilakukan onsite di ITB"/> 
                   </Timeline>
               </v-layout>    
             </v-flex>
@@ -68,7 +68,7 @@
                       <rect width="20%" height="100%"/>
                     </svg>
                   </v-layout>
-                  <p class="sherpa-blue heading-xlarge line-height-small margin-bottom-none">Rp16.750.000,-</p>
+                  <p class="sherpa-blue heading-xlarge line-height-small margin-bottom-none">Rp19.500.000,-</p>
                   <p class="text-stroke heading-medium">Total Prize</p>
 
             </v-flex>
