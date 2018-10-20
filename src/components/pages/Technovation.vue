@@ -4,7 +4,7 @@
       <v-responsive :aspect-ratio="1.60 " class="row technovation-background">
         <v-container>
           <v-layout row margin-bottom-xl>
-            <v-flex sm12 xs10 md8 offset-xs1 >
+            <v-flex sm12 xs10 md8>
                   <p class="text-stroke heading-medium line-height-small margin-bottom-none">Competition 
                     <span class="dash-box">_</span>
                   </p>
@@ -17,10 +17,12 @@
                       <v-layout row class="dash-size line-fill margin-bottom-sm">
                       </v-layout>
                       <v-layout row>
-                        <v-btn class="box-stroke">Unduh Rulebook
-                        </v-btn>
-                        <v-btn class="box-stroke">Daftar Sekarang!
-                        </v-btn>
+                        <a href="https://static.arkavidia.id/5/rulebook/Arkavidia5_Technovation_Rulebook_20181020.pdf" class="no-decoration" target="_blank">
+                          <v-btn class="box-stroke">Unduh Rulebook
+                          </v-btn>
+                        </a>
+                        <!-- <v-btn class="box-stroke">Daftar Sekarang!
+                        </v-btn> -->
                       </v-layout>
 
                     </v-flex>
@@ -34,17 +36,27 @@
           <hr size="3rem" class="margin-bottom-md line-fill">
 
           <v-layout row margin-bottom-xl>
-            <v-flex sm12 xs10 offset-xs1 >
+            <v-flex sm12 xs12>
+              <v-layout row>
+                <v-flex sm12 xs12 offset-md1>
                   <h1 class="sherpa-blue heading-small shadow-yellow margin-bottom-sm" align="left">TIMELINE KEGIATAN</h1>
                   <!-- <svg class="dash-height dash-fill margin-bottom-xs">
                     <rect width="20%" height="100%"/>
                   </svg> -->
                   <v-layout row class="dash-size line-fill margin-bottom-sm">
                   </v-layout>
-                  <p class="text-xs-center">
-                    <Timeline />
-                  </p>
+                </v-flex>
+              </v-layout>
+              <v-layout row>
+                  <Timeline>
+                    <TimelineItem direction="right" image="https://static.arkavidia.id/5/images/icons/techovation/icon_pendaftaran.svg" title="PENDAFTARAN" time="8 - 15 November 2018" description="Pendaftaran dilakukan secara online melalui website"/>
+                    <TimelineItem direction="left" image="https://static.arkavidia.id/5/images/icons/techovation/icon_penyisihan.svg" title="BABAK PENYISIHAN" time="20 Januari 2018" description="Penyisihan dilakukan secara online"/> 
+                    <TimelineItem direction="right" image="https://static.arkavidia.id/5/images/icons/techovation/icon_pengumuman.svg" title="PENGUMUMAN FINALIS" time="23 Januari 2018" description="Pengumuman finalis di media sosial Arkavidia 5.0"/> 
+                    <TimelineItem direction="left" image="https://static.arkavidia.id/5/images/icons/techovation/icon_final.svg" title="FINAL" time="9 Februari 2018" description="Final dilakukan onsite di ITB"/> 
+                  </Timeline>
+              </v-layout>    
             </v-flex>
+            
           </v-layout>
           <hr size="3rem" class="margin-bottom-md line-fill">
 
@@ -56,14 +68,14 @@
                       <rect width="20%" height="100%"/>
                     </svg>
                   </v-layout>
-                  <p class="sherpa-blue heading-xlarge line-height-small margin-bottom-none">RpX.000.000,-</p>
-                  <p class="text-stroke heading-medium">First Prize</p>
+                  <p class="sherpa-blue heading-xlarge line-height-small margin-bottom-none">Rp16.750.000,-</p>
+                  <p class="text-stroke heading-medium">Total Prize</p>
 
             </v-flex>
           </v-layout>
           <hr size="3rem" class="margin-bottom-md line-fill">
 
-          <v-layout row>
+          <!-- <v-layout row>
             <v-flex sm12 xs10 offset-xs1 >
                   <h1 class="sherpa-blue heading-xsmall shadow-yellow" align="left">FREQUENTLY ASKED </h1>
                   <h1 class="sherpa-blue heading-large shadow-yellow margin-bottom-sm" align="left">QUESTIONS</h1>
@@ -77,7 +89,7 @@
                     <Accordion headerMsg="Sistem lombanya seperti apa?" contentMsg="Kaya gini nih!" />
                   </p>
             </v-flex>
-          </v-layout>
+          </v-layout> -->
         </v-container>
       </v-responsive>
     </v-slide-y-transition>
@@ -87,11 +99,13 @@
 <script>
 import Accordion from '../partials/Accordion'
 import Timeline from '../partials/Timeline'
+import TimelineItem from '../partials/TimelineItem'
 export default {
   name: 'Technovation',
   components: {
     Accordion, 
-    Timeline
+    Timeline,
+    TimelineItem
   },
   props: {
     msg: String
@@ -100,88 +114,5 @@ export default {
 </script>
 
 <style scoped>
-  .sherpa-blue {
-    color: #04464F;
-  }
-  .shadow-yellow {
-    text-shadow: -4px 4px #FFFF00;
-  }
-  .text-stroke {
-    -webkit-text-stroke-color: #04464F !important;
-    -webkit-text-stroke-width: 0.1rem;
-    color: transparent;
-  }
-  .box-stroke {
-    background-color: transparent !important;
-    border: #04464F solid !important;
-  }
-  .heading-xlarge {
-    letter-spacing: normal!important; 
-    font-size: 5rem;
-  }
-  .heading-large {
-    letter-spacing: normal!important;
-    font-size: 3.5rem;
-  }
-  .heading-medium {
-    font-size: 3rem;
-  }
-  .heading-small {
-    font-size: 2.5rem;
-  }
-  .heading-xsmall {
-    font-size: 2rem;
-  }
-  .content-text {
-    font-size: 1.5rem;
-  }
-  .line-height-small {
-    line-height: 1;
-  }
-  .dash-box {
-    display: inline-block;
-    -webkit-transform: scale(2,1);
-    -moz-transform: scale(2,1);
-    -ms-transform: scale(2,1);
-    -o-transform: scale(2,1);
-    transform: scale(2,1);
-    margin-left: 1rem;
-  }
-  .margin-bottom-xl {
-    margin-bottom: 8rem;
-  }
-  .margin-bottom-md {
-    margin-bottom: 4rem;
-  }
-    .margin-bottom-sm {
-    margin-bottom: 2rem;
-  }
-  .margin-bottom-xs {
-    margin-bottom: 1rem;
-  }
-  .margin-bottom-none {
-    margin-bottom: 0px;
-  }
-  .dash-height {
-    height: 0.5rem;
-    overflow: hidden;
-  }
-  .dash-size {
-    width: 5rem;
-    height: 0.5rem;
-  }
-  .dash-fill {
-    fill: #04464F;
-  }
-  .line-fill {
-    color: #04464F;
-    background-color: #04464F;
-  }
-  .right-position {
-    -webkit-transform: scale(-1,1);
-    -moz-transform: scale(-1,1);
-    -ms-transform: scale(-1,1);
-    -o-transform: scale(-1,1);
-    transform: scale(-1,1);
-  }
+  
 </style>

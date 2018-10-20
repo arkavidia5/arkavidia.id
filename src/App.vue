@@ -141,4 +141,88 @@ export default {
   .flex-column {
     flex-direction: column;
   }
+  .sherpa-blue {
+    color: #04464F;
+  }
+  .shadow-yellow {
+    text-shadow: -4px -4px #FFFF00;
+  }
+  .text-stroke {
+    -webkit-text-stroke-color: #04464F !important;
+    -webkit-text-stroke-width: 0.1rem;
+    color: transparent;
+  }
+  .box-stroke {
+    background-color: transparent !important;
+    border: #04464F solid !important;
+  }
+  .heading-xlarge {
+    letter-spacing: normal!important; 
+    font-size: 5rem;
+  }
+  .heading-large {
+    letter-spacing: normal!important;
+    font-size: 3.5rem;
+  }
+  .heading-medium {
+    font-size: 3rem;
+  }
+  .heading-small {
+    font-size: 2.5rem;
+  }
+  .heading-xsmall {
+    font-size: 2rem;
+  }
+  .content-text {
+    font-size: 1.5rem;
+  }
+  .line-height-small {
+    line-height: 1;
+  }
+  .dash-box {
+    display: inline-block;
+    -webkit-transform: scale(2,1);
+    -moz-transform: scale(2,1);
+    -ms-transform: scale(2,1);
+    -o-transform: scale(2,1);
+    transform: scale(2,1);
+    margin-left: 1rem;
+  }
+  .margin-bottom-xl {
+    margin-bottom: 8rem;
+  }
+  .margin-bottom-md {
+    margin-bottom: 4rem;
+  }
+    .margin-bottom-sm {
+    margin-bottom: 2rem;
+  }
+  .margin-bottom-xs {
+    margin-bottom: 1rem;
+  }
+  .margin-bottom-none {
+    margin-bottom: 0px;
+  }
+  .dash-height {
+    height: 0.5rem;
+    overflow: hidden;
+  }
+  .dash-size {
+    width: 5rem;
+    height: 0.5rem;
+  }
+  .dash-fill {
+    fill: #04464F;
+  }
+  .line-fill {
+    color: #04464F;
+    background-color: #04464F;
+  }
+  .right-position {
+    -webkit-transform: scale(-1,1);
+    -moz-transform: scale(-1,1);
+    -ms-transform: scale(-1,1);
+    -o-transform: scale(-1,1);
+    transform: scale(-1,1);
+  }
 </style>
