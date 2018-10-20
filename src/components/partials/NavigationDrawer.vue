@@ -16,8 +16,8 @@
       <v-list>
       <DrawerListItem to="/"  title="Home" active/>
       
-      <!-- <DrawerListGroup title="Events" :items=events />
-      <DrawerListGroup title="Competitions" :items=competitions /> -->
+      <!-- <DrawerListGroup title="Events" :items=events /> -->
+      <DrawerListGroup title="Competitions" :items=competitions />
       <DrawerListItem to="/about" title="About"/>
       <!-- <a href="https://app.arkavidia.id/login" class="no-decoration">
             <v-list-tile>
@@ -48,12 +48,12 @@
         //     {title: "Seminar", to: "/event/seminar"},
         //     {title: "IT Festival", to: "/event/festival"}
         // ],
-        // competitions: [
-        //   {title: "Technovation", to: "/competition/technovation"},
-        //   {title: "Programming Contest", to: "/competition/cp"},
-        //   {title: "Capture the Flag", to: "/competition/ctf"},
-        //   {title: "Arkalogica", to: "/competition/arkalogica"}
-        // ]
+        competitions: [
+          {title: "Technovation", to: "/competition/technovation"},
+          {title: "Programming Contest", to: "/competition/cp"},
+          {title: "Capture the Flag", to: "/competition/ctf"},
+          {title: "Arkalogica", to: "/competition/arkalogica"}
+        ]
       }
     }
   }

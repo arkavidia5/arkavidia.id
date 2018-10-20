@@ -17,7 +17,7 @@ import $ from 'jquery'
 import Home from './components/pages/Home.vue'
 import About from './components/pages/About.vue'
 // import Contact from './components/pages/Contact.vue'
-// import CP from './components/pages/CP.vue'
+import CP from './components/pages/CP.vue'
 // import CTF from './components/pages/CTF.vue'
 import FAQ from './components/pages/FAQ.vue'
 // import Festival from './components/pages/Festival.vue'
@@ -35,7 +35,7 @@ const routes = [
   {path: "/about", component: About},
   {path: "/faq", component: FAQ},
   // {path: "/contact", component: Contact},
-  // {path: "/competition/cp", component: CP},
+  {path: "/competition/cp", component: CP},
   // {path: "/competition/ctf", component: CTF},
   {path: "/competition/technovation", component: Technovation},
   // {path: "/competition/arkalogica", component: Arkalogica},

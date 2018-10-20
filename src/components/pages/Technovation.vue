@@ -50,7 +50,7 @@
               <v-layout row>
                   <Timeline>
                     <TimelineItem direction="right" image="https://static.arkavidia.id/5/images/icons/techovation/icon_pendaftaran.svg" title="PENDAFTARAN" time="8 - 15 November 2018" description="Pendaftaran dilakukan secara online melalui website"/>
-                    <TimelineItem direction="left" image="https://static.arkavidia.id/5/images/icons/techovation/icon_penyisihan.svg" title="BABAK PENYISIHAN" time="20 Januari 2018" description="Penyisihan dilakukan secara online"/> 
+                    <TimelineItem direction="left" image="https://static.arkavidia.id/5/images/icons/techovation/icon_penyisihan.svg" title="BABAK PENYISIHAN" time="5 November 2018 - 19 Januari 2019" description="Penyisihan dilakukan secara online"/> 
                     <TimelineItem direction="right" image="https://static.arkavidia.id/5/images/icons/techovation/icon_pengumuman.svg" title="PENGUMUMAN FINALIS" time="23 Januari 2018" description="Pengumuman finalis di media sosial Arkavidia 5.0"/> 
                     <TimelineItem direction="left" image="https://static.arkavidia.id/5/images/icons/techovation/icon_final.svg" title="FINAL" time="9 Februari 2018" description="Final dilakukan onsite di ITB"/> 
                   </Timeline>
