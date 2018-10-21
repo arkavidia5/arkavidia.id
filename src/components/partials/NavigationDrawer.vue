@@ -50,7 +50,7 @@
         // ],
         competitions: [
           {title: "Technovation", to: "/competition/technovation"},
-          {title: "Programming Contest", to: "/competition/cp"},
+          {title: "Competitive Programming", to: "/competition/cp"},
           {title: "Capture the Flag", to: "/competition/ctf"},
           {title: "Arkalogica", to: "/competition/arkalogica"}
         ]
