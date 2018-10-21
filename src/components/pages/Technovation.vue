@@ -12,7 +12,7 @@
                   <v-layout row>
                     <v-flex class="d-flex flex-column">
                       <p class="content-text margin-bottom-xs">
-                        Lomba Technovation merupakan lomba pengembangan ide perangkat luak yang dapat diikuti oleh setiap mahasiswa-mahasiswi di Indonesia. Titik berat pada lomba ini adalah ide yang inovatif, feasible, sustainable, dan seberapa besar manfaat yang diberikan untuk kemajuan Indonesia, terutama di bidang IT.
+                        Lomba Technovation merupakan lomba pengembangan ide perangkat lunak yang dapat diikuti oleh setiap mahasiswa-mahasiswi di Indonesia. Titik berat pada lomba ini adalah ide yang inovatif, feasible, sustainable, dan seberapa besar manfaat yang diberikan untuk kemajuan Indonesia, terutama di bidang IT.
                       </p>
                       <v-layout row class="dash-size line-fill margin-bottom-sm">
                       </v-layout>
@@ -49,10 +49,10 @@
               </v-layout>
               <v-layout row>
                   <Timeline>
-                    <TimelineItem direction="right" image="https://static.arkavidia.id/5/images/icons/competition/icon_pendaftaran.svg" title="PENDAFTARAN" time="8 - 15 November 2018" description="Pendaftaran dilakukan secara online melalui website"/>
-                    <TimelineItem direction="left" image="https://static.arkavidia.id/5/images/icons/competition/icon_penyisihan.svg" title="BABAK PENYISIHAN" time="5 November 2018 - 19 Januari 2019" description="Penyisihan dilakukan secara online"/> 
-                    <TimelineItem direction="right" image="https://static.arkavidia.id/5/images/icons/competition/icon_pengumuman.svg" title="PENGUMUMAN FINALIS" time="23 Januari 2018" description="Pengumuman finalis di media sosial Arkavidia 5.0"/> 
-                    <TimelineItem direction="left" image="https://static.arkavidia.id/5/images/icons/competition/icon_final.svg" title="FINAL" time="9 Februari 2018" description="Final dilakukan onsite di ITB"/> 
+                    <TimelineItem direction="right" image="https://static.arkavidia.id/5/images/icons/competition/icon_pendaftaran.svg" title="PENDAFTARAN" time="29 Oktober - 25 November 2018" description="Pendaftaran dilakukan secara online melalui website"/>
+                    <TimelineItem direction="left" image="https://static.arkavidia.id/5/images/icons/competition/icon_penyisihan.svg" title="PROPOSAL SUBMISSION" time="12 November 2018 - 3 Desember 2019" description="Penyisihan dilakukan secara online"/> 
+                    <TimelineItem direction="right" image="https://static.arkavidia.id/5/images/icons/competition/icon_pengumuman.svg" title="PENGUMUMAN FINALIS" time="20 Januari 2019" description="Pengumuman finalis di media sosial Arkavidia 5.0"/> 
+                    <TimelineItem direction="left" image="https://static.arkavidia.id/5/images/icons/competition/icon_final.svg" title="FINAL" time="10 Februari 2019" description="Final dilakukan onsite di ITB"/> 
                   </Timeline>
               </v-layout>    
             </v-flex>
