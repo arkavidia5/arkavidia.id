@@ -14,6 +14,19 @@
                       <p class="content-text margin-bottom-xs">
                         Capture the Flag adalah kompetisi dimana setiap peserta harus saling bersaing sebagai tim untuk mengumpulkan poin sebanyak mungkin dengan mencari, mengakali, dan mengeksploitasi celah - celah keamanan demi mendapatkan flag tersembunyi dalam setiap soal.
                       </p>
+                      <h2 class="heading">
+                        Kategori Peserta
+                      </h2>
+                      <v-layout row mb-4>
+                        <v-flex align-center xs3 justify-center d-flex ml-4>
+                          <img src="https://static.arkavidia.id/5/images/icons/mahasiswa.svg" alt="mahasiswa" height="50"> 
+                          <span style="font-size: 1.1rem; margin-left: 10px;">Mahasiswa</span>
+                        </v-flex>
+                       <v-flex align-center xs3 justify-center d-flex>
+                          <img src="https://static.arkavidia.id/5/images/icons/siswa.svg" alt="mahasiswa" height="50"> 
+                          <span style="font-size: 1.1rem; margin-left: 10px;">Siswa SMA/Sederajat</span>
+                        </v-flex>
+                      </v-layout>
                       <v-layout row class="dash-size line-fill margin-bottom-sm">
                       </v-layout>
                       <v-layout row>

@@ -14,6 +14,15 @@
                       <p class="content-text margin-bottom-xs">
                         Lomba Technovation merupakan lomba pengembangan ide perangkat lunak yang dapat diikuti oleh setiap mahasiswa-mahasiswi di Indonesia. Titik berat pada lomba ini adalah ide yang inovatif, feasible, sustainable, dan seberapa besar manfaat yang diberikan untuk kemajuan Indonesia, terutama di bidang IT.
                       </p>
+                      <h2 class="heading">
+                        Kategori Peserta
+                      </h2>
+                      <v-layout row mb-4>
+                        <v-flex align-center xs3 justify-center d-flex ml-4>
+                          <img src="https://static.arkavidia.id/5/images/icons/mahasiswa.svg" alt="mahasiswa" height="50"> 
+                          <span style="font-size: 1.1rem; margin-left: 10px;">Mahasiswa</span>
+                        </v-flex>
+                      </v-layout>
                       <v-layout row class="dash-size line-fill margin-bottom-sm">
                       </v-layout>
                       <v-layout row>

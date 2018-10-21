@@ -14,6 +14,15 @@
                       <p class="content-text margin-bottom-xs">
                         Arkalogica adalah singkatan dari Arkavidia Logic Competition. Melalui kegiatan ini diharapkan terciptanya generasi yang hebat dalam berpikir logis dan analitis dan juga meningkatkan kerjasama antar peserta.
                       </p>
+                      <h2 class="heading">
+                        Kategori Peserta
+                      </h2>
+                      <v-layout row mb-4>
+                       <v-flex align-center xs3 justify-center d-flex ml-4>
+                          <img src="https://static.arkavidia.id/5/images/icons/siswa.svg" alt="mahasiswa" height="50"> 
+                          <span style="font-size: 1.1rem; margin-left: 10px;">Siswa SMA/Sederajat</span>
+                        </v-flex>
+                      </v-layout>
                       <v-layout row class="dash-size line-fill margin-bottom-sm">
                       </v-layout>
                       <v-layout row>

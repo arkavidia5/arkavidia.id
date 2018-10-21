@@ -48,7 +48,7 @@
         <v-flex md10 sm8 xs12 justify-center>
         <v-layout row justify-center wrap>
           <v-flex md3 xs6>
-          <router-link to="#" class="d-flex justify-center align-center no-decoration black--text flex-column" >
+          <router-link to="/competition/cp" class="d-flex justify-center align-center no-decoration black--text flex-column" >
             <img src="https://static.arkavidia.id/5/images/icons/cp.svg" alt="cp-ico" height="120">
             <h3 style="margin-top:4px; text-align:center" class="competition-text">Competitive Programming</h3>
           </router-link>
@@ -60,13 +60,13 @@
           </router-link>
           </v-flex>
           <v-flex md3 xs6>
-          <router-link to="#" class="d-flex justify-center align-center no-decoration black--text flex-column" >
+          <router-link to="/competition/ctf" class="d-flex justify-center align-center no-decoration black--text flex-column" >
             <img src="https://static.arkavidia.id/5/images/icons/ctf.svg" alt="ctf-ico" height="120">
             <h3 style="margin-top:4px; text-align:center;" class="competition-text">Capture the Flag</h3>
           </router-link>
           </v-flex>
           <v-flex md3 xs6>  
-          <router-link to="#" class="d-flex justify-center align-center no-decoration black--text flex-column" >
+          <router-link to="/competition/arkalogica" class="d-flex justify-center align-center no-decoration black--text flex-column" >
             <img src="https://static.arkavidia.id/5/images/icons/arkalogica.svg" alt="arkalogica-ico" height="120">
             <h3 style="margin-top:4px; text-align:center" class="competition-text">Arkalogica</h3>
           </router-link>
