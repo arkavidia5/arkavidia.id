@@ -61,7 +61,7 @@
           <hr size="3rem" class="margin-bottom-md line-fill">
 
           <v-layout row margin-bottom-xl>
-            <v-flex sm12 xs10 offset-xs1 >
+            <!-- <v-flex sm12 xs10 offset-xs1 >
                   <h1 class="sherpa-blue heading-small shadow-yellow margin-bottom-sm" align="right">HADIAH PEMENANG</h1>
                   <v-layout row right-position>
                     <svg class="dash-height dash-fill margin-bottom-xs">
@@ -71,7 +71,37 @@
                   <p class="sherpa-blue heading-xlarge line-height-small margin-bottom-none">Rp4.500.000,-</p>
                   <p class="text-stroke heading-medium">Total Prize</p>
 
-            </v-flex>
+            </v-flex> -->
+               <v-flex sm12 xs10>
+                <v-flex md11 sm11>
+                  <h1 class="sherpa-blue heading-small shadow-yellow margin-bottom-sm" align="right">HADIAH PEMENANG</h1>
+                  <v-layout row right-position>
+                    <svg class="dash-height dash-fill margin-bottom-xs">
+                      <rect width="20%" height="100%"/>
+                    </svg>
+                  </v-layout>
+                </v-flex>
+                  <!-- <p class="sherpa-blue heading-xlarge line-height-small margin-bottom-none">Rp16.750.000,-</p>
+                  <p class="text-stroke heading-medium">Total Prize</p> -->
+                <v-layout>
+                  <v-flex md12 xs12>
+                    <p class="sherpa-blue heading-xlarge line-height-small margin-bottom-none" align="center">Rp4.500.000,-</p>
+                    <p class="text-stroke heading-medium" align="center">Total Prize</p>
+                  </v-flex>
+                </v-layout>
+
+                  <v-layout>
+                    <v-flex md12 xs12>
+                      <p class="text-stroke heading-small margin-bottom-none" align="center">Juara 1</p>
+                      <p class="sherpa-blue heading-small line-height-small" align="center">Rp2.000.000,-</p>
+                      <p class="text-stroke heading-small margin-bottom-none" align="center">Juara 2</p>
+                      <p class="sherpa-blue heading-small line-height-small" align="center">Rp1.500.000,-</p>
+                      <p class="text-stroke heading-small margin-bottom-none" align="center">Juara 3</p>
+                      <p class="sherpa-blue heading-small line-height-small" align="center">Rp1.000.000,-</p>
+                    </v-flex>
+                  </v-layout>
+                </v-flex>
+
           </v-layout>
           <hr size="3rem" class="margin-bottom-md line-fill">
 
