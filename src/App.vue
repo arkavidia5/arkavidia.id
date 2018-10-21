@@ -153,8 +153,11 @@ export default {
     color: transparent;
   }
   .box-stroke {
-    background-color: transparent !important;
-    border: #04464F solid !important;
+    background-color: #fdfcc2 !important;
+    border: 0.3rem #04464F solid !important;
+    box-shadow: 0.2rem 0.25rem rgba(0, 0, 0, 0.3) !important;
+    font-weight: bold !important;
+    font-size: 1.1rem;
   }
   .heading-xlarge {
     letter-spacing: normal!important; 
