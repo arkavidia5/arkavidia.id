@@ -1,7 +1,7 @@
 <template>
     <v-layout row v-if="direction === 'right'" align-center>
         <v-flex xs5 md5 sm5 justify-end align-center flex text-right>
-            <img :src=image alt="" height="80" style="margin-right:-40px"/>
+            <img :src=image alt="" height="100" style="margin-right:-40px"/>
         </v-flex>
         <v-flex xs2 md2 sm2 center>
             <div class="vertical-line"></div> 
@@ -10,28 +10,28 @@
             <div class="right-ball"></div>
         </v-flex>
         <v-flex class="flex align-center justify-left" xs5 md5 sm5 style="padding-left:20px;">
-            <h3 align="left">
+            <h2 align="left">
                 {{title}}
-            </h3>    
-            <h5 align="left"> 
+            </h2>    
+            <h3 align="left"> 
                 {{time}}
-            </h5>
-            <h6 align="left">
+            </h3>
+            <h4 align="left">
                 {{description}}
-            </h6>
+            </h4>
         </v-flex>
     </v-layout>
     <v-layout row align-center v-else>
         <v-flex class="flex align-center" xs5 md5 sm5 style="padding-right:20px;">
-            <h3 align="right">
+            <h2 align="right">
                 {{title}}
-            </h3>    
-            <h5 align="right">
+            </h2>    
+            <h3 align="right">
                 {{time}}
-            </h5>
-            <h6 align="right">
+            </h3>
+            <h4 align="right">
                 {{description}}
-            </h6>
+            </h4>
         </v-flex>
         <v-flex xs2 md2 sm2 center>
             <div class="vertical-line"></div> 
