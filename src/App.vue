@@ -1,7 +1,7 @@
 <template>
   <v-app class="secondary" id="main-app-wrapper">
-    <Toolbar v-if="this.$vuetify.breakpoint.mdAndUp"/>
-    <NavigationDrawer v-else/>
+    <Toolbar v-if="this.$vuetify.breakpoint.mdAndUp" class="front"/>
+    <NavigationDrawer v-else class="front"/>
     <v-content style="margin-top: 40px;">
       <transition name="fade">
         <router-view></router-view>
@@ -79,6 +79,9 @@ export default {
 </script>
 
 <style>
+  .front {
+    z-index: 99999;
+  }
   .v-content.competition {
     background-image: url('./assets/bg_pattern.png') !important;
     background-size: 80%;
@@ -165,7 +168,7 @@ export default {
   @media only screen and (max-width: 767px) {
     .heading-xlarge {
     letter-spacing: normal!important; 
-    font-size: 3.5rem;
+    font-size: 3.2rem;
     }
     .heading-large {
       letter-spacing: normal!important;
@@ -250,6 +253,9 @@ export default {
     }
     .ml-md-4 {
       margin-left: 15px;
+    }
+    .ml-md-1 {
+      margin-left: 10px;
     }
     .ml-md-0 {
       margin-left: 0;

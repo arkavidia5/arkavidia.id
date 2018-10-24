@@ -4,6 +4,7 @@
         <v-container no-padding>
       
           <v-layout row margin-bottom-xl>
+
             <v-flex sm12 xs12 md8>
                   <v-layout class="row">
                     <v-flex md12 xs8 style="z-index: 2">
@@ -12,7 +13,7 @@
                       </p>
                       <h1 class="sherpa-blue heading-large shadow-yellow margin-bottom-sm" align="left">TECHNOVATION</h1>
                     </v-flex>
-                    <v-flex xs4 style="z-index: 1">
+                    <v-flex xs4 style="z-index: 1" v-if="this.$vuetify.breakpoint.smAndDown">
                       <img src="../../assets/tower.svg" alt="technovation-ico" height="150px" style="margin-top: -50px; margin-left: 20px;">
                     </v-flex>
                   </v-layout>
@@ -22,10 +23,10 @@
                         Lomba Technovation merupakan lomba pengembangan ide perangkat lunak yang dapat diikuti oleh setiap mahasiswa-mahasiswi di Indonesia. Titik berat pada lomba ini adalah ide yang inovatif, feasible, sustainable, dan seberapa besar manfaat yang diberikan untuk kemajuan Indonesia, terutama di bidang IT.
                       </p>
                     
-                      <h2 class="heading heading-small text-md-left text-center">
+                      <h2 class="heading heading-small text-left">
                         Kategori Peserta
                       </h2>
-                      <v-layout row mb-4  justify-center justify-md-start>
+                      <v-layout row mb-4  justify-start>
                         <v-flex align-center xs3 d-flex ml-md-4>
                           <img src="https://static.arkavidia.id/5/images/icons/mahasiswa.svg" alt="mahasiswa" height="50"> 
                           <span style="font-size: 1.1rem; margin-left: 10px;">Mahasiswa</span>
@@ -78,7 +79,7 @@
           <hr size="3rem" class="margin-bottom-md line-fill">
 
           <v-layout row margin-bottom-xl justify-center>
-            <v-flex sm12 xs10>
+            <v-flex sm12 xs12>
                 <v-flex md11 sm11>
                   <h1 class="sherpa-blue heading-small shadow-yellow margin-bottom-sm" align="right">HADIAH PEMENANG</h1>
                   <v-layout row right-position>
@@ -91,7 +92,7 @@
                   <p class="text-stroke heading-medium">Total Prize</p> -->
                 <v-layout row>
                   <v-flex md12 xs12>
-                    <p class="sherpa-blue heading-medium line-height-small margin-bottom-none" align="center">Rp16.750.000,-</p>
+                    <p class="sherpa-blue heading-xlarge line-height-small margin-bottom-none" align="center">Rp16.750.000,-</p>
                     <p class="text-stroke heading-medium" align="center">Total Prize</p>
                   </v-flex>
                 </v-layout>
