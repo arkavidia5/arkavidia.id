@@ -32,7 +32,7 @@
                       <v-layout row class="dash-size line-fill margin-bottom-sm justify-center justify-md-start ml-auto mr-auto ml-md-0">
                       </v-layout>
                       <v-layout row justify-center justify-md-start>
-                        <a href="https://static.arkavidia.id/5/rulebook/Arkavidia5_Arkalogica_Rulebook" class="no-decoration" target="_blank">
+                        <a href="https://static.arkavidia.id/5/rulebook/Arkavidia5_Arkalogica_Rulebook.pdf" class="no-decoration" target="_blank">
                           <v-btn class="box-stroke">Unduh Rulebook
                           </v-btn>
                         </a>
