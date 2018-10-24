@@ -167,7 +167,6 @@
             </v-flex>
           </v-layout> -->
         </v-container>
-      </v-responsive>
     </v-slide-y-transition>
   </v-container>
 </template>
