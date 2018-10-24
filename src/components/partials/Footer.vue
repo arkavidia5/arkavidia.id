@@ -15,7 +15,7 @@
                 <a href="https://www.facebook.com/arkavidia/" target="_" class="no-decoration ml-1 mr-1">
                   <img src="https://static.arkavidia.id/5/images/social/white/fb-01.svg" alt="" height="30">
                 </a>
-                <a href="https://www.twitter.com/arkavidia_/" target="_" class="no-decoration ml-1 mr-1">
+                <a href="https://www.twitter.com/arkavidia5/" target="_" class="no-decoration ml-1 mr-1">
                   <img src="https://static.arkavidia.id/5/images/social/white/twitter-01.svg" alt="" height="30">
                 </a>
                 <a href="https://www.instagram.com/arkavidia/" target="_" class="no-decoration ml-1 mr-1">
