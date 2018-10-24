@@ -24,10 +24,12 @@ import FAQ from './components/pages/FAQ.vue'
 import Technovation from './components/pages/Technovation.vue'
 import Arkalogica from './components/pages/Arkalogica.vue';
 // import Seminar from './components/pages/Seminar.vue';
+import NotFound from './components/pages/NotFound.vue'
 
 import Toolbar from './components/partials/Toolbar.vue'
 import Footer from './components/partials/Footer.vue'
 import NavigationDrawer from './components/partials/NavigationDrawer.vue'
+
 import VueRouter from 'vue-router'
 
 const routes = [
@@ -41,6 +43,7 @@ const routes = [
   {path: "/competition/arkalogica", component: Arkalogica},
   // {path: "/event/festival", component: Festival},
   // {path: "/event/seminar", component: Seminar}, 
+  {path: "*", component: NotFound}
 ]
 
 const router = new VueRouter({
@@ -296,5 +299,8 @@ export default {
     -ms-transform: scale(-1,1);
     -o-transform: scale(-1,1);
     transform: scale(-1,1);
+  }
+  .desaturate {
+    filter:grayscale(0.9)
   }
 </style>
