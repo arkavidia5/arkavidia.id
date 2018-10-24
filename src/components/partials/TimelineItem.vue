@@ -1,48 +1,74 @@
 <template>
-    <v-layout row v-if="direction === 'right'" align-center>
-        <v-flex xs5 md5 sm5 justify-end align-center flex text-right>
-            <img :src=image alt="" height="100" style="margin-right:-40px"/>
-        </v-flex>
-        <v-flex xs2 md2 sm2 center>
-            <div class="vertical-line"></div> 
-            <div class="right-horizontal-line"></div>
-            <div class="center-circle"></div>
-            <div class="right-ball"></div>
-        </v-flex>
-        <v-flex class="flex align-center justify-left" xs5 md5 sm5 style="padding-left:20px;">
-            <h2 align="left">
-                {{title}}
-            </h2>    
-            <h3 align="left"> 
-                {{time}}
-            </h3>
-            <h4 align="left">
-                {{description}}
-            </h4>
-        </v-flex>
-    </v-layout>
-    <v-layout row align-center v-else>
-        <v-flex class="flex align-center" xs5 md5 sm5 style="padding-right:20px;">
-            <h2 align="right">
-                {{title}}
-            </h2>    
-            <h3 align="right">
-                {{time}}
-            </h3>
-            <h4 align="right">
-                {{description}}
-            </h4>
-        </v-flex>
-        <v-flex xs2 md2 sm2 center>
-            <div class="vertical-line"></div> 
-            <div class="left-horizontal-line"></div>
-            <div class="center-circle"></div>
-            <div class="left-ball"></div>
-        </v-flex>
-         <v-flex xs5 md5 sm5 text-left>
-            <img :src=image alt="" height="100" style="margin-left: -40px"/>
-        </v-flex>
-    </v-layout>
+    <v-flex v-if="this.$vuetify.breakpoint.mdAndUp">
+        <v-layout row v-if="direction === 'right'" align-center>
+            <v-flex xs5 md5 sm5 justify-end align-center flex text-right>
+                <img :src=image alt="" height="100" style="margin-right:-40px"/>
+            </v-flex>
+            <v-flex xs2 md2 sm2 center>
+                <div class="vertical-line"></div> 
+                <div class="right-horizontal-line"></div>
+                <div class="center-circle"></div>
+                <div class="right-ball"></div>
+            </v-flex>
+            <v-flex class="flex align-center justify-left" xs5 md5 sm5 style="padding-left:20px;">
+                <h2 align="left">
+                    {{title}}
+                </h2>    
+                <h3 align="left"> 
+                    {{time}}
+                </h3>
+                <h4 align="left">
+                    {{description}}
+                </h4>
+            </v-flex>
+        </v-layout>
+        <v-layout row align-center v-else>
+            <v-flex class="flex align-center" xs5 md5 sm5 style="padding-right:20px;">
+                <h2 align="right">
+                    {{title}}
+                </h2>    
+                <h3 align="right">
+                    {{time}}
+                </h3>
+                <h4 align="right">
+                    {{description}}
+                </h4>
+            </v-flex>
+            <v-flex xs2 md2 sm2 center>
+                <div class="vertical-line"></div> 
+                <div class="left-horizontal-line"></div>
+                <div class="center-circle"></div>
+                <div class="left-ball"></div>
+            </v-flex>
+            <v-flex xs5 md5 sm5 text-left>
+                <img :src=image alt="" height="100" style="margin-left: -40px"/>
+            </v-flex>
+        </v-layout>
+    </v-flex>
+    <v-flex v-else>
+        <v-layout row align-center style="height: 200px">
+            <v-flex xs2 md2 sm2 center>
+                <div class="vertical-line"></div> 
+                <div class="right-horizontal-line"></div>
+                <div class="center-circle"></div>
+                <div class="right-ball"></div>
+            </v-flex>
+            <v-flex xs2 md2 sm2 justify-center text-center style="margin-left: 10px;">
+                <img :src=image alt="" height="70" >
+            </v-flex>
+            <v-flex class="flex align-center justify-left" xs8 md8 sm8 style="padding-left:20px;">
+                <h2 align="left">
+                    {{title}}
+                </h2>    
+                <h3 align="left"> 
+                    {{time}}
+                </h3>
+                <h4 align="left">
+                    {{description}}
+                </h4>
+            </v-flex>
+        </v-layout>
+    </v-flex>
 </template>
 
 <script>

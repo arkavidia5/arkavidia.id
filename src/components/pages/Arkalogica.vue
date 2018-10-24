@@ -26,7 +26,7 @@
                       <v-layout row class="dash-size line-fill margin-bottom-sm">
                       </v-layout>
                       <v-layout row>
-                        <a href="https://static.arkavidia.id/5/rulebook/Arkavidia5_Arkalogica_Rulebook_v20181020.pdf" class="no-decoration" target="_blank">
+                        <a href="https://static.arkavidia.id/5/rulebook/Arkavidia5_Arkalogica_Rulebook" class="no-decoration" target="_blank">
                           <v-btn class="box-stroke">Unduh Rulebook
                           </v-btn>
                         </a>

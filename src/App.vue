@@ -159,26 +159,103 @@ export default {
     font-weight: bold !important;
     font-size: 1.1rem;
   }
-  .heading-xlarge {
+  .text-center {
+    text-align: center;
+  }
+  @media only screen and (max-width: 767px) {
+    .heading-xlarge {
     letter-spacing: normal!important; 
-    font-size: 5rem;
-  }
-  .heading-large {
-    letter-spacing: normal!important;
     font-size: 3.5rem;
+    }
+    .heading-large {
+      letter-spacing: normal!important;
+      font-size: 2.5rem;
+    }
+    .heading-medium {
+      font-size: 2rem;
+    }
+    .heading-small {
+      font-size: 1.5rem;
+    }
+    .heading-xsmall {
+      font-size: 1rem;
+    }
+     .margin-bottom-xl {
+      margin-bottom: 4rem;
+    }
+    .margin-bottom-md {
+      margin-bottom: 2rem;
+    }
+    .margin-bottom-sm {
+    margin-bottom: 1rem;
+    }
+    .margin-bottom-xs {
+      margin-bottom: .5rem;
+    }
+    .margin-bottom-none {
+      margin-bottom: 0px;
+    }
+    .content-text {
+      font-size: 1.3rem;
+      text-align: center;
+    }
   }
-  .heading-medium {
-    font-size: 3rem;
+  @media only screen and (min-width: 768px) {
+    .heading-xlarge {
+      letter-spacing: normal!important; 
+      font-size: 5rem;
+    }
+    .heading-large {
+      letter-spacing: normal!important;
+      font-size: 3.5rem;
+    }
+    .heading-medium {
+      font-size: 3rem;
+    }
+    .heading-small {
+      font-size: 2.5rem;
+    }
+    .heading-xsmall {
+      font-size: 2rem;
+    }
+    .margin-bottom-xl {
+    margin-bottom: 8rem;
+    }
+    .margin-bottom-md {
+      margin-bottom: 4rem;
+    }
+      .margin-bottom-sm {
+      margin-bottom: 2rem;
+    }
+    .margin-bottom-xs {
+      margin-bottom: 1rem;
+    }
+    .margin-bottom-none {
+      margin-bottom: 0px;
+    }
+    .content-text {
+      font-size: 1.5rem;
+    }
+    .text-md-center {
+      text-align: center;
+    }
+    .text-md-left {
+      text-align: left;
+    }
+    .text-md-right {
+      text-align: right; 
+    }
+    .justify-md-start {
+      justify-content: start;
+    }
+    .ml-md-4 {
+      margin-left: 15px;
+    }
+    .ml-md-0 {
+      margin-left: 0;
+    }
   }
-  .heading-small {
-    font-size: 2.5rem;
-  }
-  .heading-xsmall {
-    font-size: 2rem;
-  }
-  .content-text {
-    font-size: 1.5rem;
-  }
+ 
   .line-height-small {
     line-height: 1;
   }
@@ -191,21 +268,7 @@ export default {
     transform: scale(2,1);
     margin-left: 1rem;
   }
-  .margin-bottom-xl {
-    margin-bottom: 8rem;
-  }
-  .margin-bottom-md {
-    margin-bottom: 4rem;
-  }
-    .margin-bottom-sm {
-    margin-bottom: 2rem;
-  }
-  .margin-bottom-xs {
-    margin-bottom: 1rem;
-  }
-  .margin-bottom-none {
-    margin-bottom: 0px;
-  }
+  
   .dash-height {
     height: 0.5rem;
     overflow: hidden;
