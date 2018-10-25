@@ -70,10 +70,10 @@
               </v-layout>
               <v-layout row>
                   <Timeline>
-                    <TimelineItem direction="right" image="https://static.arkavidia.id/5/images/icons/competition/icon_pendaftaran.svg" title="PENDAFTARAN" time="29 Oktober - 25 November 2018" description="Pendaftaran dilakukan secara online melalui website"/>
+                    <TimelineItem direction="right" image="https://static.arkavidia.id/5/images/icons/competition/icon_pendaftaran.svg" title="PENDAFTARAN" time="5 November - 18 November 2018" description="Pendaftaran dilakukan secara online melalui website"/>
                     <TimelineItem direction="left" image="https://static.arkavidia.id/5/images/icons/competition/icon_type.svg" title="BABAK PENYISIHAN" time="13 Januari 2019" description="Penyisihan dilakukan secara online"/> 
                     <TimelineItem direction="right" image="https://static.arkavidia.id/5/images/icons/competition/icon_pengumuman.svg" title="PENGUMUMAN FINALIS" time="20 Januari 2019" description="Pengumuman finalis di media sosial Arkavidia 5.0"/> 
-                    <TimelineItem direction="left" image="https://static.arkavidia.id/5/images/icons/competition/icon_podium.svg" title="FINAL" time="10 Februari 2019" description="Final dilakukan onsite di ITB"/> 
+                    <TimelineItem direction="left" image="https://static.arkavidia.id/5/images/icons/competition/icon_podium.svg" title="FINAL" time="9 Februari 2019" description="Final dilakukan onsite di ITB"/> 
                   </Timeline>
               </v-layout>    
             </v-flex>
