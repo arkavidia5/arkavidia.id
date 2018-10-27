@@ -37,14 +37,14 @@
                       </v-layout>
                       <v-layout row class="dash-size line-fill margin-bottom-sm justify-center justify-md-start ml-auto mr-auto ml-md-0">
                       </v-layout>
-                      <v-layout row justify-center justify-md-start>
+                      <!-- <v-layout row justify-center justify-md-start>
                         <a href="https://static.arkavidia.id/5/rulebook/Arkavidia5_CP_Rulebook.pdf" class="no-decoration" target="_blank">
                           <v-btn class="box-stroke">Unduh Rulebook
                           </v-btn>
-                        </a>
-                        <!-- <v-btn class="box-stroke">Daftar Sekarang!
-                        </v-btn> -->
-                      </v-layout>
+                        </a> 
+                         <v-btn class="box-stroke">Daftar Sekarang!
+                        </v-btn>
+                      </v-layout> -->
 
                     </v-flex>
                   
