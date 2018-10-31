@@ -2,7 +2,7 @@
   <v-app class="secondary" id="main-app-wrapper">
     <Toolbar v-if="this.$vuetify.breakpoint.mdAndUp" class="front"/>
     <NavigationDrawer v-else class="front"/>
-    <v-content style="margin-top: 40px;">
+    <v-content>
       <transition name="fade">
         <router-view></router-view>
       </transition>
@@ -20,7 +20,7 @@ import About from './components/pages/About.vue'
 import CP from './components/pages/CP.vue'
 import CTF from './components/pages/CTF.vue'
 import FAQ from './components/pages/FAQ.vue'
-// import Festival from './components/pages/Festival.vue'
+import Festival from './components/pages/Festival.vue'
 import Technovation from './components/pages/Technovation.vue'
 import Arkalogica from './components/pages/Arkalogica.vue';
 // import Seminar from './components/pages/Seminar.vue';
@@ -41,10 +41,10 @@ const routes = [
   {path: "/competition/ctf", component: CTF},
   {path: "/competition/technovation", component: Technovation},
   {path: "/competition/arkalogica", component: Arkalogica},
-  // {path: "/event/festival", component: Festival},
+  {path: "/event/festival", component: Festival},
   // {path: "/event/seminar", component: Seminar}, 
   {path: "*", component: NotFound}
-]
+];
 
 const router = new VueRouter({
   routes: routes,
@@ -90,6 +90,7 @@ export default {
     background-size: 80%;
     background-position: top left;
     background-repeat: repeat;
+    margin-top: 48px;
   }
   .futura-bt {
     font-family: 'Futura Md BT Bold'

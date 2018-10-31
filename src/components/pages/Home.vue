@@ -25,7 +25,7 @@
           </h1>
          </v-layout>
         <v-layout row justify-center mt-4>          
-          <router-link to="#" class="d-flex justify-center align-center no-decoration black--text mr-4 flex-column" >
+          <router-link to="/event/festival" class="d-flex justify-center align-center no-decoration black--text mr-4 flex-column" >
             <img src="https://static.arkavidia.id/5/images/icons/itfestival.svg" alt="itfest-ico" height="150">
             <h3 style="margin-top:4px;">IT Festival</h3>
           </router-link>
