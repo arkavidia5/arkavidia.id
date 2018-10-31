@@ -62,12 +62,10 @@ export default {
   },
     watch: {
         $route (to){
-            console.log("Route changed");
             this.checkRoute(to.path);
         }
     },
     mounted: function() {
-        console.log("Route mounted");
         this.checkRoute(window.location.pathname)
     }
 }
