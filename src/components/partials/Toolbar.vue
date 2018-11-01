@@ -53,11 +53,11 @@ export default {
       this.backgroundStyle.opacity = this.offsetTop == 0 ? 0 : 1;
     },
     checkRoute(path) {
-        if(path.includes("festival")) {
+        /*if(path.includes("festival")) {
             this.toolbarForceWhite = true;
         } else {
             this.toolbarForceWhite = false;
-        }
+        }*/
     }
   },
     watch: {

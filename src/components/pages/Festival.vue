@@ -8,6 +8,12 @@
             <h1 class="heading-yellow heading-xlarge margin-bottom-sm futura-bt">IT FESTIVAL</h1>
             <h1 class="shadow heading-xlarge margin-bottom-sm futura-bt">IT FESTIVAL</h1>
           </div>
+          <div class="view-more">
+            <div class="futura-bt" style="letter-spacing: 4px; color: #FFD900">VIEW MORE</div>
+            <div class="chevron futura-bt">
+              V
+            </div>
+          </div>
         </div>
       </v-flex>
     </v-layout>
@@ -34,7 +40,9 @@ export default {
   #itfest-jumbotron {
     height: 100vh;
     margin-top: 0 !important;
-    background: #01E8E8;
+    background-image: url("../../assets/event_variation-01.svg"), url("../../assets/bg-itfest.jpg");
+    background-size: auto 40%, cover;
+    background-position: left 48px center, center;
   }
 
   .heading-title {
@@ -45,7 +53,7 @@ export default {
   .heading-title > .heading-yellow {
     color: #FFD900;
     -webkit-text-stroke-width: 2px;
-    -webkit-text-stroke-color: #444;
+    -webkit-text-stroke-color: #094260;
     position: absolute;
     margin-top: 5px;
     margin-left: 5px;
@@ -58,8 +66,31 @@ export default {
   .heading-title > .shadow {
     color: #1DE9EB;
     -webkit-text-stroke-width: 2px;
-    -webkit-text-stroke-color: #444;
+    -webkit-text-stroke-color: #094260;
     display: inline-block;
     z-index: 2;
+  }
+
+  .view-more {
+    position: absolute;
+    bottom: 32px;
+    width: 100%;
+  }
+
+  .view-more > .chevron {
+    background: #FFD900;
+    padding: 0px 18px 0px 18px;
+    border: 2px solid #094260;
+    border-radius: 4px;
+    margin-top: 8px;
+    display: inline-block;
+  }
+
+  @media only screen and (max-width: 400px) {
+    #itfest-jumbotron {
+      background-image: url("../../assets/bg-itfest.jpg");
+      background-size: cover;
+      background-position: center;
+    }
   }
 </style>
