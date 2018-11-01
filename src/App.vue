@@ -304,4 +304,17 @@ export default {
   .desaturate {
     filter:grayscale(0.9)
   }
+  button.outlined-button {
+    background: none;
+    font-family: inherit;
+    border: 2px solid #094260;
+    color: #094260;
+    padding: 6px 16px 6px 16px;
+    outline: none;
+    transition: 0.2s ease-in-out;
+  }
+  button.outlined-button:hover {
+    background: #094260;
+    color: white;
+  }
 </style>

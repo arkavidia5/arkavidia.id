@@ -1,24 +1,60 @@
 <template>
-  <v-container fluid no-padding bg fill-height grid-list-md id="itfest-jumbotron" class="toolbar-force-opaque toolbar-force-white">
-    <v-layout row wrap align-center justify-center>
-      <v-flex>
-        <div align="center">
-          <b style="letter-spacing: 4px;">ARKAVIDIA 5.0 PRESENTS</b>
-          <div class="heading-title">
-            <h1 class="heading-yellow heading-xlarge margin-bottom-sm futura-bt">IT FESTIVAL</h1>
-            <h1 class="shadow heading-xlarge margin-bottom-sm futura-bt">IT FESTIVAL</h1>
-          </div>
-          <div class="view-more">
-            <div class="futura-bt" style="letter-spacing: 4px; color: #FFD900">VIEW MORE</div>
-            <div class="chevron futura-bt">
-              V
+  <v-container fluid no-padding>
+    <v-container fluid no-padding>
+      <v-layout row align-center justify-center fill-height fill-width id="itfest-jumbotron">
+        <v-flex>
+          <div align="center">
+            <b style="letter-spacing: 4px;">ARKAVIDIA 5.0 PRESENTS</b>
+            <div class="heading-title">
+              <h1 class="heading-yellow heading-xlarge margin-bottom-sm futura-bt">IT FESTIVAL</h1>
+              <h1 class="shadow heading-xlarge margin-bottom-sm futura-bt">IT FESTIVAL</h1>
+            </div>
+            <div class="view-more">
+              <div class="futura-bt" style="letter-spacing: 4px; color: #FFD900">VIEW MORE</div>
+              <div class="chevron futura-bt">
+                V
+              </div>
             </div>
           </div>
-        </div>
-      </v-flex>
-    </v-layout>
+        </v-flex>
+      </v-layout>
+    </v-container>
+    <v-container fluid id="itfest-details">
+      <v-layout row class="mt-5 mb-5">
+        <v-flex lg3 xs1/>
+        <v-flex lg6 xs10>
+          <p class="text-md-justify">
+            IT-Festival ARKAVIDIA adalah salah satu rangkaian acara dari main event ARKAVIDIA 5.0. Acara ini menampilkan puluhan karya digital startup dari berbagai latar belakang seperti bidang pendidikan, e-commerce, fintech, dan berbagai bidang lainnya. IT-Festival ARKAVIDIA diselenggarakan oleh Himpunan Mahasiswa Informatika, Program Studi Teknik Informatika, dan Program Studi Sistem dan Teknologi Informasi Institut Teknologi Bandung. Dalam IT-Festival ARKAVIDIA, pengunjung dapat menggali informasi, melihat produk-produk inovatif terbaru, berinteraksi secara langsung teknologi-teknologi terkini, juga menikmati makanan di foodcourt yang sediakan. Dengan diadakannya IT-Festival ini, diharapkan masyarakat dapat mengenal karya pelaku industri kreatif dan terinspirasi untuk berkarya di Indonesia.
+          </p>
+          <div align="center">
+            <div class="mid-button-group mt-3">
+              <div class="btn-line mb-3 ml-2"></div>
+              <button class="outlined-button futura-bt ma-2">Unduh Rulebook</button>
+              <button class="outlined-button futura-bt ma-2">Daftar Sekarang!</button>
+            </div>
+          </div>
+        </v-flex>
+        <v-flex lg3 xs1/>
+      </v-layout>
+    </v-container>
+    <v-container wrap fluid no-padding>
+      <v-layout row>
+        <v-flex md4 class="img-sec" id="itfest-img-l"></v-flex>
+        <v-flex md4 class="img-sec">
+          <v-container no-padding>
+            <v-layout row fill-height>
+              <v-flex xs12 class="img-sec-m" id="itfest-img-mt"></v-flex>
+            </v-layout>
+            <v-layout row fill-height>
+              <v-flex xs12 class="img-sec-m" id="itfest-img-mb"></v-flex>
+            </v-layout>
+          </v-container>
+        </v-flex>
+        <v-flex md4 class="img-sec" id="itfest-img-r"></v-flex>
+      </v-layout>
+    </v-container>
   </v-container>
-  <!--<v-container bg fill-height grid-list-md text-xs-center>
+    <!--<v-container bg fill-height grid-list-md text-xs-center>
     <v-layout row wrap align-center>
       <v-flex>
         Hello I am center to vertically using "align-center".
@@ -43,6 +79,14 @@ export default {
     background-image: url("../../assets/event_variation-01.svg"), url("../../assets/bg-itfest.jpg");
     background-size: auto 40%, cover;
     background-position: left 48px center, center;
+    position: relative;
+  }
+
+  #itfest-details {
+    background-image: url('../../assets/bg_pattern.png') !important;
+    background-size: 80%;
+    background-position: top left;
+    background-repeat: repeat;
   }
 
   .heading-title {
@@ -79,11 +123,48 @@ export default {
 
   .view-more > .chevron {
     background: #FFD900;
-    padding: 0px 18px 0px 18px;
+    padding: 0px 16px 0px 16px;
     border: 2px solid #094260;
     border-radius: 4px;
     margin-top: 8px;
     display: inline-block;
+  }
+
+  .mid-button-group {
+    display: inline-block;
+    position: relative;
+    padding-top: 24px;
+  }
+
+  .mid-button-group > .btn-line {
+    border: 2px solid #094260;
+    width: 60px;
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+
+  .img-sec {
+    height: 350px;
+    background-size: cover;
+    background-position: center;
+  }
+
+  .img-sec-m {
+    height: 175px;
+  }
+
+  .img-sec#itfest-img-l {
+    background-image: url("../../assets/bg-itfest.jpg");
+  }
+  .img-sec#itfest-img-r {
+    background-image: url("../../assets/bg-itfest.jpg");
+  }
+  .img-sec-m#itfest-img-mt {
+    background-image: url("../../assets/bg-itfest.jpg");
+  }
+  .img-sec-m#itfest-img-mb {
+    background-image: url("../../assets/bg-itfest.jpg");
   }
 
   @media only screen and (max-width: 400px) {
