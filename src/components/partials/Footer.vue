@@ -1,7 +1,7 @@
 <template>
   <v-footer style="height: unset;background:transparent" dark>
     <v-container fluid no-padding>
-      <v-layout row gradient up />
+      <v-layout v-if="gradientEnabled" row gradient up />
       <v-layout row primary>
         <v-container fluid style="padding:15px 3% 0 3%;" mb-2>
           <v-layout row social white--text primary justify-center="">
@@ -73,8 +73,27 @@
 
 <script>
 export default {
-  name: 'Footer'
-  
+  name: 'Footer',
+    data: () => ({
+      gradientEnabled: true
+    }),
+  methods: {
+      checkRoute(path) {
+          if(path.includes("festival")) {
+              this.gradientEnabled = false;
+          } else {
+              this.gradientEnabled = true;
+          }
+      }
+  },
+  watch: {
+      $route (to){
+          this.checkRoute(to.path);
+      }
+  },
+  mounted: function() {
+      this.checkRoute(window.location.pathname)
+  }
 }
 </script>
 

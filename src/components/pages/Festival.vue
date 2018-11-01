@@ -20,47 +20,42 @@
       </v-layout>
     </v-container>
     <v-container fluid id="itfest-details">
-      <v-layout row class="mt-5 mb-5">
-        <v-flex lg3 xs1/>
-        <v-flex lg6 xs10>
-          <p class="text-md-justify">
-            IT-Festival ARKAVIDIA adalah salah satu rangkaian acara dari main event ARKAVIDIA 5.0. Acara ini menampilkan puluhan karya digital startup dari berbagai latar belakang seperti bidang pendidikan, e-commerce, fintech, dan berbagai bidang lainnya. IT-Festival ARKAVIDIA diselenggarakan oleh Himpunan Mahasiswa Informatika, Program Studi Teknik Informatika, dan Program Studi Sistem dan Teknologi Informasi Institut Teknologi Bandung. Dalam IT-Festival ARKAVIDIA, pengunjung dapat menggali informasi, melihat produk-produk inovatif terbaru, berinteraksi secara langsung teknologi-teknologi terkini, juga menikmati makanan di foodcourt yang sediakan. Dengan diadakannya IT-Festival ini, diharapkan masyarakat dapat mengenal karya pelaku industri kreatif dan terinspirasi untuk berkarya di Indonesia.
-          </p>
-          <div align="center">
-            <div class="mid-button-group mt-3">
-              <div class="btn-line mb-3 ml-2"></div>
-              <button class="outlined-button futura-bt ma-2">Unduh Rulebook</button>
-              <button class="outlined-button futura-bt ma-2">Daftar Sekarang!</button>
+      <v-container class="content">
+        <v-layout row class="mt-5 mb-5">
+          <v-flex xl3 lg2 xs1/>
+          <v-flex xl6 lg8 xs10>
+            <p class="text-xs-justify">
+              IT-Festival ARKAVIDIA adalah salah satu rangkaian acara dari main event ARKAVIDIA 5.0. Acara ini menampilkan puluhan karya digital startup dari berbagai latar belakang seperti bidang pendidikan, e-commerce, fintech, dan berbagai bidang lainnya. IT-Festival ARKAVIDIA diselenggarakan oleh Himpunan Mahasiswa Informatika, Program Studi Teknik Informatika, dan Program Studi Sistem dan Teknologi Informasi Institut Teknologi Bandung. Dalam IT-Festival ARKAVIDIA, pengunjung dapat menggali informasi, melihat produk-produk inovatif terbaru, berinteraksi secara langsung teknologi-teknologi terkini, juga menikmati makanan di foodcourt yang sediakan. Dengan diadakannya IT-Festival ini, diharapkan masyarakat dapat mengenal karya pelaku industri kreatif dan terinspirasi untuk berkarya di Indonesia.
+            </p>
+            <div align="center">
+              <div class="mid-button-group mt-3">
+                <div class="btn-line mb-3 ml-2"></div>
+                <button class="outlined-button futura-bt ma-2">Unduh Rulebook</button>
+                <button class="outlined-button futura-bt ma-2">Daftar Sekarang!</button>
+              </div>
             </div>
-          </div>
-        </v-flex>
-        <v-flex lg3 xs1/>
-      </v-layout>
+          </v-flex>
+          <v-flex xl3 lg2 xs1/>
+        </v-layout>
+      </v-container>
     </v-container>
-    <v-container wrap fluid no-padding>
-      <v-layout row>
-        <v-flex md4 class="img-sec" id="itfest-img-l"></v-flex>
-        <v-flex md4 class="img-sec">
+    <v-container fluid grid-list-md no-padding>
+      <v-layout row wrap>
+        <v-flex d-flex md4 xs12 class="img-sec" id="itfest-img-l"></v-flex>
+        <v-flex d-flex md4 xs12 class="img-sec">
           <v-container no-padding>
             <v-layout row fill-height>
-              <v-flex xs12 class="img-sec-m" id="itfest-img-mt"></v-flex>
+              <v-flex d-flex xs12 class="img-sec-m" id="itfest-img-mt"></v-flex>
             </v-layout>
             <v-layout row fill-height>
-              <v-flex xs12 class="img-sec-m" id="itfest-img-mb"></v-flex>
+              <v-flex d-flex xs12 class="img-sec-m" id="itfest-img-mb"></v-flex>
             </v-layout>
           </v-container>
         </v-flex>
-        <v-flex md4 class="img-sec" id="itfest-img-r"></v-flex>
+        <v-flex d-flex md4 xs12 class="img-sec" id="itfest-img-r"></v-flex>
       </v-layout>
     </v-container>
   </v-container>
-    <!--<v-container bg fill-height grid-list-md text-xs-center>
-    <v-layout row wrap align-center>
-      <v-flex>
-        Hello I am center to vertically using "align-center".
-      </v-flex>
-    </v-layout>
-  </v-container>-->
 </template>
 
 <script>
@@ -87,6 +82,13 @@ export default {
     background-size: 80%;
     background-position: top left;
     background-repeat: repeat;
+  }
+
+  #itfest-details > .content {
+    background-image: url("../../assets/3dots.svg");
+    background-size: 40px auto;
+    background-position: right 20px center;
+    background-repeat: no-repeat;
   }
 
   .heading-title {
@@ -145,33 +147,41 @@ export default {
   }
 
   .img-sec {
-    height: 350px;
+    height: 400px;
     background-size: cover;
     background-position: center;
   }
 
   .img-sec-m {
-    height: 175px;
+    height: 200px;
   }
 
   .img-sec#itfest-img-l {
-    background-image: url("../../assets/bg-itfest.jpg");
+    background-image: url("../../assets/itfest-g2.jpg");
   }
   .img-sec#itfest-img-r {
-    background-image: url("../../assets/bg-itfest.jpg");
+    background-image: url("../../assets/itfest-g4.jpg");
   }
   .img-sec-m#itfest-img-mt {
-    background-image: url("../../assets/bg-itfest.jpg");
+    background-image: url("../../assets/itfest-g1.jpg");
+    background-position: bottom;
+    background-size: cover;
   }
   .img-sec-m#itfest-img-mb {
-    background-image: url("../../assets/bg-itfest.jpg");
+    background-image: url("../../assets/itfest-g3.jpg");
+    background-position: top;
+    background-size: cover;
   }
 
-  @media only screen and (max-width: 400px) {
+  @media only screen and (max-width: 500px) {
     #itfest-jumbotron {
       background-image: url("../../assets/bg-itfest.jpg");
       background-size: cover;
       background-position: center;
+    }
+
+    #itfest-details > .content {
+      background: none;
     }
   }
 </style>
