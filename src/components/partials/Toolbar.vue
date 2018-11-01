@@ -1,5 +1,5 @@
 <template>
-  <v-toolbar fixed v-bind:light="this.backgroundStyle.opacity < 0.8" v-bind:dark="this.backgroundStyle.opacity >= 0.8" color="transparent" flat v-scroll="onScroll">
+  <v-toolbar fixed v-bind:light="this.backgroundStyle.opacity < 0.8 && !toolbarForceWhite" v-bind:dark="this.backgroundStyle.opacity >= 0.8 || toolbarForceWhite" color="transparent" flat v-scroll="onScroll">
     <v-layout class="background" primary v-bind:style="backgroundStyle">
       &nbsp;
     </v-layout>
@@ -7,7 +7,7 @@
         <router-link to="/" style="text-decoration: none;">
             <v-layout>
                 <img src="https://static.arkavidia.id/5/images/logo.svg" alt="" height="40">
-                <h1 class="futura-bt bold" v-bind:class="{'white--text': backgroundStyle.opacity >=0.8}" style="margin-left: 10px; text-decoration: none !important;">
+                <h1 class="futura-bt bold" v-bind:class="{'white--text': backgroundStyle.opacity >=0.8 || toolbarForceWhite}" style="margin-left: 10px; text-decoration: none !important;">
                     ARKAVIDIA 5.0
                 </h1>
             </v-layout>
@@ -42,16 +42,32 @@ export default {
       {title: "Arkalogica", to: "/competition/arkalogica"}
     ],
     offsetTop: 0,
+    toolbarForceWhite: false,
     backgroundStyle: {
       opacity:0,
     }
   }),
   methods: {
     onScroll () {
-      this.offsetTop = window.pageYOffset || document.documentElement.scrollTop
+      this.offsetTop = window.pageYOffset || document.documentElement.scrollTop;
       this.backgroundStyle.opacity = this.offsetTop == 0 ? 0 : 1;
+    },
+    checkRoute(path) {
+        /*if(path.includes("festival")) {
+            this.toolbarForceWhite = true;
+        } else {
+            this.toolbarForceWhite = false;
+        }*/
     }
-  }
+  },
+    watch: {
+        $route (to){
+            this.checkRoute(to.path);
+        }
+    },
+    mounted: function() {
+        this.checkRoute(window.location.pathname)
+    }
 }
 </script>
 <style scoped>
