@@ -2,58 +2,59 @@
   <v-container fluid>
     <v-slide-y-transition mode="out-in">
         <v-container no-padding>
-      
-          <v-layout row margin-bottom-xl>
-
-            <v-flex sm12 xs12 md8>
-                  <v-layout class="row">
-                    <v-flex md12 xs8 style="z-index: 2">
-                      <p class="text-stroke heading-medium line-height-small margin-bottom-none">Competition 
-                        <span class="dash-box">_</span>
-                      </p>
-                      <h1 class="sherpa-blue heading-large shadow-yellow margin-bottom-sm" align="left">TECHNOVATION</h1>
-                    </v-flex>
-                    <v-flex xs4 style="z-index: 1" v-if="this.$vuetify.breakpoint.smAndDown">
-                      <img src="../../assets/tower.svg" alt="technovation-ico" height="150px" style="margin-top: -50px; margin-left: 20px;">
-                    </v-flex>
-                  </v-layout>
-                  <v-layout row>
-                    <v-flex class="d-flex flex-column">
-                      <p class="content-text margin-bottom-xs">
-                        Lomba Technovation merupakan lomba pengembangan ide perangkat lunak yang dapat diikuti oleh setiap mahasiswa-mahasiswi di Indonesia. Titik berat pada lomba ini adalah ide yang inovatif, feasible, sustainable, dan seberapa besar manfaat yang diberikan untuk kemajuan Indonesia, terutama di bidang IT.
-                      </p>
-                    
-                      <h2 class="heading heading-small text-left">
-                        Kategori Peserta
-                      </h2>
-                      <v-layout row mb-4  justify-start>
-                        <v-flex align-center xs3 d-flex ml-md-4>
-                          <img src="https://static.arkavidia.id/5/images/icons/mahasiswa.svg" alt="mahasiswa" height="50"> 
-                          <span style="font-size: 1.1rem; margin-left: 10px;">Mahasiswa</span>
-                        </v-flex>
-                      </v-layout>
-                      <v-layout row class="dash-size line-fill margin-bottom-sm justify-center justify-md-start ml-auto mr-auto ml-md-0">
-                      </v-layout>
-                      <!-- <v-layout row justify-center justify-md-start>
-                        <a href="https://static.arkavidia.id/5/rulebook/Arkavidia5_Technovation_Rulebook.pdf" class="no-decoration" target="_blank">
-                          <v-btn class="box-stroke">Unduh Rulebook
-                          </v-btn>
-                        </a>
-                        <v-btn class="box-stroke">Daftar Sekarang!
+          <!-- Hero -->
+          <v-layout row margin-bottom-xl class="page-full page-margin" style="margin-top: -30px">
+            <v-flex sm12 xs12 md8 id="comp-title">
+              <div>
+                <v-layout class="row">
+                  <v-flex md12 xs8 style="z-index: 2">
+                    <p class="text-stroke heading-medium line-height-small margin-bottom-none">Competition 
+                      <span class="dash-box">_</span>
+                    </p>
+                    <br>
+                    <h1 class="sherpa-blue heading-large shadow-yellow margin-bottom-sm" align="left">TECHNOVATION</h1>
+                  </v-flex>
+                  <v-flex xs4 style="z-index: 1" v-if="this.$vuetify.breakpoint.smAndDown">
+                    <img src="../../assets/tower.svg" alt="technovation-ico" height="150px" style="margin-top: -50px; margin-left: 20px;">
+                  </v-flex>
+                </v-layout>
+                <v-layout row id="comp-intro">
+                  <v-flex class="d-flex flex-column">
+                    <p class="content-text margin-bottom-xs">
+                      Lomba Technovation merupakan lomba pengembangan ide perangkat lunak yang dapat diikuti oleh setiap mahasiswa-mahasiswi di Indonesia. Titik berat pada lomba ini adalah ide yang inovatif, feasible, sustainable, dan seberapa besar manfaat yang diberikan untuk kemajuan Indonesia, terutama di bidang IT.
+                    </p>
+                    <h2 class="heading heading-small text-left">
+                      Kategori Peserta
+                    </h2>
+                    <br>
+                    <v-layout row mb-4  justify-start>
+                      <v-flex align-center xs3 d-flex ml-md-4>
+                        <img src="https://static.arkavidia.id/5/images/icons/mahasiswa.svg" alt="mahasiswa" height="50"> 
+                        <span style="font-size: 1.1rem; margin-left: 10px;">Mahasiswa</span>
+                      </v-flex>
+                    </v-layout>
+                    <v-layout row class="dash-size line-fill margin-bottom-sm justify-center justify-md-start ml-auto mr-auto ml-md-0">
+                    </v-layout>
+                    <!-- <v-layout row justify-center justify-md-start>
+                      <a href="https://static.arkavidia.id/5/rulebook/Arkavidia5_Technovation_Rulebook.pdf" class="no-decoration" target="_blank">
+                        <v-btn class="box-stroke">Unduh Rulebook
                         </v-btn>
-                      </v-layout> -->
-
-                    </v-flex>
-                  
-                  </v-layout>
+                      </a>
+                      <v-btn class="box-stroke">Daftar Sekarang!
+                      </v-btn>
+                    </v-layout> -->
+                  </v-flex>
+                </v-layout>
+              </div>
             </v-flex>
             <v-flex md4 xs4 class="d-flex flex-column " v-if="this.$vuetify.breakpoint.mdAndUp"> 
               <img src="../../assets/tower.svg" alt="technovation-ico" height="250px">
             </v-flex>
           </v-layout>
-          <hr size="3rem" class="margin-bottom-md line-fill">
-
-          <v-layout row margin-bottom-xl>
+          <!-- /Hero -->
+          <hr size="3rem" class="margin-bottom-md line-fill page-margin">
+          <!-- Timeline -->
+          <v-layout row margin-bottom-xl class=" page-margin">
             <v-flex sm12 xs12>
               <v-layout row>
                 <v-flex sm12 xs12 offset-md1>
@@ -66,54 +67,55 @@
                 </v-flex>
               </v-layout>
               <v-layout row >
-                  <Timeline>
-                    <TimelineItem direction="right" image="https://static.arkavidia.id/5/images/icons/competition/icon_pendaftaran.svg" title="PENDAFTARAN" time="5 November - 18 November 2018" description="Pendaftaran dilakukan secara online melalui website"/>
-                    <TimelineItem direction="left" image="https://static.arkavidia.id/5/images/icons/competition/icon_penyisihan.svg" title="PROPOSAL SUBMISSION" time="12 November 2018 - 20 Desember 2018" description="Penyisihan dilakukan secara online"/> 
-                    <TimelineItem direction="right" image="https://static.arkavidia.id/5/images/icons/competition/icon_pengumuman.svg" title="PENGUMUMAN FINALIS" time="20 Januari 2019" description="Pengumuman finalis di media sosial Arkavidia 5.0"/> 
-                    <TimelineItem direction="left" image="https://static.arkavidia.id/5/images/icons/competition/icon_final.svg" title="FINAL" time="9 Februari 2019" description="Final dilakukan onsite di ITB"/> 
-                  </Timeline>
+                <Timeline>
+                  <TimelineItem direction="right" image="https://static.arkavidia.id/5/images/icons/competition/icon_pendaftaran.svg" title="PENDAFTARAN" time="5 November - 18 November 2018" description="Pendaftaran dilakukan secara online melalui website"/>
+                  <TimelineItem direction="left" image="https://static.arkavidia.id/5/images/icons/competition/icon_penyisihan.svg" title="PROPOSAL SUBMISSION" time="12 November 2018 - 20 Desember 2018" description="Penyisihan dilakukan secara online"/> 
+                  <TimelineItem direction="right" image="https://static.arkavidia.id/5/images/icons/competition/icon_pengumuman.svg" title="PENGUMUMAN FINALIS" time="20 Januari 2019" description="Pengumuman finalis di media sosial Arkavidia 5.0"/> 
+                  <TimelineItem direction="left" image="https://static.arkavidia.id/5/images/icons/competition/icon_final.svg" title="FINAL" time="9 Februari 2019" description="Final dilakukan onsite di ITB"/> 
+                </Timeline>
               </v-layout>    
             </v-flex>
-            
           </v-layout>
-          <hr size="3rem" class="margin-bottom-md line-fill">
-
-          <v-layout row margin-bottom-xl justify-center>
+          <!-- /Timeline -->
+          <hr size="3rem" class="margin-bottom-md line-fill page-margin">
+          <!-- Prize -->
+          <v-layout row margin-bottom-xl justify-center class="page-margin">
             <v-flex sm12 xs12>
-                <v-flex md11 sm11>
-                  <h1 class="sherpa-blue heading-small shadow-yellow margin-bottom-sm" align="right">HADIAH PEMENANG</h1>
-                  <v-layout row right-position>
-                    <svg class="dash-height dash-fill margin-bottom-xs">
-                      <rect width="20%" height="100%"/>
-                    </svg>
-                  </v-layout>
-                </v-flex>
-                  <!-- <p class="sherpa-blue heading-xlarge line-height-small margin-bottom-none">Rp16.750.000,-</p>
-                  <p class="text-stroke heading-medium">Total Prize</p> -->
-                <v-layout row>
-                  <v-flex md12 xs12>
-                    <p class="sherpa-blue heading-xlarge line-height-small margin-bottom-none" align="center">Rp16.750.000,-</p>
-                    <p class="text-stroke heading-medium" align="center">Total Prize</p>
-                  </v-flex>
+              <v-flex md11 sm11>
+                <h1 class="sherpa-blue heading-small shadow-yellow margin-bottom-sm" align="right">HADIAH PEMENANG</h1>
+                <v-layout row right-position>
+                  <svg class="dash-height dash-fill margin-bottom-xs">
+                    <rect width="20%" height="100%"/>
+                  </svg>
                 </v-layout>
+              </v-flex>
+                <!-- <p class="sherpa-blue heading-xlarge line-height-small margin-bottom-none">Rp16.750.000,-</p>
+                <p class="text-stroke heading-medium">Total Prize</p> -->
+              <v-layout row>
+                <v-flex md12 xs12>
+                  <p class="sherpa-blue heading-xlarge line-height-small margin-bottom-none" align="center">Rp16.750.000,-</p>
+                  <p class="text-stroke heading-medium" align="center">Total Prize</p>
+                </v-flex>
+              </v-layout>
 
-                  <v-layout>
-                    <v-flex md12 xs12>
-                      <p class="text-stroke heading-small margin-bottom-none" align="center">Juara 1</p>
-                      <p class="sherpa-blue heading-small line-height-small" align="center">Rp7.000.000,-</p>
-                      <p class="text-stroke heading-small margin-bottom-none" align="center">Juara 2</p>
-                      <p class="sherpa-blue heading-small line-height-small" align="center">Rp5.000.000,-</p>
-                      <p class="text-stroke heading-small margin-bottom-none" align="center">Juara 3</p>
-                      <p class="sherpa-blue heading-small line-height-small" align="center">Rp3.000.000,-</p>
-                      <p class="text-stroke heading-small margin-bottom-none" align="center">Juara Favorit</p>
-                      <p class="sherpa-blue heading-small line-height-small" align="center">Rp1.000.000,-</p>
-                      <p class="text-stroke heading-small margin-bottom-none" align="center">Best Presentation</p>
-                      <p class="sherpa-blue heading-small line-height-small" align="center">Rp750.000,-</p>
-                    </v-flex>
-                  </v-layout>
+              <v-layout>
+                <v-flex md12 xs12>
+                  <p class="text-stroke heading-small margin-bottom-none" align="center">Juara 1</p>
+                  <p class="sherpa-blue heading-small line-height-small" align="center">Rp7.000.000,-</p>
+                  <p class="text-stroke heading-small margin-bottom-none" align="center">Juara 2</p>
+                  <p class="sherpa-blue heading-small line-height-small" align="center">Rp5.000.000,-</p>
+                  <p class="text-stroke heading-small margin-bottom-none" align="center">Juara 3</p>
+                  <p class="sherpa-blue heading-small line-height-small" align="center">Rp3.000.000,-</p>
+                  <p class="text-stroke heading-small margin-bottom-none" align="center">Juara Favorit</p>
+                  <p class="sherpa-blue heading-small line-height-small" align="center">Rp1.000.000,-</p>
+                  <p class="text-stroke heading-small margin-bottom-none" align="center">Best Presentation</p>
+                  <p class="sherpa-blue heading-small line-height-small" align="center">Rp750.000,-</p>
+                </v-flex>
+              </v-layout>
             </v-flex>
           </v-layout>
-          <hr size="3rem" class="margin-bottom-md line-fill">
+          <!-- /Prize -->
+          <hr size="3rem" class="margin-bottom-md line-fill page-margin">
 
           <!-- <v-layout row>
             <v-flex sm12 xs10 offset-xs1 >
@@ -153,5 +155,24 @@ export default {
 </script>
 
 <style scoped>
-  
+
+.page-full {
+  height: 100vh;
+}
+
+.page-margin {
+  margin-left: 15vw;
+  margin-right: 15vw;
+}
+
+#comp-title {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#comp-intro {
+  padding-right: 10em;
+}
+
 </style>

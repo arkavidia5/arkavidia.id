@@ -241,7 +241,7 @@ export default {
       margin-bottom: 0px;
     }
     .content-text {
-      font-size: 1.5rem;
+      font-size: 1.23rem;
     }
     .text-md-center {
       text-align: center;
