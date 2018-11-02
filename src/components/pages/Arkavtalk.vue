@@ -12,7 +12,7 @@
             <div class="view-more">
               <div class="futura-bt" style="letter-spacing: 4px; color: #FFD900">VIEW MORE</div>
               <div class="chevron futura-bt" v-scroll-to="'#arkavtalk-details'">
-                V
+                <i class="material-icons">keyboard_arrow_down</i>
               </div>
             </div>
           </div>
@@ -30,8 +30,8 @@
             <div align="center">
               <div class="mid-button-group mt-3">
                 <div class="btn-line mb-3 ml-2"></div>
-                <button class="outlined-button futura-bt ma-2" style="font-size: 1.3rem">Unduh Rulebook</button>
-                <button class="outlined-button futura-bt ma-2" style="font-size: 1.3rem">Daftar Sekarang!</button>
+                <!-- <button class="outlined-button futura-bt ma-2" style="font-size: 1.3rem">Unduh Rulebook</button> -->
+                <!-- <button class="outlined-button futura-bt ma-2" style="font-size: 1.3rem">Daftar Sekarang!</button> -->
               </div>
             </div>
           </v-flex>
@@ -129,8 +129,14 @@
     border: 2px solid #094260;
     border-radius: 4px;
     margin-top: 8px;
-    display: inline-block;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
     cursor: pointer;
+  }
+  .view-more > .chevron > .material-icons {
+    font-size: 2rem;
+    display: block;
   }
 
   .mid-button-group {
