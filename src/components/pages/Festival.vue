@@ -24,14 +24,14 @@
         <v-layout row class="mt-5 mb-5">
           <v-flex xl3 lg2 xs1/>
           <v-flex xl6 lg8 xs10>
-            <p class="text-xs-justify">
+            <p class="text-xs-justify" style="font-size: 1.3rem">
               IT-Festival ARKAVIDIA adalah salah satu rangkaian acara dari main event ARKAVIDIA 5.0. Acara ini menampilkan puluhan karya digital startup dari berbagai latar belakang seperti bidang pendidikan, e-commerce, fintech, dan berbagai bidang lainnya. IT-Festival ARKAVIDIA diselenggarakan oleh Himpunan Mahasiswa Informatika, Program Studi Teknik Informatika, dan Program Studi Sistem dan Teknologi Informasi Institut Teknologi Bandung. Dalam IT-Festival ARKAVIDIA, pengunjung dapat menggali informasi, melihat produk-produk inovatif terbaru, berinteraksi secara langsung teknologi-teknologi terkini, juga menikmati makanan di foodcourt yang sediakan. Dengan diadakannya IT-Festival ini, diharapkan masyarakat dapat mengenal karya pelaku industri kreatif dan terinspirasi untuk berkarya di Indonesia.
             </p>
             <div align="center">
               <div class="mid-button-group mt-3">
                 <div class="btn-line mb-3 ml-2"></div>
-                <button class="outlined-button futura-bt ma-2">Unduh Rulebook</button>
-                <button class="outlined-button futura-bt ma-2">Daftar Sekarang!</button>
+                <button class="outlined-button futura-bt ma-2" style="font-size: 1.3rem">Unduh Rulebook</button>
+                <button class="outlined-button futura-bt ma-2" style="font-size: 1.3rem">Daftar Sekarang!</button>
               </div>
             </div>
           </v-flex>
