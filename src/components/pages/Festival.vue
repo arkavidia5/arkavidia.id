@@ -1,11 +1,3 @@
-<script>
-    export default {
-        name: 'Festival',
-        props: {
-            msg: String
-        }
-    }
-</script>
 <template>
   <v-container fluid no-padding>
     <v-container fluid no-padding>
@@ -65,6 +57,16 @@
     </v-container>
   </v-container>
 </template>
+
+<script>
+  export default {
+    name: 'Festival',
+    props: {
+      msg: String
+    }
+  }
+</script>
+
 <style type="text/css">
   #itfest-jumbotron {
     height: 100vh;
