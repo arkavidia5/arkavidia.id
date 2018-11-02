@@ -31,6 +31,8 @@ import Footer from './components/partials/Footer.vue'
 import NavigationDrawer from './components/partials/NavigationDrawer.vue'
 
 import VueRouter from 'vue-router'
+import Vue from 'vue';
+import VueScrollTo from 'vue-scrollto';
 
 const routes = [
   {path: "/", component: Home},
@@ -69,7 +71,8 @@ export default {
     }
   },
   mounted: function(){
-    this.checkRoute(window.location.pathname)
+      Vue.use(VueScrollTo);
+      this.checkRoute(window.location.pathname)
   },
   watch: {
     $route (to){

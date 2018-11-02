@@ -1,3 +1,20 @@
+<script>
+    import Vue from 'vue';
+    import VueScrollTo from 'vue-scrollto';
+    export default {
+        name: 'Festival',
+        props: {
+            msg: String
+        },
+        components: {
+            VueScrollTo, Vue
+        },
+        mounted: function() {
+            Vue.use(VueScrollTo);
+        }
+    }
+
+</script>
 <template>
   <v-container fluid no-padding>
     <v-container fluid no-padding>
@@ -57,28 +74,13 @@
     </v-container>
   </v-container>
 </template>
-
-<script>
-  import Vue from 'vue';
-  import VueScrollTo from 'vue-scrollto';
-export default {
-  name: 'Festival',
-  props: {
-    msg: String
-  },
-    components: {
-        VueScrollTo, Vue
-    }
-}
-
-</script>
 <style type="text/css">
   #itfest-jumbotron {
     height: 100vh;
     margin-top: 0 !important;
     background-image: url("../../assets/event_variation-01.svg"), url("../../assets/bg-itfest.jpg");
     background-size: auto 40%, cover;
-    background-position: left 48px center, center;
+    background-position: left 8vw center, center;
     position: relative;
   }
 
