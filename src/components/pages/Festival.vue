@@ -11,7 +11,7 @@
             </div>
             <div class="view-more">
               <div class="futura-bt" style="letter-spacing: 4px; color: #FFD900">VIEW MORE</div>
-              <div class="chevron futura-bt">
+              <div class="chevron futura-bt" v-scroll-to="'#itfest-details'">
                 V
               </div>
             </div>
@@ -59,11 +59,16 @@
 </template>
 
 <script>
+  import Vue from 'vue';
+  import VueScrollTo from 'vue-scrollto';
 export default {
   name: 'Festival',
   props: {
     msg: String
-  }
+  },
+    components: {
+        VueScrollTo, Vue
+    }
 }
 
 </script>
@@ -130,6 +135,7 @@ export default {
     border-radius: 4px;
     margin-top: 8px;
     display: inline-block;
+    cursor: pointer;
   }
 
   .mid-button-group {
