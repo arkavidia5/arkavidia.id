@@ -21,6 +21,7 @@ import CP from './components/pages/CP.vue'
 import CTF from './components/pages/CTF.vue'
 import FAQ from './components/pages/FAQ.vue'
 import Festival from './components/pages/Festival.vue'
+import Gamejam from './components/pages/Gamejam.vue'
 import Technovation from './components/pages/Technovation.vue'
 import Arkalogica from './components/pages/Arkalogica.vue';
 // import Seminar from './components/pages/Seminar.vue';
@@ -42,6 +43,7 @@ const routes = [
   {path: "/competition/technovation", component: Technovation},
   {path: "/competition/arkalogica", component: Arkalogica},
   {path: "/event/festival", component: Festival},
+  {path: "/event/gamejam", component: Gamejam},
   // {path: "/event/seminar", component: Seminar}, 
   {path: "*", component: NotFound}
 ];

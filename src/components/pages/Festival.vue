@@ -78,7 +78,7 @@ export default {
     margin-top: 0 !important;
     background-image: url("../../assets/event_variation-01.svg"), url("../../assets/bg-itfest.jpg");
     background-size: auto 40%, cover;
-    background-position: left 48px center, center;
+    background-position: left 8vw center, center;
     position: relative;
   }
 
