@@ -34,6 +34,8 @@ import VueRouter from 'vue-router'
 import Vue from 'vue';
 import VueScrollTo from 'vue-scrollto';
 
+Vue.use(VueScrollTo);
+
 const routes = [
   {path: "/", component: Home},
   {path: "/about", component: About},
@@ -71,7 +73,6 @@ export default {
     }
   },
   mounted: function(){
-      Vue.use(VueScrollTo);
       this.checkRoute(window.location.pathname)
   },
   watch: {

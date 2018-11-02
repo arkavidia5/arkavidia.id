@@ -1,19 +1,10 @@
 <script>
-    import Vue from 'vue';
-    import VueScrollTo from 'vue-scrollto';
     export default {
         name: 'Festival',
         props: {
             msg: String
-        },
-        components: {
-            VueScrollTo, Vue
-        },
-        mounted: function() {
-            Vue.use(VueScrollTo);
         }
     }
-
 </script>
 <template>
   <v-container fluid no-padding>
