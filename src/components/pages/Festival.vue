@@ -119,7 +119,7 @@
 
   .view-more {
     position: absolute;
-    bottom: 32px;
+    bottom: 80px;
     width: 100%;
   }
 
