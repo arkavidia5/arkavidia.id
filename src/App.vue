@@ -23,7 +23,7 @@ import FAQ from './components/pages/FAQ.vue'
 import Festival from './components/pages/Festival.vue'
 import Technovation from './components/pages/Technovation.vue'
 import Arkalogica from './components/pages/Arkalogica.vue';
-// import Seminar from './components/pages/Seminar.vue';
+import Arkavtalk from './components/pages/Arkavtalk.vue';
 import NotFound from './components/pages/NotFound.vue'
 
 import Toolbar from './components/partials/Toolbar.vue'
@@ -46,7 +46,7 @@ const routes = [
   {path: "/competition/technovation", component: Technovation},
   {path: "/competition/arkalogica", component: Arkalogica},
   {path: "/event/festival", component: Festival},
-  // {path: "/event/seminar", component: Seminar}, 
+  {path: "/event/arkavtalk", component: Arkavtalk}, 
   {path: "*", component: NotFound}
 ];
 

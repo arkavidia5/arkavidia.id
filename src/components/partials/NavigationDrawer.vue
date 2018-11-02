@@ -2,12 +2,14 @@
  <div >
      <v-toolbar color="primary" dark fixed app flat>
         <v-toolbar-title>
+          <router-link to="/" style="text-decoration: none; color: #FFFFFF;">
             <v-layout row align-center >
-            <img src="https://static.arkavidia.id/5/images/logo.svg" alt="" height="30px">
-            <v-layout ml-1 futura-bt bold>
-                ARKAVIDIA 5.0
+              <img src="https://static.arkavidia.id/5/images/logo.svg" alt="" height="30px">
+              <v-layout ml-1 futura-bt bold>
+                  ARKAVIDIA 5.0
+              </v-layout>
             </v-layout>
-            </v-layout>
+          </router-link>
         </v-toolbar-title>
         <v-spacer></v-spacer>
         <v-toolbar-side-icon @click.stop="drawer = !drawer"></v-toolbar-side-icon>

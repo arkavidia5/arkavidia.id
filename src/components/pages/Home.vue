@@ -29,9 +29,9 @@
             <img src="https://static.arkavidia.id/5/images/icons/itfestival.svg" alt="itfest-ico" height="150">
             <h3 style="margin-top:4px;">IT Festival</h3>
           </router-link>
-          <router-link to="#" class="d-flex justify-center align-center no-decoration black--text ml-4 flex-column"  >
+          <router-link to="/event/arkavtalk" class="d-flex justify-center align-center no-decoration black--text ml-4 flex-column"  >
             <img src="https://static.arkavidia.id/5/images/icons/seminar.svg" alt="seminar-ico" height="150">
-            <h3 style="margin-top:4px;">Seminar</h3>
+            <h3 style="margin-top:4px;">ArkavTalk</h3>
           </router-link>
         </v-layout>
        </v-container>

@@ -1,17 +1,17 @@
 <template>
   <v-container fluid no-padding>
     <v-container fluid no-padding>
-      <v-layout row align-center justify-center fill-height fill-width id="itfest-jumbotron">
+      <v-layout row align-center justify-center fill-height fill-width id="arkavtalk-jumbotron">
         <v-flex>
           <div align="center">
             <b style="letter-spacing: 4px;">ARKAVIDIA 5.0 PRESENTS</b>
             <div class="heading-title">
-              <h1 class="heading-yellow heading-xlarge margin-bottom-sm futura-bt">IT FESTIVAL</h1>
-              <h1 class="shadow heading-xlarge margin-bottom-sm futura-bt">IT FESTIVAL</h1>
+              <h1 class="heading-yellow heading-xlarge margin-bottom-sm futura-bt">ARKAVTALK</h1>
+              <h1 class="shadow heading-xlarge margin-bottom-sm futura-bt">ARKAVTALK</h1>
             </div>
             <div class="view-more">
               <div class="futura-bt" style="letter-spacing: 4px; color: #FFD900">VIEW MORE</div>
-              <div class="chevron futura-bt" v-scroll-to="'#itfest-details'">
+              <div class="chevron futura-bt" v-scroll-to="'#arkavtalk-details'">
                 V
               </div>
             </div>
@@ -19,13 +19,13 @@
         </v-flex>
       </v-layout>
     </v-container>
-    <v-container fluid id="itfest-details">
+    <v-container fluid id="arkavtalk-details">
       <v-container class="content">
         <v-layout row class="mt-5 mb-5">
           <v-flex xl3 lg2 xs1/>
           <v-flex xl6 lg8 xs10>
             <p class="text-xs-justify" style="font-size: 1.3rem">
-              IT-Festival ARKAVIDIA adalah salah satu rangkaian acara dari main event ARKAVIDIA 5.0. Acara ini menampilkan puluhan karya digital startup dari berbagai latar belakang seperti bidang pendidikan, e-commerce, fintech, dan berbagai bidang lainnya. IT-Festival ARKAVIDIA diselenggarakan oleh Himpunan Mahasiswa Informatika, Program Studi Teknik Informatika, dan Program Studi Sistem dan Teknologi Informasi Institut Teknologi Bandung. Dalam IT-Festival ARKAVIDIA, pengunjung dapat menggali informasi, melihat produk-produk inovatif terbaru, berinteraksi secara langsung teknologi-teknologi terkini, juga menikmati makanan di foodcourt yang sediakan. Dengan diadakannya IT-Festival ini, diharapkan masyarakat dapat mengenal karya pelaku industri kreatif dan terinspirasi untuk berkarya di Indonesia.
+              ArkavTalk adalah salah satu rangkaian acara dari main event ARKAVIDIA 5.0. ArkavTalk kali ini dibagi menjadi dua topik besar, yang pertama adalah topik tentang pendidikan di masa kini yang memanfaatkan teknologi informasi. Topik pertama ditujukan untuk setiap siswa dan mahasiswa yang menjadi pengguna langsung dari layanan educational technology. Topik kedua adalah perkembangan IT dalam bidang Artificial Intelligence, Big Data, Cloud Computing dan Cyber Security. ArkavTalk akan dibawakan oleh startup-startup IT yang bergerak di bidang pendidikan, dan startup-startup IT di bidang lainnya. Pendaftaran ArkavTalk akan dibuka pada bulan Januari 2019.
             </p>
             <div align="center">
               <div class="mid-button-group mt-3">
@@ -41,18 +41,18 @@
     </v-container>
     <v-container fluid grid-list-md no-padding>
       <v-layout row wrap>
-        <v-flex d-flex md4 xs12 class="img-sec" id="itfest-img-l"></v-flex>
+        <v-flex d-flex md4 xs12 class="img-sec" id="arkavtalk-img-l"></v-flex>
         <v-flex d-flex md4 xs12 class="img-sec">
           <v-container no-padding>
             <v-layout row fill-height>
-              <v-flex d-flex xs12 class="img-sec-m" id="itfest-img-mt"></v-flex>
+              <v-flex d-flex xs12 class="img-sec-m" id="arkavtalk-img-mt"></v-flex>
             </v-layout>
             <v-layout row fill-height>
-              <v-flex d-flex xs12 class="img-sec-m" id="itfest-img-mb"></v-flex>
+              <v-flex d-flex xs12 class="img-sec-m" id="arkavtalk-img-mb"></v-flex>
             </v-layout>
           </v-container>
         </v-flex>
-        <v-flex d-flex md4 xs12 class="img-sec" id="itfest-img-r"></v-flex>
+        <v-flex d-flex md4 xs12 class="img-sec" id="arkavtalk-img-r"></v-flex>
       </v-layout>
     </v-container>
   </v-container>
@@ -60,7 +60,7 @@
 
 <script>
   export default {
-    name: 'Festival',
+    name: 'Arkavtalk',
     props: {
       msg: String
     }
@@ -68,23 +68,23 @@
 </script>
 
 <style type="text/css">
-  #itfest-jumbotron {
+  #arkavtalk-jumbotron {
     height: 100vh;
     margin-top: 0 !important;
-    background-image: url("../../assets/event_variation-01.svg"), url("../../assets/bg-itfest.jpg");
+    background-image: url("../../assets/event_variation-01.svg"), url("../../assets/bg-arkavtalk.jpg");
     background-size: auto 40%, cover;
     background-position: left 8vw center, center;
     position: relative;
   }
 
-  #itfest-details {
+  #arkavtalk-details {
     background-image: url('../../assets/bg_pattern.png') !important;
     background-size: 80%;
     background-position: top left;
     background-repeat: repeat;
   }
 
-  #itfest-details > .content {
+  #arkavtalk-details > .content {
     background-image: url("../../assets/3dots.svg");
     background-size: 40px auto;
     background-position: right 20px center;
@@ -157,31 +157,31 @@
     height: 200px;
   }
 
-  .img-sec#itfest-img-l {
-    background-image: url("../../assets/itfest-g2.jpg");
+  .img-sec#arkavtalk-img-l {
+    background-image: url("../../assets/arkavtalk-g2.jpg");
   }
-  .img-sec#itfest-img-r {
-    background-image: url("../../assets/itfest-g4.jpg");
+  .img-sec#arkavtalk-img-r {
+    background-image: url("../../assets/arkavtalk-g4.jpg");
   }
-  .img-sec-m#itfest-img-mt {
-    background-image: url("../../assets/itfest-g1.jpg");
+  .img-sec-m#arkavtalk-img-mt {
+    background-image: url("../../assets/arkavtalk-g1.jpg");
     background-position: bottom;
     background-size: cover;
   }
-  .img-sec-m#itfest-img-mb {
-    background-image: url("../../assets/itfest-g3.jpg");
+  .img-sec-m#arkavtalk-img-mb {
+    background-image: url("../../assets/arkavtalk-g3.jpg");
     background-position: top;
     background-size: cover;
   }
 
   @media only screen and (max-width: 500px) {
-    #itfest-jumbotron {
-      background-image: url("../../assets/bg-itfest.jpg");
+    #arkavtalk-jumbotron {
+      background-image: url("../../assets/bg-arkavtalk.jpg");
       background-size: cover;
       background-position: center;
     }
 
-    #itfest-details > .content {
+    #arkavtalk-details > .content {
       background: none;
     }
   }
