@@ -1,7 +1,7 @@
 <template>
   <v-footer style="height: unset;background:transparent" dark>
     <v-container fluid no-padding>
-      <v-layout v-if="gradientEnabled" row gradient up />
+      <!--v-layout v-if="gradientEnabled" row gradient up /-->
       <v-layout row primary>
         <v-container fluid style="padding:15px 3% 0 3%;" mb-2>
           <v-layout row social white--text primary justify-center="">
