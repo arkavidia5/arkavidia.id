@@ -14,13 +14,13 @@
                   <br>
                   <h1 class="sherpa-blue heading-large shadow-yellow margin-bottom-sm" align="left">CAPTURE THE FLAG</h1>
                 </v-flex>
-                <v-flex xs4 style="z-index: 1" v-if="this.$vuetify.breakpoint.smAndDown">
+                <v-flex xs4 style="z-index: 1" id="comp-tower" v-if="this.$vuetify.breakpoint.smAndDown">
                   <img src="../../assets/tower_ctf.svg" alt="technovation-ico" height="150px" style="margin-top: 0; margin-left: 20px;">
                 </v-flex>
               </v-layout>
               <v-layout row id="comp-intro">
                 <v-flex class="d-flex flex-column">
-                  <p class="content-text margin-bottom-xs">
+                  <p class="content-text margin-bottom-xs" style="text-align:justify">
                     Capture the Flag adalah kompetisi dimana setiap peserta harus saling bersaing sebagai tim untuk mengumpulkan poin sebanyak mungkin dengan mencari, mengakali, dan mengeksploitasi celah - celah keamanan demi mendapatkan flag tersembunyi dalam setiap soal.
                   </p>
                   <h2 class="heading heading-small text-md-left text-left">
@@ -173,6 +173,39 @@ export default {
 
 #comp-intro {
   padding-right: 10em;
+}
+
+@media screen and (max-width: 1024px) {
+  .page-margin {
+    margin-left: 5vw;
+    margin-right: 5vw;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .page-margin {
+    margin-left: 3vw;
+    margin-right: 3vw;
+  }
+
+  #comp-tower {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .page-margin {
+    margin-left: 1vw;
+    margin-right: 1vw;
+  }
+
+  .page-full {
+    height: 100%;
+  }
+
+  #comp-intro {
+    padding-right: 0;
+  }
 }
 
 </style>

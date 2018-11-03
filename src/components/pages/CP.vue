@@ -14,7 +14,7 @@
                   <br>
                   <h1 class="sherpa-blue heading-large shadow-yellow margin-bottom-sm" align="left">COMPETITIVE<br>PROGRAMMING</h1>
                 </v-flex>
-                <v-flex xs4 style="z-index: 1" v-if="this.$vuetify.breakpoint.smAndDown">
+                <v-flex xs4 style="z-index: 1" id="comp-tower" v-if="this.$vuetify.breakpoint.smAndDown">
                   <img src="../../assets/tower_cp.svg" alt="technovation-ico" height="150px" style="margin-top: 0px; margin-left: 20px;">
                 </v-flex>
               </v-layout>
@@ -25,12 +25,12 @@
                   </p>
                   <h2 class="heading heading-small text-left">Kategori Peserta</h2>
                   <br>
-                  <v-layout row mb-4  justify-start>
-                    <v-flex align-center xs7 md3 d-flex ml-md-4>
+                  <v-layout row mb-4 justify-start>
+                    <v-flex align-center xs7 md6 d-flex ml-md-4>
                       <img src="https://static.arkavidia.id/5/images/icons/mahasiswa.svg" alt="mahasiswa" height="50"> 
                       <span style="font-size: 1.1rem;" class="ml-md-1">Mahasiswa</span>
                     </v-flex>
-                    <v-flex align-center xs4 md3 justify-center d-flex>
+                    <v-flex align-center xs4 md6 justify-center d-flex>
                       <img src="https://static.arkavidia.id/5/images/icons/siswa.svg" alt="mahasiswa" height="50"> 
                       <span style="font-size: 1.1rem;" class="ml-md-1">Siswa SMA/Sederajat</span>
                     </v-flex>
@@ -48,7 +48,8 @@
               </v-layout>
             </div>
           </v-flex>
-          <v-flex md4 xs4 class="d-flex flex-column " v-if="this.$vuetify.breakpoint.mdAndUp"> 
+          <v-flex md4 xs4 class="d-flex flex-column"
+            v-if="this.$vuetify.breakpoint.mdAndUp"> 
             <img src="../../assets/tower_cp.svg" alt="technovation-ico" height="250px">
           </v-flex>
         </v-layout>
@@ -81,7 +82,7 @@
         <hr size="3rem" class="margin-bottom-md line-fill page-margin">
         <!-- Prize -->
         <v-layout row margin-bottom-xl justify-center class="page-margin">
-          <v-flex sm12 xs10>
+          <v-flex sm12 xs12>
             <v-flex md11 sm11>
               <h1 class="sherpa-blue heading-small shadow-yellow margin-bottom-sm" align="right">HADIAH PEMENANG</h1>
               <v-layout row right-position>
@@ -206,6 +207,39 @@ export default {
 
 #comp-intro {
   padding-right: 10em;
+}
+
+@media screen and (max-width: 1024px) {
+  .page-margin {
+    margin-left: 5vw;
+    margin-right: 5vw;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .page-margin {
+    margin-left: 3vw;
+    margin-right: 3vw;
+  }
+
+  #comp-tower {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .page-margin {
+    margin-left: 1vw;
+    margin-right: 1vw;
+  }
+
+  .page-full {
+    height: 100%;
+  }
+
+  #comp-intro {
+    padding-right: 0;
+  }
 }
 
 </style>
