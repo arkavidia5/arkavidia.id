@@ -2,16 +2,16 @@
   <v-container fluid no-padding>
     <!-- Hero -->
     <v-container fluid no-padding>
-      <v-layout row id="jumbotron">
-        <v-flex xl6>
+      <v-layout row fill-height fill-width id="jumbotron">
+        <v-flex xl6 lg6 md6>
           <v-layout row style="height: 100%">
-            <v-flex xl5 id="ggj-jumboempty"/>
-            <v-flex xl7 id="ggj-jumbo">
+            <v-flex xl5 lg5 md5 id="ggj-jumboempty"/>
+            <v-flex xl7 lg7 md7 id="ggj-jumbo">
               <div id="ggj-jumbo_overlay"/>
             </v-flex>
           </v-layout>
         </v-flex>
-        <v-flex xl6 id="ggj-title">
+        <v-flex xl6 lg6 md6 id="ggj-title">
           <div class="heading-title heading-medium">
             <h1 class="heading-yellow futura-bt">GLOBAL<br>GAME<br>JAM</h1>
             <h1 class="shadow futura-bt">GLOBAL<br>GAME<br>JAM</h1>
@@ -26,15 +26,15 @@
       </v-layout>
     </v-container>
     <!-- Details -->
-    <v-container fluid no-padding id="gamejam-details">
+    <v-container fluid id="gamejam-details">
       <!-- 1st row -->
-      <v-layout row id="gamejam-sec1">
-        <v-flex xl4 id="ggj-img">
+      <v-layout row wrap id="gamejam-sec1">
+        <v-flex xl4 lg4 md4 sm12 id="ggj-img">
           <div id="ggj-g1"/>
           <div id="ggj-g2"/>
           <div id="ggj-g3"/>
         </v-flex>
-        <v-flex xl8 id="gamejam-content">
+        <v-flex xl8 lg8 md8 id="gamejam-content">
           <div class="text-xs-justify" style="margin-left: 8px">
             <p>Di era digital ini sudah banyak bidang yang berkembang pesat. Tak terkecuali bidang game development. Banyak sekali developer game yang memiliki minat untuk mengembangkan game namun tidak mendapatkan ruang untuk menampilkan hasil kreasi mereka. Global Game Jam dapat menjadi wadah bagi anda yang tertarik untuk menampilkan hasil karya terbaik anda di bidang game development. Global Game Jam merupakan acara tahunan yang diadakan di seluruh dunia, tak terkecuali di kota Bandung. Peserta lomba saling berlomba satu sama lain dalam membuat sebuah game dengan tema tertentu.</p>
           </div>
@@ -49,8 +49,8 @@
       </v-layout>
       <!-- 2nd row -->
       <v-layout row id="gamejam-sec2">
-        <v-flex xl4 id="ggj-yellow"/>
-        <v-flex xl8 id="ggj-yellow_img">
+        <v-flex xl4 lg4 id="ggj-yellow"/>
+        <v-flex xl8 lg8 id="ggj-yellow_img">
           <div/>
         </v-flex>
       </v-layout>
@@ -171,6 +171,8 @@ export default {
 
 #gamejam-sec1 {
   height: 75%;
+  display: flex;
+  flex-direction: row;
 }
 
 #gamejam-sec2 {
