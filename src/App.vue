@@ -49,8 +49,8 @@ const routes = [
   {path: "/competition/arkalogica", component: Arkalogica},
   {path: "/event/festival", component: Festival},
   {path: "/event/arkavtalk", component: Arkavtalk},
-  {path: "/event/gamejam", component: Gamejam},
-  {path: "/event/codingclass", component: Codingclass},
+  {path: "/preevent/gamejam", component: Gamejam},
+  {path: "/preevent/codingclass", component: Codingclass},
   // {path: "/event/seminar", component: Seminar}, 
   {path: "*", component: NotFound}
 ];
