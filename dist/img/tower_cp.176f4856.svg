@@ -1,0 +1,366 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- Creator: CorelDRAW X7 -->
+<svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="450px" height="750px" version="1.1" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd"
+viewBox="0 0 450 750"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+ <defs>
+  <style type="text/css">
+   <![CDATA[
+    .str0 {stroke:#34C8CA;stroke-width:0.900005}
+    .str1 {stroke:#DBDBDB;stroke-width:28.0797;stroke-linecap:round;stroke-linejoin:round}
+    .fil26 {fill:none}
+    .fil31 {fill:#003345}
+    .fil18 {fill:#00455E}
+    .fil20 {fill:#0083B3}
+    .fil21 {fill:#0A7E80}
+    .fil13 {fill:#15464D}
+    .fil8 {fill:#1BA6A8}
+    .fil6 {fill:#20565E}
+    .fil1 {fill:#219A9C}
+    .fil35 {fill:#333333}
+    .fil32 {fill:#333333}
+    .fil15 {fill:#337D8A}
+    .fil17 {fill:#34C8CA}
+    .fil5 {fill:#357A85}
+    .fil4 {fill:#42858F}
+    .fil25 {fill:#43ACBF}
+    .fil3 {fill:#4B9EAD}
+    .fil14 {fill:#53A2B0}
+    .fil16 {fill:#5EB5C4}
+    .fil7 {fill:#7DCDDB}
+    .fil28 {fill:#B3B3B3}
+    .fil24 {fill:#BFE6ED}
+    .fil2 {fill:#C9EFF5}
+    .fil29 {fill:#CCCCCC}
+    .fil27 {fill:#D2ECF5}
+    .fil0 {fill:#DBDBDB}
+    .fil12 {fill:#DE9800}
+    .fil19 {fill:#E6E6E6}
+    .fil33 {fill:#F2F2F2}
+    .fil34 {fill:#FAFAFA}
+    .fil9 {fill:#FFBF00}
+    .fil10 {fill:#FFD900}
+    .fil11 {fill:#FFF3B2}
+    .fil23 {fill:white}
+    .fil30 {fill:white;fill-rule:nonzero}
+    .fil22 {fill:url(#id0)}
+   ]]>
+  </style>
+  <linearGradient id="id0" gradientUnits="userSpaceOnUse" x1="6.43468" y1="459.76" x2="81.9146" y2="448.976">
+   <stop offset="0" style="stop-opacity:1; stop-color:#E5F8FF"/>
+   <stop offset="1" style="stop-opacity:1; stop-color:#9AD2E6"/>
+  </linearGradient>
+ </defs>
+ <g id="Layer_x0020_1">
+  <metadata id="CorelCorpID_0Corel-Layer"/>
+  <g id="_1595262057616">
+   <rect class="fil0" x="44" y="433" width="320" height="192" rx="15" ry="16"/>
+   <path class="fil1" d="M254 245c0,0 1,0 1,0l0 0c0,-14 12,-26 27,-26 13,0 24,9 26,22 1,-1 2,-1 4,-1 5,0 9,4 11,8 1,0 2,0 4,0 9,0 17,8 17,18 0,4 -1,8 -4,12l0 0 25 5 -38 0 -73 0c-11,0 -20,-8 -20,-19 0,-10 9,-19 20,-19z"/>
+   <path class="fil2" d="M254 95c0,0 1,0 1,0l0 0c0,-12 10,-22 22,-22 11,0 20,8 22,19 1,-1 2,-1 3,-1l0 0c3,-5 9,-9 15,-9 10,0 17,7 18,16 1,-1 2,-1 3,-1 4,0 7,2 8,6 1,0 2,-1 2,-1 7,0 13,6 13,13 0,3 -2,6 -4,8l0 0 17 4 -26 0 -3 0 -31 0 -16 0 -44 0c-9,0 -16,-7 -16,-16 0,-9 7,-16 16,-16z"/>
+   <g>
+    <rect class="fil3" x="140" y="27" width="129" height="137" rx="5" ry="3"/>
+    <rect class="fil4" x="150" y="42" width="110" height="107" rx="5" ry="2"/>
+    <polygon class="fil5" points="269,33 269,37 140,37 140,33 "/>
+    <rect class="fil5" x="140" y="153" width="129.36" height="10.4417" rx="5" ry="0"/>
+    <g>
+     <rect class="fil5" x="280" y="504" width="41.9754" height="81.8322"/>
+     <rect class="fil5" x="87" y="504" width="41.9754" height="81.8322"/>
+    </g>
+    <g>
+     <rect class="fil6" x="285" y="494" width="44.5019" height="10.1476"/>
+     <rect class="fil6" x="80" y="494" width="44.5019" height="10.1476"/>
+    </g>
+    <rect class="fil7" x="118" y="183" width="172" height="403" rx="7" ry="8"/>
+    <g>
+     <rect class="fil2" x="145" y="200" width="23.6249" height="23.6249" rx="3" ry="3"/>
+     <rect class="fil2" x="178" y="200" width="23.6249" height="23.6249" rx="3" ry="3"/>
+     <rect class="fil2" x="211" y="200" width="23.6249" height="23.6249" rx="3" ry="3"/>
+     <rect class="fil2" x="244" y="200" width="23.6249" height="23.6249" rx="3" ry="3"/>
+    </g>
+    <g>
+     <rect class="fil2" x="145" y="231" width="23.6249" height="23.6249" rx="3" ry="3"/>
+     <rect class="fil2" x="178" y="231" width="23.6249" height="23.6249" rx="3" ry="3"/>
+     <rect class="fil2" x="211" y="231" width="23.6249" height="23.6249" rx="3" ry="3"/>
+     <rect class="fil2" x="244" y="231" width="23.6249" height="23.6249" rx="3" ry="3"/>
+    </g>
+    <g>
+     <rect class="fil2" x="145" y="263" width="23.6249" height="23.6249" rx="3" ry="3"/>
+     <rect class="fil2" x="178" y="263" width="23.6249" height="23.6249" rx="3" ry="3"/>
+     <rect class="fil2" x="211" y="263" width="23.6249" height="23.6249" rx="3" ry="3"/>
+     <rect class="fil2" x="244" y="263" width="23.6249" height="23.6249" rx="3" ry="3"/>
+    </g>
+    <g>
+     <rect class="fil2" x="145" y="314" width="23.6249" height="23.6249" rx="3" ry="3"/>
+     <rect class="fil2" x="178" y="314" width="23.6249" height="23.6249" rx="3" ry="3"/>
+     <rect class="fil2" x="211" y="314" width="23.6249" height="23.6249" rx="3" ry="3"/>
+     <rect class="fil2" x="244" y="314" width="23.6249" height="23.6249" rx="3" ry="3"/>
+    </g>
+    <rect class="fil2" x="145" y="345" width="23.6249" height="23.6249" rx="3" ry="3"/>
+    <rect class="fil2" x="178" y="345" width="23.6249" height="23.6249" rx="3" ry="3"/>
+    <rect class="fil2" x="211" y="345" width="23.6249" height="23.6249" rx="3" ry="3"/>
+    <rect class="fil2" x="244" y="345" width="23.6249" height="149.239" rx="3" ry="18"/>
+    <rect class="fil2" x="145" y="376" width="23.6249" height="23.6249" rx="3" ry="3"/>
+    <rect class="fil2" x="178" y="376" width="23.6249" height="23.6249" rx="3" ry="3"/>
+    <rect class="fil2" x="211" y="376" width="23.6249" height="23.6249" rx="3" ry="3"/>
+    <rect class="fil2" x="145" y="408" width="23.6249" height="23.6249" rx="3" ry="3"/>
+    <rect class="fil2" x="178" y="408" width="23.6249" height="23.6249" rx="3" ry="3"/>
+    <rect class="fil2" x="211" y="408" width="23.6249" height="23.6249" rx="3" ry="3"/>
+    <rect class="fil2" x="145" y="439" width="23.6249" height="23.6249" rx="3" ry="3"/>
+    <rect class="fil2" x="178" y="439" width="23.6249" height="23.6249" rx="3" ry="3"/>
+    <rect class="fil2" x="211" y="439" width="23.6249" height="23.6249" rx="3" ry="3"/>
+    <rect class="fil2" x="145" y="471" width="23.6249" height="23.6249" rx="3" ry="3"/>
+    <rect class="fil2" x="178" y="471" width="23.6249" height="23.6249" rx="3" ry="3"/>
+    <rect class="fil2" x="211" y="471" width="23.6249" height="23.6249" rx="3" ry="3"/>
+    <g>
+     <rect class="fil2" x="145" y="502" width="23.6249" height="23.6249" rx="3" ry="3"/>
+     <rect class="fil2" x="178" y="502" width="23.6249" height="23.6249" rx="3" ry="3"/>
+     <rect class="fil2" x="211" y="502" width="23.6249" height="23.6249" rx="3" ry="3"/>
+     <rect class="fil2" x="244" y="502" width="23.6249" height="23.6249" rx="3" ry="3"/>
+    </g>
+    <rect class="fil8" x="135" y="20" width="137.81" height="12.8683" rx="26" ry="1"/>
+    <circle class="fil9" cx="204" cy="92" r="44"/>
+    <circle class="fil10" cx="204" cy="92" r="38"/>
+    <circle class="fil11" cx="204" cy="92" r="33"/>
+    <rect class="fil12" x="202" y="68" width="3.13612" height="30.2781" rx="2" ry="2"/>
+    <rect class="fil12" transform="matrix(0.0998734 0.172986 -0.136216 0.0786441 222.688 83.9899)" width="15.7005" height="151.582" rx="8" ry="8"/>
+    <rect class="fil13" x="182" y="547" width="43.9423" height="39.5187"/>
+    <rect class="fil14" x="226" y="547" width="7.3542" height="39.5187"/>
+    <rect class="fil14" x="175" y="547" width="7.3542" height="39.5187"/>
+    <rect class="fil15" transform="matrix(-1.78934E-015 0.0410217 0.329621 5.30055E-015 171.854 539.251)" width="179" height="197"/>
+    <rect class="fil2" x="133" y="551" width="8.43053" height="8.43053" rx="1" ry="1"/>
+    <rect class="fil2" x="146" y="551" width="8.43053" height="8.43053" rx="1" ry="1"/>
+    <rect class="fil2" x="159" y="551" width="8.43053" height="8.43053" rx="1" ry="1"/>
+    <rect class="fil2" x="241" y="551" width="8.43053" height="8.43053" rx="1" ry="1"/>
+    <rect class="fil2" x="254" y="551" width="8.43053" height="8.43053" rx="1" ry="1"/>
+    <rect class="fil2" x="267" y="551" width="8.43053" height="8.43053" rx="1" ry="1"/>
+    <rect class="fil16" x="104" y="160" width="201.444" height="31.4608" rx="38" ry="3"/>
+   </g>
+   <path class="fil17 str0" d="M45 291c0,0 0,0 1,0l0 0c0,-6 5,-11 11,-11 5,0 10,4 10,9 1,0 1,0 2,0l0 0c2,-3 4,-5 8,-5 4,0 8,3 9,8 0,0 1,0 1,0 2,0 3,1 4,2 0,0 1,0 1,0 4,0 6,3 6,6 0,2 0,3 -1,4l0 0 8 2 -13 0 -1 0 -16 0 -8 0 -22 0c-4,0 -8,-3 -8,-7 0,-5 4,-8 8,-8z"/>
+   <g>
+    <path class="fil18" d="M348 454l-2 -46 -3 46c-14,0 -18,-15 -9,-21l0 -11c0,-3 6,-6 6,-9 0,-5 -2,-14 6,-15 7,1 5,10 5,15 0,3 6,6 6,9l0 11c10,6 6,21 -9,21z"/>
+    <polygon class="fil19" points="345,408 343,468 346,468 348,468 346,408 346,408 "/>
+    <rect class="fil19" transform="matrix(0.017467 0.017467 -0.021736 0.021736 352.751 421.322)" width="34.9998" height="340.002"/>
+    <rect class="fil19" transform="matrix(0.0270316 0.0270316 -0.0336382 0.0336382 356.798 438.252)" width="34.9998" height="340.002"/>
+    <rect class="fil19" transform="matrix(-0.017467 0.017467 0.021736 0.021736 338.507 421.322)" width="34.9998" height="340.002"/>
+    <rect class="fil19" transform="matrix(-0.0270316 0.0270316 0.0336382 0.0336382 334.46 438.252)" width="34.9998" height="340.002"/>
+   </g>
+   <g>
+    <circle class="fil20" cx="168" cy="625" r="17"/>
+    <polygon class="fil19" points="168,613 167,665 168,665 170,665 169,613 168,613 "/>
+    <rect class="fil19" transform="matrix(0.0190443 0.0190443 -0.0236989 0.0236989 176.229 627.38)" width="34.9998" height="340.002"/>
+    <rect class="fil19" transform="matrix(-0.0190443 0.0190443 0.0236989 0.0236989 160.492 627.38)" width="34.9998" height="340.002"/>
+   </g>
+   <g>
+    <circle class="fil17" cx="93" cy="412" r="14"/>
+    <circle class="fil17" cx="93" cy="431" r="17"/>
+    <polygon class="fil19" points="93,404 92,456 93,456 95,456 94,404 93,404 "/>
+    <rect class="fil19" transform="matrix(0.015103 0.015103 -0.0187942 0.0187942 99.6525 412.762)" width="34.9998" height="340.002"/>
+    <rect class="fil19" transform="matrix(-0.015103 0.015103 0.0187942 0.0187942 87.1721 412.762)" width="34.9998" height="340.002"/>
+    <rect class="fil19" transform="matrix(0.0225693 0.0225693 -0.0280853 0.0280853 102.737 431.484)" width="34.9998" height="340.002"/>
+    <rect class="fil19" transform="matrix(-0.0225693 0.0225693 0.0280853 0.0280853 84.0871 431.484)" width="34.9998" height="340.002"/>
+   </g>
+   <g>
+    <circle class="fil21" cx="96" cy="609" r="14"/>
+    <circle class="fil21" cx="96" cy="628" r="17"/>
+    <polygon class="fil19" points="96,601 94,653 96,653 98,653 96,601 96,601 "/>
+    <rect class="fil19" transform="matrix(0.015103 0.015103 -0.0187942 0.0187942 102.226 609.801)" width="34.9998" height="340.002"/>
+    <rect class="fil19" transform="matrix(-0.015103 0.015103 0.0187942 0.0187942 89.7451 609.801)" width="34.9998" height="340.002"/>
+    <rect class="fil19" transform="matrix(0.0225693 0.0225693 -0.0280853 0.0280853 105.31 628.523)" width="34.9998" height="340.002"/>
+    <rect class="fil19" transform="matrix(-0.0225693 0.0225693 0.0280853 0.0280853 86.6602 628.523)" width="34.9998" height="340.002"/>
+   </g>
+   <g>
+    <path class="fil18" d="M69 541c0,-10 -11,-17 -25,-17 -13,0 -24,7 -24,17l49 0z"/>
+    <path class="fil22" d="M7 429l74 0c2,0 3,1 3,3l0 45c0,2 -1,3 -3,3l-74 0c-1,0 -3,-1 -3,-3l0 -45c0,-2 2,-3 3,-3z"/>
+    <path class="fil12" d="M84 474l-80 0 0 -42c0,-2 2,-3 3,-3l74 0c2,0 3,1 3,3l0 42z"/>
+    <polygon class="fil23" points="8,471 8,471 8,471 8,433 8,433 80,433 80,433 80,471 "/>
+    <rect class="fil24" x="40" y="480" width="7.54603" height="61.0001"/>
+    <polygon class="fil25" points="40,480 40,489 48,484 48,480 "/>
+   </g>
+   <polyline class="fil26 str1" points="275,705 206,705 206,618 "/>
+   <rect class="fil0" x="257" y="664" width="184.321" height="74.7475" rx="9" ry="6"/>
+   <g>
+    <rect class="fil27" x="279" y="627" width="141.325" height="90.0156"/>
+    <polygon class="fil28" points="420,631 420,627 279,627 279,631 "/>
+    <rect class="fil29" x="266" y="617" width="165.629" height="10.352" rx="53" ry="5"/>
+    <rect class="fil8" x="279" y="710" width="141.325" height="6.97829"/>
+    <g>
+     <polygon class="fil17" points="283,641 297,641 297,634 283,634 "/>
+     <path id="1" class="fil30" d="M297 641l-14 0 0 0 14 0 1 0 -1 0zm0 0c1,0 1,0 1,0 0,0 0,0 -1,0l0 0zm1 -7l0 7 -1 0 0 -7 0 0 1 0zm-1 0c0,0 0,0 0,0 1,0 1,0 1,0l-1 0zm-14 0l14 0 0 1 -14 0 0 -1 0 0zm0 1c0,0 0,0 0,-1 0,0 0,0 0,0l0 1zm0 6l0 -7 1 0 0 7 -1 0 0 0zm1 0c0,0 -1,0 -1,0 0,0 0,0 0,0l1 0z"/>
+    </g>
+    <g>
+     <polygon class="fil17" points="283,652 297,652 297,645 283,645 "/>
+     <path id="1" class="fil30" d="M297 652l-14 0 0 -1 14 0 1 1 -1 0zm0 -1c1,0 1,0 1,1 0,0 0,0 -1,0l0 -1zm1 -6l0 7 -1 0 0 -7 0 0 1 0zm-1 0c0,0 0,0 0,0 1,0 1,0 1,0l-1 0zm-14 0l14 0 0 0 -14 0 0 0 0 0zm0 0c0,0 0,0 0,0 0,0 0,0 0,0l0 0zm0 7l0 -7 1 0 0 7 -1 0 0 0zm1 0c0,0 -1,0 -1,0 0,0 0,0 0,0l1 0z"/>
+    </g>
+    <g>
+     <polygon class="fil17" points="283,662 297,662 297,656 283,656 "/>
+     <path id="1" class="fil30" d="M297 663l-14 0 0 -1 14 0 1 0 -1 1zm0 -1c1,0 1,0 1,0 0,0 0,1 -1,1l0 -1zm1 -6l0 6 -1 0 0 -6 0 -1 1 1zm-1 0c0,-1 0,-1 0,-1 1,0 1,0 1,1l-1 0zm-14 -1l14 0 0 1 -14 0 0 0 0 -1zm0 1c0,0 0,0 0,0 0,-1 0,-1 0,-1l0 1zm0 6l0 -6 1 0 0 6 -1 1 0 -1zm1 0c0,0 -1,1 -1,1 0,0 0,-1 0,-1l1 0z"/>
+    </g>
+    <g>
+     <polygon class="fil17" points="283,673 297,673 297,666 283,666 "/>
+     <path id="1" class="fil30" d="M297 673l-14 0 0 -1 14 0 1 1 -1 0zm0 -1c1,0 1,1 1,1 0,0 0,0 -1,0l0 -1zm1 -6l0 7 -1 0 0 -7 0 0 1 0zm-1 0c0,0 0,0 0,0 1,0 1,0 1,0l-1 0zm-14 0l14 0 0 0 -14 0 0 0 0 0zm0 0c0,0 0,0 0,0 0,0 0,0 0,0l0 0zm0 7l0 -7 1 0 0 7 -1 0 0 0zm1 0c0,0 -1,0 -1,0 0,0 0,0 0,0l1 0z"/>
+    </g>
+    <g>
+     <polygon class="fil17" points="283,683 297,683 297,677 283,677 "/>
+     <path id="1" class="fil30" d="M297 684l-14 0 0 -1 14 0 1 0 -1 1zm0 -1c1,0 1,0 1,0 0,1 0,1 -1,1l0 -1zm1 -6l0 6 -1 0 0 -6 0 -1 1 1zm-1 0c0,-1 0,-1 0,-1 1,0 1,0 1,1l-1 0zm-14 -1l14 0 0 1 -14 0 0 0 0 -1zm0 1c0,0 0,0 0,0 0,-1 0,-1 0,-1l0 1zm0 6l0 -6 1 0 0 6 -1 1 0 -1zm1 0c0,1 -1,1 -1,1 0,0 0,0 0,-1l1 0z"/>
+    </g>
+    <g>
+     <polygon class="fil17" points="283,694 297,694 297,687 283,687 "/>
+     <path id="1" class="fil30" d="M297 694l-14 0 0 0 14 0 1 0 -1 0zm0 0c1,0 1,0 1,0 0,0 0,0 -1,0l0 0zm1 -7l0 7 -1 0 0 -7 0 0 1 0zm-1 0c0,0 0,0 0,0 1,0 1,0 1,0l-1 0zm-14 0l14 0 0 1 -14 0 0 -1 0 0zm0 1c0,0 0,-1 0,-1 0,0 0,0 0,0l0 1zm0 6l0 -7 1 0 0 7 -1 0 0 0zm1 0c0,0 -1,0 -1,0 0,0 0,0 0,0l1 0z"/>
+    </g>
+    <g>
+     <polygon class="fil17" points="283,704 297,704 297,698 283,698 "/>
+     <path id="1" class="fil30" d="M297 705l-14 0 0 -1 14 0 1 0 -1 1zm0 -1c1,0 1,0 1,0 0,1 0,1 -1,1l0 -1zm1 -6l0 6 -1 0 0 -6 0 -1 1 1zm-1 0c0,0 0,-1 0,-1 1,0 1,1 1,1l-1 0zm-14 -1l14 0 0 1 -14 0 0 0 0 -1zm0 1c0,0 0,0 0,0 0,0 0,-1 0,-1l0 1zm0 6l0 -6 1 0 0 6 -1 1 0 -1zm1 0c0,1 -1,1 -1,1 0,0 0,0 0,-1l1 0z"/>
+    </g>
+    <g>
+     <polygon class="fil17" points="303,641 317,641 317,634 303,634 "/>
+     <path id="1" class="fil30" d="M317 641l-14 0 0 0 14 0 0 0 0 0zm0 0c0,0 0,0 0,0 0,0 0,0 0,0l0 0zm0 -7l0 7 -1 0 0 -7 1 0 0 0zm-1 0c0,0 1,0 1,0 0,0 0,0 0,0l-1 0zm-13 0l14 0 0 1 -14 0 -1 -1 1 0zm0 1c-1,0 -1,0 -1,-1 0,0 0,0 1,0l0 1zm-1 6l0 -7 1 0 0 7 0 0 -1 0zm1 0c0,0 0,0 0,0 -1,0 -1,0 -1,0l1 0z"/>
+    </g>
+    <g>
+     <polygon class="fil17" points="303,652 317,652 317,645 303,645 "/>
+     <path id="1" class="fil30" d="M317 652l-14 0 0 -1 14 0 0 1 0 0zm0 -1c0,0 0,0 0,1 0,0 0,0 0,0l0 -1zm0 -6l0 7 -1 0 0 -7 1 0 0 0zm-1 0c0,0 1,0 1,0 0,0 0,0 0,0l-1 0zm-13 0l14 0 0 0 -14 0 -1 0 1 0zm0 0c-1,0 -1,0 -1,0 0,0 0,0 1,0l0 0zm-1 7l0 -7 1 0 0 7 0 0 -1 0zm1 0c0,0 0,0 0,0 -1,0 -1,0 -1,0l1 0z"/>
+    </g>
+    <g>
+     <polygon class="fil17" points="303,662 317,662 317,656 303,656 "/>
+     <path id="1" class="fil30" d="M317 663l-14 0 0 -1 14 0 0 0 0 1zm0 -1c0,0 0,0 0,0 0,0 0,1 0,1l0 -1zm0 -6l0 6 -1 0 0 -6 1 -1 0 1zm-1 0c0,-1 1,-1 1,-1 0,0 0,0 0,1l-1 0zm-13 -1l14 0 0 1 -14 0 -1 0 1 -1zm0 1c-1,0 -1,0 -1,0 0,-1 0,-1 1,-1l0 1zm-1 6l0 -6 1 0 0 6 0 1 -1 -1zm1 0c0,0 0,1 0,1 -1,0 -1,-1 -1,-1l1 0z"/>
+    </g>
+    <g>
+     <polygon class="fil17" points="303,673 317,673 317,666 303,666 "/>
+     <path id="1" class="fil30" d="M317 673l-14 0 0 -1 14 0 0 1 0 0zm0 -1c0,0 0,1 0,1 0,0 0,0 0,0l0 -1zm0 -6l0 7 -1 0 0 -7 1 0 0 0zm-1 0c0,0 1,0 1,0 0,0 0,0 0,0l-1 0zm-13 0l14 0 0 0 -14 0 -1 0 1 0zm0 0c-1,0 -1,0 -1,0 0,0 0,0 1,0l0 0zm-1 7l0 -7 1 0 0 7 0 0 -1 0zm1 0c0,0 0,0 0,0 -1,0 -1,0 -1,0l1 0z"/>
+    </g>
+    <g>
+     <polygon class="fil17" points="303,683 317,683 317,677 303,677 "/>
+     <path id="1" class="fil30" d="M317 684l-14 0 0 -1 14 0 0 0 0 1zm0 -1c0,0 0,0 0,0 0,1 0,1 0,1l0 -1zm0 -6l0 6 -1 0 0 -6 1 -1 0 1zm-1 0c0,-1 1,-1 1,-1 0,0 0,0 0,1l-1 0zm-13 -1l14 0 0 1 -14 0 -1 0 1 -1zm0 1c-1,0 -1,0 -1,0 0,-1 0,-1 1,-1l0 1zm-1 6l0 -6 1 0 0 6 0 1 -1 -1zm1 0c0,1 0,1 0,1 -1,0 -1,0 -1,-1l1 0z"/>
+    </g>
+    <g>
+     <polygon class="fil17" points="303,694 317,694 317,687 303,687 "/>
+     <path id="1" class="fil30" d="M317 694l-14 0 0 0 14 0 0 0 0 0zm0 0c0,0 0,0 0,0 0,0 0,0 0,0l0 0zm0 -7l0 7 -1 0 0 -7 1 0 0 0zm-1 0c0,0 1,0 1,0 0,0 0,0 0,0l-1 0zm-13 0l14 0 0 1 -14 0 -1 -1 1 0zm0 1c-1,0 -1,-1 -1,-1 0,0 0,0 1,0l0 1zm-1 6l0 -7 1 0 0 7 0 0 -1 0zm1 0c0,0 0,0 0,0 -1,0 -1,0 -1,0l1 0z"/>
+    </g>
+    <g>
+     <polygon class="fil17" points="303,704 317,704 317,698 303,698 "/>
+     <path id="1" class="fil30" d="M317 705l-14 0 0 -1 14 0 0 0 0 1zm0 -1c0,0 0,0 0,0 0,1 0,1 0,1l0 -1zm0 -6l0 6 -1 0 0 -6 1 -1 0 1zm-1 0c0,0 1,-1 1,-1 0,0 0,1 0,1l-1 0zm-13 -1l14 0 0 1 -14 0 -1 0 1 -1zm0 1c-1,0 -1,0 -1,0 0,0 0,-1 1,-1l0 1zm-1 6l0 -6 1 0 0 6 0 1 -1 -1zm1 0c0,1 0,1 0,1 -1,0 -1,0 -1,-1l1 0z"/>
+    </g>
+    <g>
+     <polygon class="fil17" points="381,641 396,641 396,634 381,634 "/>
+     <path id="1" class="fil30" d="M396 641l-15 0 0 0 15 0 0 0 0 0zm0 0c0,0 0,0 0,0 0,0 0,0 0,0l0 0zm0 -7l0 7 -1 0 0 -7 1 0 0 0zm-1 0c0,0 0,0 1,0 0,0 0,0 0,0l-1 0zm-14 0l15 0 0 1 -15 0 0 -1 0 0zm0 1c0,0 0,0 0,-1 0,0 0,0 0,0l0 1zm0 6l0 -7 1 0 0 7 -1 0 0 0zm1 0c0,0 0,0 -1,0 0,0 0,0 0,0l1 0z"/>
+    </g>
+    <g>
+     <polygon class="fil17" points="381,652 396,652 396,645 381,645 "/>
+     <path id="1" class="fil30" d="M396 652l-15 0 0 -1 15 0 0 1 0 0zm0 -1c0,0 0,0 0,1 0,0 0,0 0,0l0 -1zm0 -6l0 7 -1 0 0 -7 1 0 0 0zm-1 0c0,0 0,0 1,0 0,0 0,0 0,0l-1 0zm-14 0l15 0 0 0 -15 0 0 0 0 0zm0 0c0,0 0,0 0,0 0,0 0,0 0,0l0 0zm0 7l0 -7 1 0 0 7 -1 0 0 0zm1 0c0,0 0,0 -1,0 0,0 0,0 0,0l1 0z"/>
+    </g>
+    <g>
+     <polygon class="fil17" points="381,662 396,662 396,656 381,656 "/>
+     <path id="1" class="fil30" d="M396 663l-15 0 0 -1 15 0 0 0 0 1zm0 -1c0,0 0,0 0,0 0,0 0,1 0,1l0 -1zm0 -6l0 6 -1 0 0 -6 1 -1 0 1zm-1 0c0,-1 0,-1 1,-1 0,0 0,0 0,1l-1 0zm-14 -1l15 0 0 1 -15 0 0 0 0 -1zm0 1c0,0 0,0 0,0 0,-1 0,-1 0,-1l0 1zm0 6l0 -6 1 0 0 6 -1 1 0 -1zm1 0c0,0 0,1 -1,1 0,0 0,-1 0,-1l1 0z"/>
+    </g>
+    <g>
+     <polygon class="fil17" points="381,673 396,673 396,666 381,666 "/>
+     <path id="1" class="fil30" d="M396 673l-15 0 0 -1 15 0 0 1 0 0zm0 -1c0,0 0,1 0,1 0,0 0,0 0,0l0 -1zm0 -6l0 7 -1 0 0 -7 1 0 0 0zm-1 0c0,0 0,0 1,0 0,0 0,0 0,0l-1 0zm-14 0l15 0 0 0 -15 0 0 0 0 0zm0 0c0,0 0,0 0,0 0,0 0,0 0,0l0 0zm0 7l0 -7 1 0 0 7 -1 0 0 0zm1 0c0,0 0,0 -1,0 0,0 0,0 0,0l1 0z"/>
+    </g>
+    <g>
+     <polygon class="fil17" points="381,683 396,683 396,677 381,677 "/>
+     <path id="1" class="fil30" d="M396 684l-15 0 0 -1 15 0 0 0 0 1zm0 -1c0,0 0,0 0,0 0,1 0,1 0,1l0 -1zm0 -6l0 6 -1 0 0 -6 1 -1 0 1zm-1 0c0,-1 0,-1 1,-1 0,0 0,0 0,1l-1 0zm-14 -1l15 0 0 1 -15 0 0 0 0 -1zm0 1c0,0 0,0 0,0 0,-1 0,-1 0,-1l0 1zm0 6l0 -6 1 0 0 6 -1 1 0 -1zm1 0c0,1 0,1 -1,1 0,0 0,0 0,-1l1 0z"/>
+    </g>
+    <g>
+     <polygon class="fil17" points="381,694 396,694 396,687 381,687 "/>
+     <path id="1" class="fil30" d="M396 694l-15 0 0 0 15 0 0 0 0 0zm0 0c0,0 0,0 0,0 0,0 0,0 0,0l0 0zm0 -7l0 7 -1 0 0 -7 1 0 0 0zm-1 0c0,0 0,0 1,0 0,0 0,0 0,0l-1 0zm-14 0l15 0 0 1 -15 0 0 -1 0 0zm0 1c0,0 0,-1 0,-1 0,0 0,0 0,0l0 1zm0 6l0 -7 1 0 0 7 -1 0 0 0zm1 0c0,0 0,0 -1,0 0,0 0,0 0,0l1 0z"/>
+    </g>
+    <g>
+     <polygon class="fil17" points="381,704 396,704 396,698 381,698 "/>
+     <path id="1" class="fil30" d="M396 705l-15 0 0 -1 15 0 0 0 0 1zm0 -1c0,0 0,0 0,0 0,1 0,1 0,1l0 -1zm0 -6l0 6 -1 0 0 -6 1 -1 0 1zm-1 0c0,0 0,-1 1,-1 0,0 0,1 0,1l-1 0zm-14 -1l15 0 0 1 -15 0 0 0 0 -1zm0 1c0,0 0,0 0,0 0,0 0,-1 0,-1l0 1zm0 6l0 -6 1 0 0 6 -1 1 0 -1zm1 0c0,1 0,1 -1,1 0,0 0,0 0,-1l1 0z"/>
+    </g>
+    <g>
+     <polygon class="fil17" points="401,641 415,641 415,634 401,634 "/>
+     <path id="1" class="fil30" d="M415 641l-14 0 0 0 14 0 0 0 0 0zm0 0c0,0 0,0 0,0 0,0 0,0 0,0l0 0zm0 -7l0 7 0 0 0 -7 0 0 0 0zm0 0c0,0 0,0 0,0 0,0 0,0 0,0l0 0zm-14 0l14 0 0 1 -14 0 -1 -1 1 0zm0 1c0,0 -1,0 -1,-1 0,0 1,0 1,0l0 1zm-1 6l0 -7 1 0 0 7 0 0 -1 0zm1 0c0,0 0,0 0,0 0,0 -1,0 -1,0l1 0z"/>
+    </g>
+    <g>
+     <polygon class="fil17" points="401,652 415,652 415,645 401,645 "/>
+     <path id="1" class="fil30" d="M415 652l-14 0 0 -1 14 0 0 1 0 0zm0 -1c0,0 0,0 0,1 0,0 0,0 0,0l0 -1zm0 -6l0 7 0 0 0 -7 0 0 0 0zm0 0c0,0 0,0 0,0 0,0 0,0 0,0l0 0zm-14 0l14 0 0 0 -14 0 -1 0 1 0zm0 0c0,0 -1,0 -1,0 0,0 1,0 1,0l0 0zm-1 7l0 -7 1 0 0 7 0 0 -1 0zm1 0c0,0 0,0 0,0 0,0 -1,0 -1,0l1 0z"/>
+    </g>
+    <g>
+     <polygon class="fil17" points="401,662 415,662 415,656 401,656 "/>
+     <path id="1" class="fil30" d="M415 663l-14 0 0 -1 14 0 0 0 0 1zm0 -1c0,0 0,0 0,0 0,0 0,1 0,1l0 -1zm0 -6l0 6 0 0 0 -6 0 -1 0 1zm0 0c0,-1 0,-1 0,-1 0,0 0,0 0,1l0 0zm-14 -1l14 0 0 1 -14 0 -1 0 1 -1zm0 1c0,0 -1,0 -1,0 0,-1 1,-1 1,-1l0 1zm-1 6l0 -6 1 0 0 6 0 1 -1 -1zm1 0c0,0 0,1 0,1 0,0 -1,-1 -1,-1l1 0z"/>
+    </g>
+    <g>
+     <polygon class="fil17" points="401,673 415,673 415,666 401,666 "/>
+     <path id="1" class="fil30" d="M415 673l-14 0 0 -1 14 0 0 1 0 0zm0 -1c0,0 0,1 0,1 0,0 0,0 0,0l0 -1zm0 -6l0 7 0 0 0 -7 0 0 0 0zm0 0c0,0 0,0 0,0 0,0 0,0 0,0l0 0zm-14 0l14 0 0 0 -14 0 -1 0 1 0zm0 0c0,0 -1,0 -1,0 0,0 1,0 1,0l0 0zm-1 7l0 -7 1 0 0 7 0 0 -1 0zm1 0c0,0 0,0 0,0 0,0 -1,0 -1,0l1 0z"/>
+    </g>
+    <g>
+     <polygon class="fil17" points="401,683 415,683 415,677 401,677 "/>
+     <path id="1" class="fil30" d="M415 684l-14 0 0 -1 14 0 0 0 0 1zm0 -1c0,0 0,0 0,0 0,1 0,1 0,1l0 -1zm0 -6l0 6 0 0 0 -6 0 -1 0 1zm0 0c0,-1 0,-1 0,-1 0,0 0,0 0,1l0 0zm-14 -1l14 0 0 1 -14 0 -1 0 1 -1zm0 1c0,0 -1,0 -1,0 0,-1 1,-1 1,-1l0 1zm-1 6l0 -6 1 0 0 6 0 1 -1 -1zm1 0c0,1 0,1 0,1 0,0 -1,0 -1,-1l1 0z"/>
+    </g>
+    <g>
+     <polygon class="fil17" points="401,694 415,694 415,687 401,687 "/>
+     <path id="1" class="fil30" d="M415 694l-14 0 0 0 14 0 0 0 0 0zm0 0c0,0 0,0 0,0 0,0 0,0 0,0l0 0zm0 -7l0 7 0 0 0 -7 0 0 0 0zm0 0c0,0 0,0 0,0 0,0 0,0 0,0l0 0zm-14 0l14 0 0 1 -14 0 -1 -1 1 0zm0 1c0,0 -1,-1 -1,-1 0,0 1,0 1,0l0 1zm-1 6l0 -7 1 0 0 7 0 0 -1 0zm1 0c0,0 0,0 0,0 0,0 -1,0 -1,0l1 0z"/>
+    </g>
+    <g>
+     <polygon class="fil17" points="401,704 415,704 415,698 401,698 "/>
+     <path id="1" class="fil30" d="M415 705l-14 0 0 -1 14 0 0 0 0 1zm0 -1c0,0 0,0 0,0 0,1 0,1 0,1l0 -1zm0 -6l0 6 0 0 0 -6 0 -1 0 1zm0 0c0,0 0,-1 0,-1 0,0 0,1 0,1l0 0zm-14 -1l14 0 0 1 -14 0 -1 0 1 -1zm0 1c0,0 -1,0 -1,0 0,0 1,-1 1,-1l0 1zm-1 6l0 -6 1 0 0 6 0 1 -1 -1zm1 0c0,1 0,1 0,1 0,0 -1,0 -1,-1l1 0z"/>
+    </g>
+    <rect class="fil8" x="279" y="707" width="141.325" height="1.46251"/>
+    <rect class="fil29" x="321" y="680" width="55.8103" height="37.3563"/>
+    <rect class="fil23" x="316" y="675" width="67.0622" height="4.50108" rx="21" ry="2"/>
+    <rect class="fil29" x="321" y="680" width="27.9052" height="37.3563"/>
+    <g>
+     <polygon class="fil17" points="325,675 346,675 346,634 325,634 "/>
+     <path id="1" class="fil30" d="M346 676l-21 0 0 -1 21 0 0 0 0 1zm0 -1c0,0 0,0 0,0 0,1 0,1 0,1l0 -1zm0 -41l0 41 0 0 0 -41 0 0 0 0zm0 0c0,0 0,0 0,0 0,0 0,0 0,0l0 0zm-21 0l21 0 0 1 -21 0 0 -1 0 0zm0 1c0,0 0,0 0,-1 0,0 0,0 0,0l0 1zm0 40l0 -41 0 0 0 41 0 1 0 -1zm0 0c0,1 0,1 0,1 0,0 0,0 0,-1l0 0z"/>
+    </g>
+    <g>
+     <polygon class="fil17" points="352,675 373,675 373,634 352,634 "/>
+     <path id="1" class="fil30" d="M373 676l-21 0 0 -1 21 0 0 0 0 1zm0 -1c0,0 0,0 0,0 0,1 0,1 0,1l0 -1zm0 -41l0 41 0 0 0 -41 0 0 0 0zm0 0c0,0 0,0 0,0 0,0 0,0 0,0l0 0zm-21 0l21 0 0 1 -21 0 0 -1 0 0zm0 1c0,0 0,0 0,-1 0,0 0,0 0,0l0 1zm0 40l0 -41 0 0 0 41 0 1 0 -1zm0 0c0,1 0,1 0,1 0,0 0,0 0,-1l0 0z"/>
+    </g>
+    <rect class="fil8" x="349" y="693" width="13.8996" height="24.7581"/>
+    <rect class="fil31" x="349" y="693" width="10.0554" height="24.7581"/>
+    <rect class="fil8" x="335" y="693" width="13.8996" height="24.7581"/>
+    <rect class="fil31" x="339" y="693" width="10.0554" height="24.7581"/>
+    <polygon class="fil23" points="349,693 350,693 350,717 349,717 349,717 349,693 "/>
+    <g>
+     <g>
+      <rect class="fil32" x="349" y="548" width="54.5101" height="66.515"/>
+      <rect class="fil28" x="349" y="545" width="50.9353" height="66.515"/>
+      <polygon class="fil29" points="398,608 398,542 400,545 400,611 "/>
+      <rect class="fil33" x="349" y="542" width="48.9992" height="66.515"/>
+      <rect class="fil28" x="349" y="548" width="41.2552" height="3.14877"/>
+      <rect class="fil28" x="349" y="557" width="41.2552" height="3.14877"/>
+      <rect class="fil28" x="349" y="565" width="41.2552" height="3.14877"/>
+      <rect class="fil28" x="349" y="573" width="41.2552" height="3.14877"/>
+      <rect class="fil28" x="349" y="582" width="41.2552" height="3.14877"/>
+      <rect class="fil28" x="349" y="590" width="41.2552" height="3.14877"/>
+      <rect class="fil28" x="349" y="598" width="41.2552" height="3.14877"/>
+      <rect class="fil32" x="295" y="548" width="54.5101" height="66.515"/>
+      <rect class="fil28" x="298" y="545" width="50.9353" height="66.515"/>
+      <rect class="fil33" x="300" y="542" width="48.9992" height="66.515"/>
+      <polygon class="fil29" points="300,608 300,542 298,545 298,611 "/>
+      <rect class="fil28" x="308" y="548" width="41.2552" height="3.14877"/>
+      <rect class="fil28" x="308" y="557" width="41.2552" height="3.14877"/>
+      <rect class="fil28" x="308" y="565" width="41.2552" height="3.14877"/>
+      <rect class="fil28" x="308" y="573" width="41.2552" height="3.14877"/>
+      <rect class="fil28" x="308" y="582" width="41.2552" height="3.14877"/>
+      <rect class="fil28" x="308" y="590" width="41.2552" height="3.14877"/>
+      <rect class="fil28" x="308" y="598" width="41.2552" height="3.14877"/>
+      <g>
+       <rect class="fil34" transform="matrix(0.158837 -0.0753125 -0 0.314863 349.294 541.953)" width="229" height="211"/>
+       <rect class="fil28" transform="matrix(0.176702 -0.0837829 -0 0.314863 349.294 548.447)" width="173.123" height="10.0004"/>
+       <rect class="fil28" transform="matrix(0.176702 -0.0837829 -0 0.314863 349.294 556.712)" width="173.123" height="10.0004"/>
+       <rect class="fil28" transform="matrix(0.176702 -0.0837829 -0 0.314863 349.294 564.978)" width="173.123" height="10.0004"/>
+       <rect class="fil28" transform="matrix(0.176702 -0.0837829 -0 0.314863 349.294 573.243)" width="173.123" height="10.0004"/>
+       <rect class="fil28" transform="matrix(0.176702 -0.0837829 -0 0.314863 349.294 581.508)" width="173.123" height="10.0004"/>
+       <rect class="fil28" transform="matrix(0.176702 -0.0837829 -0 0.314863 349.294 589.773)" width="173.123" height="10.0004"/>
+       <rect class="fil28" transform="matrix(0.176702 -0.0837829 -0 0.314863 349.294 598.038)" width="173.123" height="10.0004"/>
+      </g>
+      <g>
+       <rect class="fil34" transform="matrix(-0.158837 -0.0753125 -0 0.314863 349.294 541.953)" width="229" height="211"/>
+       <rect class="fil28" transform="matrix(-0.176702 -0.0837829 -0 0.314863 349.294 548.447)" width="173.123" height="10.0004"/>
+       <rect class="fil28" transform="matrix(-0.176702 -0.0837829 -0 0.314863 349.294 556.712)" width="173.123" height="10.0004"/>
+       <rect class="fil28" transform="matrix(-0.176702 -0.0837829 -0 0.314863 349.294 564.978)" width="173.123" height="10.0004"/>
+       <rect class="fil28" transform="matrix(-0.176702 -0.0837829 -0 0.314863 349.294 573.243)" width="173.123" height="10.0004"/>
+       <rect class="fil28" transform="matrix(-0.176702 -0.0837829 -0 0.314863 349.294 581.508)" width="173.123" height="10.0004"/>
+       <rect class="fil28" transform="matrix(-0.176702 -0.0837829 -0 0.314863 349.294 589.773)" width="173.123" height="10.0004"/>
+       <rect class="fil28" transform="matrix(-0.176702 -0.0837829 -0 0.314863 349.294 598.038)" width="173.123" height="10.0004"/>
+      </g>
+     </g>
+     <polygon class="fil35" points="349,615 342,615 342,617 349,617 357,617 357,615 "/>
+    </g>
+   </g>
+  </g>
+ </g>
+</svg>
