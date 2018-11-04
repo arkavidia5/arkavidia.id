@@ -1,17 +1,17 @@
 <template>
-  <v-container fluid no-padding>
+  <v-container fluid no-padding id="codingclass" class="preevent">
     <!-- Hero -->
     <v-container fluid no-padding>
       <v-layout row fill-height fill-width id="jumbotron">
         <v-flex xl6 lg6 md6>
           <v-layout row style="height: 100%">
-            <v-flex xl5 lg5 md5 id="ggj-jumboempty"/>
-            <v-flex xl7 lg7 md7 id="ggj-jumbo">
-              <div id="ggj-jumbo_overlay"/>
+            <v-flex xl5 lg5 md5 id="preevent-jumboempty"/>
+            <v-flex xl7 lg7 md7 id="preevent-jumbo">
+              <div id="preevent-jumbo_overlay"/>
             </v-flex>
           </v-layout>
         </v-flex>
-        <v-flex xl6 lg6 md6 id="ggj-title">
+        <v-flex xl6 lg6 md6 id="preevent-title">
           <div class="heading-title heading-medium">
             <h1 class="heading-yellow futura-bt">CODING<br>CLASS</h1>
             <h1 class="shadow futura-bt">CODING<br>CLASS</h1>
@@ -26,15 +26,15 @@
       </v-layout>
     </v-container>
     <!-- Details -->
-    <v-container fluid id="gamejam-details">
+    <v-container fluid id="preevent-details">
       <!-- 1st row -->
-      <v-layout row wrap id="gamejam-sec1">
-        <v-flex xl4 lg4 md4 sm12 id="ggj-img">
-          <div id="ggj-g1"/>
-          <div id="ggj-g2"/>
-          <div id="ggj-g3"/>
+      <v-layout row wrap id="preevent-sec1">
+        <v-flex xl4 lg4 md4 sm12 id="preevent-img">
+          <div id="preevent-g1"/>
+          <div id="preevent-g2"/>
+          <div id="preevent-g3"/>
         </v-flex>
-        <v-flex xl8 lg8 md8 id="gamejam-content">
+        <v-flex xl8 lg8 md8 id="preevent-content">
           <div class="text-xs-justify" style="margin-left: 8px">
             <p>Coding Class merupakan sebuah Workshop Web Development yang dilakukan selama dua hari berturut-turut. Pada acara ini, peserta akan mendapatkan materi mengenai dasar-dasar web development serta seminar yang akan membuka wawasan mengenai web development. Target peserta adalah siswa tingkat SMA. Peserta dialokasikan ke suatu tim dengan satu mentor. Mentor akan mengawal keberjalanan class hingga peserta berhasil membuat demo dari produk terkait web. Harapan camp ini adalah siswa SMA di Indonesia dapat memiliki skill yang berguna dalam mengeksplorasi dunia IT dalam Revolusi Industri 4.0 saat ini.</p>
           </div>
@@ -48,9 +48,9 @@
         </v-flex>
       </v-layout>
       <!-- 2nd row -->
-      <v-layout row id="gamejam-sec2">
-        <v-flex xl4 lg4 id="ggj-yellow"/>
-        <v-flex xl8 lg8 id="ggj-yellow_img">
+      <v-layout row id="preevent-sec2">
+        <v-flex xl4 lg4 id="preevent-yellow"/>
+        <v-flex xl8 lg8 id="preevent-yellow_img">
           <div/>
         </v-flex>
       </v-layout>
@@ -66,13 +66,13 @@ export default {
 
 <style scoped>
 @media only screen and (max-width: 767px) {
-  #ggj-title {
+  .preevent#codingclass #preevent-title {
     margin-top: 50px;
     padding-left: 10px;
     display: inline;
     z-index: 2;
   }
-  #ggj-jumbo {
+  .preevent #preevent-jumbo {
     /* width: 200px; */
     width: 100%;
     max-width: 767px;
@@ -85,19 +85,18 @@ export default {
     position: absolute;
   }
 
-  #ggj-jumboempty {
+  .preevent #preevent-jumboempty {
     width: 25%;
     height: 100%;
     padding-right: -10px;
   }
-  .view-more {
+  .preevent  .view-more {
     margin-top: 10px;
   }
-
-   #gamejam-details {
+  .preevent #preevent-details {
     /* height: 100vh; */
   }
-  #ggj-img {
+  .preevent #preevent-img {
     height: 400px;
     width: 767px;
     display: inline;
@@ -106,10 +105,10 @@ export default {
     margin-left: 0;
     margin-right: 0;
     display:block;
-    margin-top: -16px;
+    margin-top: 30px;
     vertical-align: middle;
   }
-    #ggj-img > #ggj-g1 {
+  .preevent #preevent-img > #preevent-g1 {
     height: calc(100% / 3);
     width: 100%;
     max-width: 767px;
@@ -119,7 +118,7 @@ export default {
     vertical-align: middle;
   }
 
-      #ggj-img > #ggj-g2 {
+  .preevent #preevent-img > #preevent-g2 {
     height: calc(100% / 3);
     width: 100%;
     max-width: 767px;
@@ -130,7 +129,7 @@ export default {
     vertical-align: middle;
   }
 
-  #ggj-img > #ggj-g3 {
+  .preevent #preevent-img > #preevent-g3 {
     height: calc(100% / 3);
     width: 100%;
     max-width: 767px;
@@ -139,33 +138,32 @@ export default {
     display: inline-block;
     vertical-align: middle;
   }
-  #gamejam-details .container-fluid {
-  padding-right: 15px;
-  padding-left: 15px;
-  margin-right: auto;
-  margin-left: auto;
-  padding: 0px;
-}
-#gamejam-details .row {
-  margin-right: -15px;
-  margin-left: -15px;
-}
-  #gamejam-content {
-  width: 100%;
-  justify-content: center;
-  align-content: center;
-  padding: 0 20% 0 5%;
-  font-size: 1.1em;
-  color: #094260;
-  display: inline-block;
-}
-  #gamejam-sec2 {
-    height: 25%;
-
+  .preevent #preevent-details .container-fluid {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 0px;
   }
-      #ggj-yellow_img {
-        height: 100px;
-            width: 100%;
+ .preevent #preevent-details .row {
+    margin-right: -15px;
+    margin-left: -15px;
+  }
+  .preevent #preevent-content {
+    width: 100%;
+    justify-content: center;
+    align-content: center;
+    padding: 0 20% 0 5%;
+    font-size: 1.1em;
+    color: #094260;
+    display: inline-block;
+  }
+  .preevent #preevent-sec2 {
+    height: 25%;
+  }
+  .preevent #preevent-yellow_img {
+    height: 100px;
+    width: 100%;
     max-width: 767px;
     background: url('../../assets/codingclass-g4.jpg') no-repeat;
     background-size: 100% auto;
@@ -176,44 +174,44 @@ export default {
 
 
 @media only screen and (min-width: 768px) {
-  #ggj-title {
+  .preevent #preevent-title {
     padding-left: 40px;
   }
-  #ggj-jumbo {
+  .preevent #preevent-jumbo {
     height: 100%;
     background: url('../../assets/codingclass-main.jpg') no-repeat center;
     background-size: auto 100%;
   }
-  #ggj-jumboempty {
+  .preevent #preevent-jumboempty {
     height: 100%;
   }
-  .view-more {
+  .preevent .view-more {
     margin-top: 20px;
   }
 
-  #gamejam-details {
+  .preevent #preevent-details {
     height: 100vh;
   }
-    #ggj-img > #ggj-g1 {
+   .preevent #preevent-img > #preevent-g1 {
     height: calc(100% / 3);
     background: url('../../assets/codingclass-g1.jpg') no-repeat center;
     background-size: 120% auto;
   }
 
-  #ggj-img > #ggj-g2 {
+  .preevent #preevent-img > #preevent-g2 {
     height: calc(100% / 3);
     background: url('../../assets/codingclass-g2.jpg') no-repeat;
     background-size: 105% auto;
     background-position: left center;
   }
 
-  #ggj-img > #ggj-g3 {
+  .preevent #preevent-img > #preevent-g3 {
     height: calc(100% / 3);
     background: url('../../assets/codingclass-g3.jpg') no-repeat center;
     background-size: 100% auto;
   }
 
-  #gamejam-content {
+  .preevent #preevent-content {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -222,17 +220,17 @@ export default {
     font-size: 1.1em;
     color: #094260;
   }
-  #gamejam-sec2 {
+  .preevent #preevent-sec2 {
     height: 25%;
   }
-      #ggj-yellow_img {
+  .preevent #preevent-yellow_img {
     background: url('../../assets/codingclass-g4.jpg') no-repeat;
     background-size: 100% auto;
     background-position: 50% 90%;
   }
 }
 
-#jumbotron {
+.preevent #jumbotron {
   height: 100vh;
   margin-top: 0 !important;
   background-image: url("../../assets/event_variation-01.svg");
@@ -242,12 +240,12 @@ export default {
   overflow: hidden;
 }
 
-#ggj-jumbo_overlay {
+.preevent #preevent-jumbo_overlay {
   background: rgba(248, 244, 1, 0.65);
   overflow: hidden;
   height: 100%;
   }
-.view-more > .chevron {
+.preevent .view-more > .chevron {
   background: #FFD900;
   padding: 0px 16px 0px 16px;
   border: 2px solid #094260;
@@ -257,7 +255,7 @@ export default {
   cursor: pointer;
 }
 
-.heading-title {
+.preevent .heading-title {
   font-weight: bold;
   top: 48vh;
   position: relative;
@@ -266,7 +264,7 @@ export default {
   letter-spacing: -3px;
 }
 
-.heading-title > .heading-yellow {
+.preevent .heading-title > .heading-yellow {
   color: #FFD900;
   -webkit-text-stroke-width: 2px;
   -webkit-text-stroke-color: #094260;
@@ -279,7 +277,7 @@ export default {
   display: inline-block;
 }
 
-.heading-title > .shadow {
+.preevent .heading-title > .shadow {
   color: #1DE9EB;
   -webkit-text-stroke-width: 2px;
   -webkit-text-stroke-color: #094260;
@@ -287,13 +285,13 @@ export default {
   z-index: 2;
 }
 
-.mid-button-group {
+.preevent .mid-button-group {
   display: inline-block;
   position: relative;
   padding-top: 24px;
 }
 
-.mid-button-group > .btn-line {
+.preevent .mid-button-group > .btn-line {
   border: 2px solid #094260;
   width: 60px;
   position: absolute;
@@ -301,21 +299,20 @@ export default {
   left: 0;
 }
 
-  #gamejam-sec1 {
-    height: 75%;
-    display: flex;
-    flex-direction: row;
-  }
+.preevent #preevent-sec1 {
+  height: 75%;
+  display: flex;
+  flex-direction: row;
+}
 
-#ggj-yellow {
+.preevent #preevent-yellow {
   height: 100%;
   background-color: yellow;
 }
 
-#ggj-yellow_img  > div {
+.preevent #preevent-yellow_img  > div {
   background: rgba(248, 244, 1, 0.65);
   overflow: hidden;
   height: 100%;
 }
-
 </style>
