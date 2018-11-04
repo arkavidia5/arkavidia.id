@@ -17,7 +17,7 @@
     <v-navigation-drawer app v-model="drawer" disable-resize-watcher>
       <v-list>
       <DrawerListItem to="/"  title="Home" active/>
-      
+      <DrawerListGroup title="Pre-Events" :items=preevents />
       <DrawerListGroup title="Events" :items=events />
       <DrawerListGroup title="Competitions" :items=competitions />
       <DrawerListItem to="/about" title="About"/>
@@ -46,6 +46,10 @@
       return {
         drawer: false,
         right: null,
+        preevents: [
+            {title: "Global Game Jam", to: "/preevent/gamejam"},
+            {title: "Coding Class", to: "/preevent/codingclass"}
+        ],
         events: [
             {title: "ArkavTalk", to: "/event/arkavtalk"},
             {title: "IT Festival", to: "/event/festival"}

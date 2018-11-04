@@ -15,6 +15,7 @@
     </v-toolbar-title>
     <v-spacer></v-spacer>
     <toolbar-link title="Home" to="/"/>
+    <toolbar-dropdown title="Pre-Events" :items=preevents />
     <toolbar-dropdown title="Events" :items=events />
     <toolbar-dropdown title="Competitions" :items=competitions /> 
     <toolbar-link title="About" to="/about" />
@@ -31,6 +32,10 @@ export default {
       'toolbar-link': ToolbarLink
   },
   data: () => ({
+    preevents: [
+      {title: "Global Game Jam", to: "/preevent/gamejam"},
+      {title: "Coding Class", to: "/preevent/codingclass"}
+    ],
     events: [
       {title: "ArkavTalk", to: "/event/arkavtalk"},
       {title: "IT Festival", to: "/event/festival"}

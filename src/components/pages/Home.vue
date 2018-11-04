@@ -17,6 +17,26 @@
       </h1>
     </v-layout> -->
     <!-- <PageBreak/> -->
+    <v-layout row section events justify-center>
+       <v-container>
+         <v-layout row justify-center>
+          <h1 class="futura-lt bold heading">
+            Pre-Events
+          </h1>
+         </v-layout>
+        <v-layout row justify-center mt-4>          
+          <router-link to="/preevent/gamejam" class="d-flex justify-center align-center no-decoration black--text mr-4 flex-column" >
+            <img src="../../assets/ggj-01.svg" alt="gamejam-ico" height="150">
+            <h3 style="margin-top:4px;">Global Game Jam</h3>
+          </router-link>
+          <router-link to="/preevent/codingclass" class="d-flex justify-center align-center no-decoration black--text ml-4 flex-column"  >
+            <img src="../../assets/codingclass-02.svg" alt="codingclass-ico" height="150">
+            <h3 style="margin-top:4px;">Coding Class</h3>
+          </router-link>
+        </v-layout>
+       </v-container>
+    </v-layout>
+    <PageBreak/>
      <v-layout row section events justify-center>
        <v-container>
          <v-layout row justify-center>
