@@ -1,7 +1,7 @@
 <template>
   <v-container fluid>
     <v-slide-y-transition mode="out-in">
-        <v-container no-padding>
+        <v-container fluid no-padding>
           <!-- Hero -->
           <v-layout row margin-bottom-xl class="page-full page-margin" style="margin-top: -30px">
             <v-flex sm12 xs12 md8 id="comp-title">
