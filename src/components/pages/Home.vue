@@ -98,18 +98,14 @@
     </v-layout>
     <v-layout row section competitions justify-center>
       <v-container justify-center>
-        <v-layout row justify-center>
-          <h1 class="futura-lt bold heading">
-            Open Registration
-          </h1>
-        </v-layout>
-        <v-layout row justify-center style="margin-top:30px;">
+        <v-layout row justify-center style="margin-bottom:30px;">
         <v-flex md10 sm8 xs12 justify-center>
         <v-layout row justify-center wrap>
           <template>
-            <div>
-              <Countdown deadline="November 5, 2018 13:00"></Countdown>
-            </div>
+            <a href="https://dashboard.arkavidia.id/register" class="no-decoration">
+              <v-btn class="box-stroke">Register Now
+              </v-btn>
+            </a>
           </template>
         </v-layout>
         </v-flex>
