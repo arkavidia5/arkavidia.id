@@ -68,16 +68,6 @@ export default {
             return Math.trunc(this.diff / 60 / 60 / 24)
         }
     },
-    watch: {
-        now(value) {
-            this.diff = this.date - this.now;
-            if(this.diff <= 0 || this.stop){
-                this.diff = 0;
-                // Remove interval
-                clearInterval(interval);
-            }
-        }
-    },
     filters: {
         twoDigits(value) {
             if ( value.toString().length <= 1 ) {
