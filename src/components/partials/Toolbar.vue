@@ -19,7 +19,7 @@
     <toolbar-dropdown title="Events" :items=events />
     <toolbar-dropdown title="Competitions" :items=competitions /> 
     <toolbar-link title="About" to="/about" />
-    <!-- <toolbar-link title="Login" href="https://app.arkavidia.id/login"/> -->
+    <toolbar-link title="Login" href="https://dashboard.arkavidia.id/login"/>
   </v-toolbar>
 </template>
 <script>
