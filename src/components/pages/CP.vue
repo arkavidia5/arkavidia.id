@@ -4,7 +4,7 @@
       <v-container no-padding>
         <!-- Hero -->
         <v-layout row margin-bottom-xl class="page-full page-margin" style="margin-top: -30px">
-          <v-flex sm12 xs12 md8 id="comp-title">
+          <v-flex sm12 xs12 md12 id="comp-title">
             <div>
               <v-layout class="row">
                 <v-flex md12 xs8 style="z-index: 2">
@@ -25,26 +25,30 @@
                   </p>
                   <h2 class="heading heading-small text-left">Kategori Peserta</h2>
                   <br>
-                  <v-layout row mb-4 justify-start>
+                  <v-layout row mb-4 wrap justify-start>
                     <v-flex align-center xs7 md6 d-flex ml-md-4>
                       <img src="https://static.arkavidia.id/5/images/icons/mahasiswa.svg" alt="mahasiswa" height="50"> 
                       <span style="font-size: 1.1rem;" class="ml-md-1">Mahasiswa</span>
                     </v-flex>
-                    <v-flex align-center xs4 md6 justify-center d-flex>
+                    <v-flex align-center xs5 md5 justify-center d-flex>
                       <img src="https://static.arkavidia.id/5/images/icons/siswa.svg" alt="mahasiswa" height="50"> 
                       <span style="font-size: 1.1rem;" class="ml-md-1">Siswa SMA/Sederajat</span>
                     </v-flex>
                   </v-layout>
                   <v-layout row class="dash-size line-fill margin-bottom-sm justify-center justify-md-start ml-auto mr-auto ml-md-0"/>
-                  <v-layout row justify-center justify-md-start>
+                  <v-layout row wrap>
+                    <v-flex xs8 sm6 md5 offset-xs2>
                     <a href="https://static.arkavidia.id/5/rulebook/Arkavidia5_CP_Rulebook.pdf" class="no-decoration" target="_blank">
                       <v-btn class="box-stroke">Unduh Rulebook
                       </v-btn>
                     </a> 
+                    </v-flex >
+                    <v-flex xs8 sm6 md5 offset-xs2>
                     <a href="https://dashboard.arkavidia.id/register" class="no-decoration" target="_blank">
                       <v-btn class="box-stroke">Daftar Sekarang!
                       </v-btn>
                     </a>
+                    </v-flex>
                   </v-layout>
                 </v-flex>
               </v-layout>

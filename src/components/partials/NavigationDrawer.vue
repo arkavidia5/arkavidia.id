@@ -21,13 +21,13 @@
       <DrawerListGroup title="Events" :items=events />
       <DrawerListGroup title="Competitions" :items=competitions />
       <DrawerListItem to="/about" title="About"/>
-      <!-- <a href="https://app.arkavidia.id/login" class="no-decoration">
+      <a href="https://dashboard.arkavidia.id/" target="_blank" class="no-decoration">
             <v-list-tile>
                 <v-list-tile-content>
                 <v-list-tile-title>Login</v-list-tile-title>
                 </v-list-tile-content>
             </v-list-tile>
-      </a>   -->
+      </a>  
       </v-list>
   </v-navigation-drawer>
  </div>

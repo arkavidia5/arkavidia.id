@@ -35,15 +35,19 @@
                     </v-layout>
                     <v-layout row class="dash-size line-fill margin-bottom-sm justify-center justify-md-start ml-auto mr-auto ml-md-0">
                     </v-layout>
-                    <v-layout row justify-center justify-md-start>
+                    <v-layout row justify-md-start wrap>
+                      <v-flex xs8 sm6 md5 offset-xs2>
                       <a href="https://static.arkavidia.id/5/rulebook/Arkavidia5_Technovation_Rulebook.pdf" class="no-decoration" target="_blank">
                         <v-btn class="box-stroke">Unduh Rulebook
                         </v-btn>
                       </a>
+                      </v-flex>
+                      <v-flex xs8 sm6 md5 offset-xs2>
                       <a href="https://dashboard.arkavidia.id/register" class="no-decoration" target="_blank">
                       <v-btn class="box-stroke">Daftar Sekarang!
                       </v-btn>
-                    </a>
+                      </a>
+                      </v-flex>
                     </v-layout>
                   </v-flex>
                 </v-layout>

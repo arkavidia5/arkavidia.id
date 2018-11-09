@@ -181,7 +181,7 @@ export default {
   @media only screen and (max-width: 767px) {
     .heading-xlarge {
     letter-spacing: normal!important; 
-    font-size: 3.2rem;
+    font-size: 2.8rem;
     }
     .heading-large {
       letter-spacing: normal!important;
