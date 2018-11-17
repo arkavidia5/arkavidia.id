@@ -25,26 +25,44 @@
           </v-container>
         </v-layout>
         
-        <!-- <v-layout primary row white--text >
+        <v-layout primary row white--text >
           <v-container>
             <v-layout row wrap>
-              <v-flex md4 xs12 box-wrapper>
+              <v-flex md5 sm6 xs12 box-wrapper>
                 <h3 class="futura-lt bold">Sponsors</h3>
-                <v-flex white sponsor-box mt-2>
-
+                <v-flex box mt-2>
+                  <v-layout row wrap>
+                    <v-flex v-for="item in sponsors" :key="item.name" :class="item.size == 'L' ? 'xs12' : item.size == 'M' ? 'xs6' : 'xs3'" d-flex justify-center align-center>
+                      <img :src="item.url" :alt="item.name" width="100%" :class="`sp-${item.size}-logo`">
+                    </v-flex>
+                  </v-layout>
                 </v-flex>
               </v-flex>
-              <v-flex md8 xs12 p-3 box-wrapper>
+              <v-flex md5 sm6 xs12 p-3 box-wrapper>
                 <h3 class="futura-lt bold">
                   Media Partners
                 </h3>
-                <v-flex white medpar-box mt-2>
+                <v-flex white box mt-2>
 
                 </v-flex>
               </v-flex>
+              <v-flex md2 sm6 offset-md0 offset-sm3 xs12 p-3 box-wrapper>
+                <h3 class="futura-lt bold text-sm-center text-xs-left text-md-left">
+                  Organized By
+                </h3>
+                <v-layout row wrap>
+                  <v-flex xs6 md12 justify-center align-center d-flex pa-2>
+                    <img src="https://static.arkavidia.id/5/logo/hmif.png" alt="" width="100%">
+                  </v-flex>
+                  <v-flex xs6 md12 justify-center align-center d-flex pa-2>
+                    <img src="https://static.arkavidia.id/5/logo/itb.gif" alt="" width="100%">
+                  </v-flex>
+                </v-layout>
+
+              </v-flex>
             </v-layout>
           </v-container>
-        </v-layout> -->
+        </v-layout>
         <v-layout row class="horizontal-line">
           </v-layout>
           <v-layout row wrap>
@@ -75,7 +93,19 @@
 export default {
   name: 'Footer',
     data: () => ({
-      gradientEnabled: true
+      gradientEnabled: true,
+      sponsors: [
+        {
+          "name": "AWS Educate",
+          "url" : "https://static.arkavidia.id/5/logo/aws.svg",                 
+          "size": "M",
+        },
+        {
+          "name": "Shopee",
+          "url" : "https://static.arkavidia.id/5/logo/shopee.png",                 
+          "size": "M",
+        }
+      ]
     }),
   methods: {
       checkRoute(path) {
@@ -110,13 +140,26 @@ export default {
     height: 3px;
     margin-bottom: 9px;
   }
-  .sponsor-box, .medpar-box {
+  .box {
     width: 100%;
     height: 300px;
   }
   .box-wrapper {
     padding: 15px;
   }
+  .sp-L-logo {
+    object-fit: contain;
+    max-height: 120px;
+  }
+  .sp-M-logo {
+    object-fit: contain;
+    max-height: 80px;
+  }
+  .sp-S-logo {
+      object-fit: contain;
+    max-height: 60px;
+  }
+
 </style>
 
 
