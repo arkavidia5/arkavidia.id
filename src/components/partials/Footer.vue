@@ -49,6 +49,16 @@
                     </v-flex>
                   </v-layout>
                 </v-flex>
+                <h3 class="futura-lt bold">
+                  Community Partners
+                </h3>
+                <v-flex box mt-2>
+                  <v-layout class="row wrap">
+                    <v-flex v-for="item in compars" :key="item.name" xs4 d-flex justify-center align-center pa-1>
+                      <img :src="item.url" :alt="item.name" width="100%" :class="`mp-logo`">
+                    </v-flex>
+                  </v-layout>
+                </v-flex>
               </v-flex>
               <v-flex md2 sm6 offset-md0 offset-sm3 xs12 p-3 box-wrapper>
                 <h3 class="futura-lt bold text-sm-center text-xs-left text-md-left">
@@ -126,6 +136,12 @@ export default {
         {
           "name": "Seputar Event",
           "url": "https://static.arkavidia.id/5/logo/seputarevent.png",
+        }
+      ],
+      compars: [
+        {
+          "name": "Geek Hunter",
+          "url" : "https://static.arkavidia.id/5/logo/geekhunter.jpg",
         }
       ]
     }),
