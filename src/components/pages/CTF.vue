@@ -4,7 +4,7 @@
       <v-container no-padding>
         <!-- Hero -->
         <v-layout row margin-bottom-xl class="page-full page-margin" style="margin-top: -30px;">
-          <v-flex sm12 xs12 md8 id="comp-title">
+          <v-flex sm12 xs12 md10 id="comp-title">
             <div>
               <v-layout class="row">
                 <v-flex md12 xs8 style="z-index: 2">
@@ -40,14 +40,14 @@
                   <v-layout row class="dash-size line-fill margin-bottom-sm justify-center justify-md-start ml-auto mr-auto ml-md-0">
                   </v-layout>
                   <v-layout row justify-md-start wrap>
-                    <v-flex xs8 sm6 md5 offset-xs2>
+                    <v-flex xs8 sm6 md6 offset-xs2 offset-sm0>
 
                     <a href="https://static.arkavidia.id/5/rulebook/Arkavidia5_CTF_Rulebook.pdf" class="no-decoration" target="_blank">
                       <v-btn class="box-stroke">Unduh Rulebook
                       </v-btn>
                     </a>
                     </v-flex>
-                    <v-flex xs8 sm6 md5 offset-xs2>
+                    <v-flex xs8 sm6 md6 offset-xs2 offset-sm0>
                     <a href="https://dashboard.arkavidia.id/register" class="no-decoration" target="_blank">
                       <v-btn class="box-stroke">Daftar Sekarang!
                       </v-btn>
@@ -78,7 +78,7 @@
             </v-layout>
             <v-layout row>
               <Timeline>
-                <TimelineItem direction="right" image="https://static.arkavidia.id/5/images/icons/competition/icon_pendaftaran.svg" title="PENDAFTARAN" time="5 November - 18 November 2018" description="Pendaftaran dilakukan secara online melalui website"/>
+                <TimelineItem direction="right" image="https://static.arkavidia.id/5/images/icons/competition/icon_pendaftaran.svg" title="PENDAFTARAN" time="5 November - 02 Desember 2018" description="Pendaftaran dilakukan secara online melalui website"/>
                 <TimelineItem direction="left" image="https://static.arkavidia.id/5/images/icons/competition/icon_type.svg" title="BABAK PENYISIHAN" time="12 Januari 2019" description="Penyisihan dilakukan secara online"/> 
                 <TimelineItem direction="right" image="https://static.arkavidia.id/5/images/icons/competition/icon_pengumuman.svg" title="PENGUMUMAN FINALIS" time="20 Januari 2019" description="Pengumuman finalis di media sosial Arkavidia 5.0"/> 
                 <TimelineItem direction="left" image="https://static.arkavidia.id/5/images/icons/competition/icon_podium.svg" title="FINAL" time="9 Februari 2019" description="Final dilakukan onsite di ITB"/> 
