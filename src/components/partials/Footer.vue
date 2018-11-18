@@ -42,8 +42,12 @@
                 <h3 class="futura-lt bold">
                   Media Partners
                 </h3>
-                <v-flex white box mt-2>
-
+                <v-flex box mt-2>
+                  <v-layout class="row wrap">
+                    <v-flex v-for="item in medpars" :key="item.name" xs4 d-flex justify-center align-center pa-1>
+                      <img :src="item.url" :alt="item.name" width="100%" :class="`mp-logo`">
+                    </v-flex>
+                  </v-layout>
                 </v-flex>
               </v-flex>
               <v-flex md2 sm6 offset-md0 offset-sm3 xs12 p-3 box-wrapper>
@@ -105,6 +109,24 @@ export default {
           "url" : "https://static.arkavidia.id/5/logo/shopee.png",                 
           "size": "M",
         }
+      ],
+      medpars: [
+        {
+          "name": "Kampus Update",
+          "url" : "https://static.arkavidia.id/5/logo/kampusupdate.png",
+        },
+        {
+          "name": "Event Kampus",
+          "url": "https://static.arkavidia.id/5/logo/eventkampus.png",
+        },
+        {
+          "name": "Techno Event Academy",
+          "url": "https://static.arkavidia.id/5/logo/technoeventacademy.jpg"
+        },
+        {
+          "name": "Seputar Event",
+          "url": "https://static.arkavidia.id/5/logo/seputarevent.png",
+        }
       ]
     }),
   methods: {
@@ -142,7 +164,6 @@ export default {
   }
   .box {
     width: 100%;
-    height: 300px;
   }
   .box-wrapper {
     padding: 15px;
@@ -158,6 +179,10 @@ export default {
   .sp-S-logo {
       object-fit: contain;
     max-height: 60px;
+  }
+  .mp-logo {
+    max-height: 60px;
+    object-fit: contain;
   }
 
 </style>
