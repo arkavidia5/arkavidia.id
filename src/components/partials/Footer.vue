@@ -28,7 +28,7 @@
         <v-layout primary row white--text >
           <v-container>
             <v-layout row wrap>
-              <v-flex md5 sm6 xs12 box-wrapper>
+              <v-flex md5 sm6 xs12 box-wrapper px-4>
                 <h3 class="futura-lt bold">Sponsors</h3>
                 <v-flex box mt-2>
                   <v-layout row wrap>
@@ -38,7 +38,7 @@
                   </v-layout>
                 </v-flex>
               </v-flex>
-              <v-flex md5 sm6 xs12 p-3 box-wrapper>
+              <v-flex md5 sm6 xs12 px-4 box-wrapper>
                 <h3 class="futura-lt bold">
                   Media Partners
                 </h3>
@@ -60,16 +60,16 @@
                   </v-layout>
                 </v-flex>
               </v-flex>
-              <v-flex md2 sm6 offset-md0 offset-sm3 xs12 p-3 box-wrapper>
+              <v-flex md2 sm6 offset-md0 offset-sm3 xs12 pa-2 box-wrapper>
                 <h3 class="futura-lt bold text-sm-center text-xs-left text-md-left">
                   Organized By
                 </h3>
                 <v-layout row wrap>
-                  <v-flex xs6 md12 justify-center align-center d-flex pa-2>
-                    <img src="https://static.arkavidia.id/5/logo/hmif.png" alt="" width="100%">
+                  <v-flex xs6 md10 justify-center align-center d-flex px-2>
+                    <img src="https://static.arkavidia.id/5/logo/hmif.png" alt="" style="width:60%">
                   </v-flex>
-                  <v-flex xs6 md12 justify-center align-center d-flex pa-2>
-                    <img src="https://static.arkavidia.id/5/logo/itb.gif" alt="" width="100%">
+                  <v-flex xs6 md10 justify-center align-center d-flex pa-2>
+                    <img src="https://static.arkavidia.id/5/logo/itb.gif" alt="" style="width:60%">
                   </v-flex>
                 </v-layout>
 
@@ -80,7 +80,7 @@
         <v-layout row class="horizontal-line">
           </v-layout>
           <v-layout row wrap>
-            <v-flex md4 xs12 style="font-size: 1rem; text-align:center" >
+            <v-flex md4 xs12 pa-2 style="font-size: 1rem; text-align:center" >
             <small v-if="this.$vuetify.breakpoint.smAndDown">
               &copy;2018 -  Arkavidia 5.0 Creative and IT Developer Team
             </small>
