@@ -96,7 +96,7 @@
         </v-layout>
       </v-container>
     </v-layout>
-    <v-layout row section competitions justify-center>
+    <!-- <v-layout row section competitions justify-center>
       <v-container justify-center>
         <v-layout row justify-center style="margin-bottom:30px;">
         <v-flex md10 sm8 xs12 justify-center>
@@ -109,7 +109,7 @@
         </v-flex>
         </v-layout>
       </v-container>
-    </v-layout>
+    </v-layout> -->
     <!-- <PageBreak/>
      <v-layout row section schedule justify-center>
       <h1 class="futura-lt bold heading">

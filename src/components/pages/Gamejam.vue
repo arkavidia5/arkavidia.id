@@ -38,6 +38,12 @@
           <div class="text-xs-justify" style="margin-left: 8px">
             <p>Di era digital ini sudah banyak bidang yang berkembang pesat. Tak terkecuali bidang game development. Banyak sekali developer game yang memiliki minat untuk mengembangkan game namun tidak mendapatkan ruang untuk menampilkan hasil kreasi mereka. Global Game Jam dapat menjadi wadah bagi anda yang tertarik untuk menampilkan hasil karya terbaik anda di bidang game development. Global Game Jam merupakan acara tahunan yang diadakan di seluruh dunia, tak terkecuali di kota Bandung. Peserta lomba saling berlomba satu sama lain dalam membuat sebuah game dengan tema tertentu.</p>
           </div>
+          <v-flex md1 xs12>
+            <a href="https://bit.ly/GGJ-ITB-2019" class="no-decoration" target='_blank'>
+             <v-btn class="box-stroke" >Daftar Sekarang!</v-btn>
+            </a>
+          </v-flex>
+            
           <div>
             <div class="mid-button-group mt-3">
               <div class="btn-line mb-3 ml-2"></div>
