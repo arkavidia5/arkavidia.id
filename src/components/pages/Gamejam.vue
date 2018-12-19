@@ -19,7 +19,7 @@
           <div class="view-more">
             <div class="futura-bt" style="letter-spacing: 4px; color: #094260">VIEW MORE</div>
             <div class="chevron futura-bt" v-scroll-to="'#itfest-details'">
-              V
+              <v-icon>keyboard_arrow_down</v-icon>
             </div>
           </div>
         </v-flex>

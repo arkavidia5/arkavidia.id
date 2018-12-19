@@ -19,7 +19,7 @@
           <div class="view-more">
             <div class="futura-bt" style="letter-spacing: 4px; color: #094260">VIEW MORE</div>
             <div class="chevron futura-bt" v-scroll-to="'#itfest-details'">
-              V
+              <v-icon>keyboard_arrow_down</v-icon>
             </div>
           </div>
         </v-flex>
@@ -38,6 +38,12 @@
           <div class="text-xs-justify" style="margin-left: 8px">
             <p>Coding Class merupakan sebuah Workshop Web Development yang dilakukan selama dua hari berturut-turut. Pada acara ini, peserta akan mendapatkan materi mengenai dasar-dasar web development serta seminar yang akan membuka wawasan mengenai web development. Target peserta adalah siswa tingkat SMA. Peserta dialokasikan ke suatu tim dengan satu mentor. Mentor akan mengawal keberjalanan class hingga peserta berhasil membuat demo dari produk terkait web. Harapan camp ini adalah siswa SMA di Indonesia dapat memiliki skill yang berguna dalam mengeksplorasi dunia IT dalam Revolusi Industri 4.0 saat ini.</p>
           </div>
+            <v-flex md1 xs12>
+            <a href="https://dashboard.arkavidia.id/preevent/codingclass" class="no-decoration" target='_blank'>
+             <v-btn class="box-stroke" >Daftar Sekarang!</v-btn>
+            </a>
+          </v-flex>
+
           <div>
             <div class="mid-button-group mt-3">
               <div class="btn-line mb-3 ml-2"></div>
