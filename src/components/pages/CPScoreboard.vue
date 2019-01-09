@@ -16,12 +16,12 @@
           <v-flex md12 xs8 style="z-index: 2">
             <button
               class="category box-stroke"
-              v-bind:class="{ active: isSenior }"
-              v-on:click="isSenior = true"> Senior </button>
+              v-bind:class="{ active: cid === 2 }"
+              v-on:click="cid = 2"> Senior </button>
             <button
               class="category box-stroke"
-              v-bind:class="{ active: !isSenior }"
-              v-on:click="isSenior = false"> Junior </button>
+              v-bind:class="{ active: cid === 3 }"
+              v-on:click="cid = 3"> Junior </button>
           </v-flex>
         </v-layout>
         <v-layout row class="dash-size line-fill margin-bottom-sm">
@@ -29,6 +29,9 @@
         <!-- /Title -->
         <!-- Scoreboard -->
         <v-layout margin-bottom-xl class="flex-column overflow-x-auto" v-if="this.scoreboard.length > 0">
+          <v-flex md12>
+            Last fetch: {{ this.lastFetched }}
+          </v-flex>
           <v-flex class="t-row">
             <div class="t-col-rank"> Rank </div>
             <div class="t-col-team"> Team </div>
@@ -63,7 +66,7 @@
             </div>
           </v-flex>
         </v-layout>
-        <v-layout  v-if="this.scoreboard.length === 0">
+        <v-layout  v-if="this.scoreboard.length === 0" margin-bottom-xl>
           Kontes tidak sedang berjalan.
         </v-layout>
         <!-- /Scoreboard -->
@@ -83,23 +86,28 @@ export default {
   },
   data: function () {
     return {
-      isSenior: true,
+      cid: 2,
       scoreboard: [],
       teams: {},
+      lastFetched: '',
     };
   },
-  computed: {
-    cid : function () {
-      return (this.isSenior ? 3 : 2);
-    },
-  },
   watch: {
-    isSenior: async function () {
-      this.teams = await this.getTeam()
+    cid: async function () {
+      this.teams = await this.getTeam();
       this.scoreboard = await this.getScoreboard();
     }
   },
   methods: {
+    formatDate: function (date) {
+      let hours = date.getHours();
+      let minutes = date.getMinutes();
+      let seconds = date.getSeconds();
+      minutes = minutes < 10 ? '0' + minutes : minutes;
+      seconds = seconds < 10 ? '0' + seconds : seconds;
+      let strTime = hours + ':' + minutes + ':' + seconds;
+      return date.getMonth()+1 + "/" + date.getDate() + "/" + date.getFullYear() + "  " + strTime;
+    },
     getTeam: async function () {
       try {
         let url = 'http://cp.arkavidia.id/domjudge/api/teams?cid=' + this.cid;
@@ -122,16 +130,23 @@ export default {
           response[i].team_affiliation = this.teams[response[i].team_id].affiliation;
           response[i].team_image = "http://cp.arkavidia.id/domjudge/images/affiliations/" + this.teams[response[i].team_id].team_id + ".png";
         }
+        this.lastFetched = this.formatDate(new Date());
         return response;
       } catch (e) {
         return [];
       }
-    }
+    },
+    refreshScoreboard: function () {
+      let ref = this;
+      this.getScoreboard().then((res) => {
+        ref.scoreboard = res;
+      });
+      setTimeout(this.refreshScoreboard, 30000);
+    },
   },
   async created() {
     this.teams = await this.getTeam();
-    this.scoreboard = await this.getScoreboard();
-    this.isSenior = true;
+    this.refreshScoreboard();
   }
 }
 
