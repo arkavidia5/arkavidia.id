@@ -16,12 +16,20 @@
           <v-flex md12 xs8 style="z-index: 2">
             <button
               class="category box-stroke"
-              v-bind:class="{ active: cid === 2 }"
-              v-on:click="cid = 2"> Senior </button>
+              v-bind:class="{ active: cid === 5 }"
+              v-on:click="cid = 5"> Trial Senior </button>
             <button
               class="category box-stroke"
-              v-bind:class="{ active: cid === 3 }"
-              v-on:click="cid = 3"> Junior </button>
+              v-bind:class="{ active: cid === 4 }"
+              v-on:click="cid = 4"> Trial Junior </button>
+            <button
+              class="category box-stroke"
+              v-bind:class="{ active: cid === 7 }"
+              v-on:click="cid = 7"> Penyisihan Senior </button>
+            <button
+              class="category box-stroke"
+              v-bind:class="{ active: cid === 6 }"
+              v-on:click="cid = 6"> Penyisihan Junior </button>
           </v-flex>
         </v-layout>
         <v-layout row class="dash-size line-fill margin-bottom-sm">
@@ -86,7 +94,7 @@ export default {
   },
   data: function () {
     return {
-      cid: 2,
+      cid: 5,
       scoreboard: [],
       teams: {},
       lastFetched: '',
