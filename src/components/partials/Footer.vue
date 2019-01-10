@@ -32,7 +32,7 @@
                 <h3 class="futura-lt bold">Sponsors</h3>
                 <v-flex box mt-2>
                   <v-layout row wrap>
-                    <v-flex v-for="item in sponsors" :key="item.name" :class="item.size == 'L' ? 'xs12' : item.size == 'M' ? 'xs6' : 'xs3'" d-flex justify-center align-center>
+                    <v-flex v-for="item in sponsors" :key="item.name" :class="item.size == 'L' ? 'xs6' : item.size == 'M' ? 'xs6' : 'xs3'" d-flex justify-center align-center>
                       <img :src="item.url" :alt="item.name" width="100%" :class="`sp-${item.size}-logo`">
                     </v-flex>
                   </v-layout>
@@ -44,7 +44,7 @@
                 </h3>
                 <v-flex box mt-2>
                   <v-layout class="row wrap">
-                    <v-flex v-for="item in medpars" :key="item.name" xs4 d-flex justify-center align-center pa-1>
+                    <v-flex v-for="item in medpars" :key="item.name" xs3 d-flex justify-center align-center pa-1>
                       <img :src="item.url" :alt="item.name" width="100%" :class="`mp-logo`">
                     </v-flex>
                   </v-layout>
@@ -54,7 +54,7 @@
                 </h3>
                 <v-flex box mt-2>
                   <v-layout class="row wrap">
-                    <v-flex v-for="item in compars" :key="item.name" xs4 d-flex justify-center align-center pa-1>
+                    <v-flex v-for="item in compars" :key="item.name" xs3 d-flex justify-center align-center pa-1>
                       <img :src="item.url" :alt="item.name" width="100%" :class="`mp-logo`">
                     </v-flex>
                   </v-layout>
@@ -117,6 +117,16 @@ export default {
         {
           "name": "Shopee",
           "url" : "https://static.arkavidia.id/5/logo/shopee.png",                 
+          "size": "L",
+        },
+        {
+          "name": "Gojek",
+          "url" : "https://static.arkavidia.id/5/logo/gojek.png",                 
+          "size": "L",
+        },
+        {
+          "name": "Tokopedia",
+          "url" : "https://static.arkavidia.id/5/logo/tokopedia.png",                 
           "size": "M",
         }
       ],
