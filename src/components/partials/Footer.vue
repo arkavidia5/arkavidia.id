@@ -32,8 +32,8 @@
                 <h3 class="futura-lt bold">Sponsors</h3>
                 <v-flex box mt-2>
                   <v-layout row wrap>
-                    <v-flex v-for="item in sponsors" :key="item.name" :class="item.size == 'L' ? 'xs6' : item.size == 'M' ? 'xs6' : 'xs3'" d-flex justify-center align-center>
-                      <img :src="item.url" :alt="item.name" width="100%" :class="`sp-${item.size}-logo`">
+                    <v-flex v-for="item in sponsors" :key="item.name" :class="item.size == 'L' ? 'xs6' : item.size == 'XL' ? 'xs11' : 'xs3'" d-flex justify-center align-center>
+                      <img :src="item.url" :alt="item.name" width="80%" :class="`sp-${item.size}-logo`">
                     </v-flex>
                   </v-layout>
                 </v-flex>
@@ -110,9 +110,14 @@ export default {
       gradientEnabled: true,
       sponsors: [
         {
+          "name": "Tokopedia",
+          "url" : "https://static.arkavidia.id/5/logo/tokopedia.png",                 
+          "size": "XL",
+        },
+        {
           "name": "AWS Educate",
           "url" : "https://static.arkavidia.id/5/logo/aws.svg",                 
-          "size": "M",
+          "size": "L",
         },
         {
           "name": "Shopee",
@@ -123,11 +128,6 @@ export default {
           "name": "Gojek",
           "url" : "https://static.arkavidia.id/5/logo/gojek.png",                 
           "size": "L",
-        },
-        {
-          "name": "Tokopedia",
-          "url" : "https://static.arkavidia.id/5/logo/tokopedia.png",                 
-          "size": "M",
         }
       ],
       medpars: [
