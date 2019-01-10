@@ -48,7 +48,8 @@
         right: null,
         preevents: [
             {title: "Global Game Jam", to: "/preevent/gamejam"},
-            {title: "Coding Class", to: "/preevent/codingclass"}
+            {title: "Coding Class", to: "/preevent/codingclass"},
+            {title: "Data Academy", to: "/preevent/dataacademy"}
         ],
         events: [
             {title: "ArkavTalk", to: "/event/arkavtalk"},
