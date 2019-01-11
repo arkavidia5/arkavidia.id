@@ -118,7 +118,7 @@ export default {
     },
     getTeam: async function () {
       try {
-        let url = 'http://cp.arkavidia.id/domjudge/api/teams?cid=' + this.cid;
+        let url = 'https://cp.arkavidia.id/domjudge/api/teams?cid=' + this.cid;
         let response = await jquery.get(url);
         let result = {};
         for (let i = 0; i < response.length; i++) {
@@ -131,12 +131,12 @@ export default {
     },
     getScoreboard: async function () {
       try {
-        let url = 'http://cp.arkavidia.id/domjudge/api/scoreboard?cid=' + this.cid;
+        let url = 'https://cp.arkavidia.id/domjudge/api/scoreboard?cid=' + this.cid;
         let response = await jquery.get(url);
         for (let i = 0; i < response.length; i++) {
           response[i].team_name = this.teams[response[i].team_id].name;
           response[i].team_affiliation = this.teams[response[i].team_id].affiliation;
-          response[i].team_image = "http://cp.arkavidia.id/domjudge/images/affiliations/" + this.teams[response[i].team_id].team_id + ".png";
+          response[i].team_image = "https://cp.arkavidia.id/domjudge/images/affiliations/" + this.teams[response[i].team_id].team_id + ".png";
         }
         this.lastFetched = this.formatDate(new Date());
         return response;
