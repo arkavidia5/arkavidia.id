@@ -39,7 +39,7 @@
         </v-flex>
         <v-flex xl8 lg8 md8 id="preevent-content">
           <div class="text-xs-justify" style="margin-left: 8px">
-            <p>Data Academy merupakan sebuah acara yang akan mengajarkanmu mempelajari dan menyelesaikan suatu masalah dengan data processing yang baik. Dalam acara ini, kalian akan mendapatkan berbagai seminar tentang data science dari pembicara-pembicara terkemuka, juga praktik data dashboarding maupun preprocessing.</p>
+            <p>Di tengah tingginya kebutuhan akan data scientist di industri, Data Academy Arkavidia hadir untuk memberikan kesempatan bagi pesertanya untuk menambah wawasan seputar data science. Berkolaborasi dengan GO-JEK, peserta Data Academy Arkavidia akan belajar langsung bersama para data scientist dari GO-JEK untuk mengeksplorasi berbagai topik dalam data science dan berkesempatan melihat langsung bagaimana data science diaplikasikan dalam industri.</p>
           </div>
             <v-flex md1 xs12>
             <a href="https://bit.ly/DataAcademy2019" class="no-decoration" target='_blank'>
