@@ -25,14 +25,24 @@
           </h1>
          </v-layout>
         <v-layout row justify-center mt-4>          
-          <router-link to="/preevent/gamejam" class="d-flex justify-center align-center no-decoration black--text mr-4 flex-column" >
-            <img src="../../assets/ggj-01.svg" alt="gamejam-ico" height="150">
-            <h3 style="margin-top:4px;">Global Game Jam</h3>
-          </router-link>
-          <router-link to="/preevent/codingclass" class="d-flex justify-center align-center no-decoration black--text ml-4 flex-column"  >
-            <img src="../../assets/codingclass-02.svg" alt="codingclass-ico" height="150">
-            <h3 style="margin-top:4px;">Coding Class</h3>
-          </router-link>
+          <v-flex md3>
+            <router-link to="/preevent/gamejam" class="d-flex justify-center align-center no-decoration black--text flex-column" >
+              <img src="../../assets/ggj-01.svg" alt="gamejam-ico" height="150">
+              <h3 style="margin-top:4px;">Global Game Jam</h3>
+            </router-link>
+          </v-flex>
+          <v-flex md3>
+            <router-link to="/preevent/codingclass" class="d-flex justify-center align-center no-decoration black--text flex-column"  >
+              <img src="../../assets/codingclass-02.svg" alt="codingclass-ico" height="150">
+              <h3 style="margin-top:4px;">Coding Class</h3>
+            </router-link>
+          </v-flex>
+          <v-flex md3>
+            <router-link to="/preevent/dataacademy" class="d-flex justify-center align-center no-decoration black--text flex-column"  >
+              <img src="../../assets/dataacademy.svg" alt="dataacademy-ico" height="150">
+              <h3 style="margin-top:4px;">Data Academy</h3>
+            </router-link>
+          </v-flex>
         </v-layout>
        </v-container>
     </v-layout>

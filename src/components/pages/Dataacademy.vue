@@ -15,7 +15,7 @@
           <div class="heading-title heading-medium">
             <h1 class="heading-yellow futura-bt">DATA<br>ACADEMY</h1>
             <h1 class="shadow futura-bt">DATA<br>ACADEMY</h1>
-
+            <br/>
             <h5 class="shadow futura-bt">IN COLLABORATION WITH</h5>
             <img src="../../assets/gojek.png" alt="gojek-ico" height="50px" style="margin-top: 0px; display:block;">
           </div>
@@ -41,11 +41,11 @@
           <div class="text-xs-justify" style="margin-left: 8px">
             <p>Data Academy merupakan sebuah acara yang akan mengajarkanmu mempelajari dan menyelesaikan suatu masalah dengan data processing yang baik. Dalam acara ini, kalian akan mendapatkan berbagai seminar tentang data science dari pembicara-pembicara terkemuka, juga praktik data dashboarding maupun preprocessing.</p>
           </div>
-            <!-- <v-flex md1 xs12>
-            <a href="#" class="no-decoration" target='_blank'>
+            <v-flex md1 xs12>
+            <a href="https://bit.ly/DataAcademy2019" class="no-decoration" target='_blank'>
              <v-btn class="box-stroke" >Daftar Sekarang!</v-btn>
             </a>
-          </v-flex> -->
+          </v-flex>
 
           <div>
             <div class="mid-button-group mt-3">
