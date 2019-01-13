@@ -17,11 +17,11 @@
             <button
               class="category box-stroke"
               v-bind:class="{ active: cid === 4 }"
-              v-on:click="cid = 4, isFetch = true"> Penyisihan Senior </button>
+              v-on:click="cid = 4, isFetch = true, lastFetched = null, scoreboard = []"> Penyisihan Senior </button>
             <button
               class="category box-stroke"
               v-bind:class="{ active: cid === 3 }"
-              v-on:click="cid = 3, isFetch = true"> Penyisihan Junior </button>
+              v-on:click="cid = 3, isFetch = true, lastFetched = null, scoreboard = []"> Penyisihan Junior </button>
           </v-flex>
         </v-layout>
         <v-layout row class="dash-size line-fill margin-bottom-sm">
@@ -29,7 +29,7 @@
         <!-- /Title -->
         <!-- Loading Indicator -->
         <v-layout v-if="this.isFetch == true">
-        <v-flex md12>
+        <v-flex md12 justify-center="" align-center="">
           <div class="loader"></div>
         </v-flex>
         </v-layout>
