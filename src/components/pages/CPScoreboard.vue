@@ -17,16 +17,20 @@
             <button
               class="category box-stroke"
               v-bind:class="{ active: cid === 4 }"
-              v-on:click="cid = 4"> Penyisihan Senior </button>
+              v-on:click="cid = 4, isFetch = true"> Penyisihan Senior </button>
             <button
               class="category box-stroke"
               v-bind:class="{ active: cid === 3 }"
-              v-on:click="cid = 3"> Penyisihan Junior </button>
+              v-on:click="cid = 3, isFetch = true"> Penyisihan Junior </button>
           </v-flex>
         </v-layout>
         <v-layout row class="dash-size line-fill margin-bottom-sm">
         </v-layout>
         <!-- /Title -->
+        <!-- Loading Indicator -->
+        <v-flex md12 v-if="this.isFetch == true">
+          Please wait...
+        </v-flex>
         <!-- Scoreboard -->
         <v-layout margin-bottom-xl class="flex-column overflow-x-auto" v-if="this.scoreboard.length > 0">
           <v-flex md12>
@@ -95,6 +99,7 @@ export default {
       scoreboard: [],
       teams: {},
       lastFetched: null,
+      isFetch: true,
     };
   },
   watch: {
@@ -130,6 +135,7 @@ export default {
       try {
         this.lastFetched = null;
         let url = 'https://cp.arkavidia.id/domjudge/api/scoreboard?cid=' + this.cid;
+        this.isFetch = true;
         let response = await jquery.get(url);
         for (let i = 0; i < response.length; i++) {
           response[i].team_name = this.teams[response[i].team_id].name;
@@ -137,6 +143,7 @@ export default {
           response[i].team_image = "https://cp.arkavidia.id/domjudge/images/affiliations/" + this.teams[response[i].team_id].team_id + ".png";
         }
         this.lastFetched = this.formatDate(new Date());
+        this.isFetch = false;
         return response;
       } catch (e) {
         return [];
