@@ -36,7 +36,7 @@
         <!-- Scoreboard -->
         <v-layout margin-bottom-xl class="flex-column overflow-x-auto" v-if="this.scoreboard.length > 0">
           <v-flex md12>
-            Last fetch: {{ this.lastFetched }}
+            Terakhir diperbaharui: {{ this.lastFetched }}. Scoreboard dibekukan 1 jam sebelum kontes selesai. Scoreboard akan dibuka pada tanggal 20 Januari 2019, bersamaan dengan pengumuman finalis.
           </v-flex>
           <v-flex class="t-row">
             <div class="t-col-rank"> Rank </div>
