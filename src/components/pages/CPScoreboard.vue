@@ -28,9 +28,11 @@
         </v-layout>
         <!-- /Title -->
         <!-- Loading Indicator -->
-        <v-flex md12 v-if="this.isFetch == true">
-          Please wait...
+        <v-layout v-if="this.isFetch == true">
+        <v-flex md12>
+          <div class="loader"></div>
         </v-flex>
+        </v-layout>
         <!-- Scoreboard -->
         <v-layout margin-bottom-xl class="flex-column overflow-x-auto" v-if="this.scoreboard.length > 0">
           <v-flex md12>
@@ -251,6 +253,20 @@ export default {
 
 .text-small {
   font-size: .75em;
+}
+
+.loader {
+  border: 4px solid #f3f3f3; /* Light grey */
+  border-top: 4px solid #10464f; /* Blue */
+  border-radius: 50%;
+  width: 45px;
+  height: 45px;
+  animation: spin 2s linear infinite;
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
 }
 
 @media screen and (max-width: 1024px) {
