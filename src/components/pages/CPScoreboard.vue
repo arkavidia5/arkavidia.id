@@ -16,20 +16,12 @@
           <v-flex md12 xs8 style="z-index: 2">
             <button
               class="category box-stroke"
-              v-bind:class="{ active: cid === 5 }"
-              v-on:click="cid = 5"> Trial Senior </button>
-            <button
-              class="category box-stroke"
               v-bind:class="{ active: cid === 4 }"
-              v-on:click="cid = 4"> Trial Junior </button>
+              v-on:click="cid = 4"> Penyisihan Senior </button>
             <button
               class="category box-stroke"
-              v-bind:class="{ active: cid === 7 }"
-              v-on:click="cid = 7"> Penyisihan Senior </button>
-            <button
-              class="category box-stroke"
-              v-bind:class="{ active: cid === 6 }"
-              v-on:click="cid = 6"> Penyisihan Junior </button>
+              v-bind:class="{ active: cid === 3 }"
+              v-on:click="cid = 3"> Penyisihan Junior </button>
           </v-flex>
         </v-layout>
         <v-layout row class="dash-size line-fill margin-bottom-sm">
@@ -43,6 +35,7 @@
           <v-flex class="t-row">
             <div class="t-col-rank"> Rank </div>
             <div class="t-col-team"> Team </div>
+            <div class="t-col-fill"> </div>
             <div class="t-col-score"> Solved </div>
             <div class="t-col-score"> Time </div>
             <div class="t-col-prob" v-for="problem in this.scoreboard[0].problems" :key="problem.problem_id">
@@ -63,6 +56,7 @@
                 </div>
               </div>
             </div>
+            <div class="t-col-fill"> </div>
             <div class="t-col-score"> {{ team.score.num_solved }} </div>
             <div class="t-col-score"> {{ team.score.total_time }} </div>
             <div class="t-col-prob" v-bind:class="{ solved: problem.solved, pending: problem.num_pending > 0, judged: problem.num_judged > 0 }" v-for="problem in team.problems" :key="problem.problem_id">
@@ -74,8 +68,11 @@
             </div>
           </v-flex>
         </v-layout>
-        <v-layout  v-if="this.scoreboard.length === 0" margin-bottom-xl>
+        <v-layout v-if="this.lastFetched !== null && this.scoreboard.length === 0" margin-bottom-xl>
           Kontes tidak sedang berjalan.
+        </v-layout>
+        <v-layout v-if="!this.lastFetched === null" margin-bottom-xl>
+          Sedang mengambil data...
         </v-layout>
         <!-- /Scoreboard -->
       </v-container>
@@ -94,10 +91,10 @@ export default {
   },
   data: function () {
     return {
-      cid: 5,
+      cid: 4,
       scoreboard: [],
       teams: {},
-      lastFetched: '',
+      lastFetched: null,
     };
   },
   watch: {
@@ -131,6 +128,7 @@ export default {
     },
     getScoreboard: async function () {
       try {
+        this.lastFetched = null;
         let url = 'https://cp.arkavidia.id/domjudge/api/scoreboard?cid=' + this.cid;
         let response = await jquery.get(url);
         for (let i = 0; i < response.length; i++) {
@@ -190,7 +188,8 @@ export default {
 }
 
 .t-col-rank, .t-col-team, .t-col-prob, .t-col-score {
-  padding: 10px;
+  padding: 5px;
+  overflow-x: hidden;
 }
 
 .t-col-rank {
@@ -202,7 +201,11 @@ export default {
 }
 
 .t-col-team {
-  flex: 1 0 200px;
+  flex: 0 0 200px;
+}
+
+.t-col-fill {
+  flex: 1 1;
 }
 
 .t-col-image {
@@ -212,11 +215,17 @@ export default {
 .t-col-score {
   flex: 0 0 75px;
   text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .t-col-prob {
-  flex: 0 0 75px;
+  flex: 0 0 50px;
   text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .t-col-prob.pending {

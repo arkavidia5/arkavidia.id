@@ -36,19 +36,25 @@
                     </v-flex>
                   </v-layout>
                   <v-layout row class="dash-size line-fill margin-bottom-sm justify-center justify-md-start ml-auto mr-auto ml-md-0"/>
-                  <v-layout row wrap>
-                    <v-flex xs8 sm6 md6 offset-xs2 offset-sm0>
+                  <v-layout row wrap justify-start>
+                    <v-flex col>
                     <a href="https://static.arkavidia.id/5/rulebook/Arkavidia5_CP_Rulebook.pdf" class="no-decoration" target="_blank">
                       <v-btn class="box-stroke">Unduh Rulebook
                       </v-btn>
                     </a> 
                     </v-flex >
-                    <v-flex xs8 sm6 md6 offset-xs2 offset-sm0>
+                    <v-flex col>
                     <a href="https://dashboard.arkavidia.id/register" class="no-decoration" target="_blank">
                       <v-btn class="box-stroke">Daftar Sekarang!
                       </v-btn>
                     </a>
                     </v-flex>
+                    <v-flex col>
+                    <router-link to="/competition/cp/scoreboard" class="no-decoration" >
+                      <v-btn class="box-stroke">Scoreboard
+                      </v-btn>
+                    </router-link>
+                    </v-flex >
                   </v-layout>
                 </v-flex>
               </v-layout>
