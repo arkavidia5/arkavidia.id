@@ -27,6 +27,7 @@ import Codingclass from './components/pages/Codingclass.vue'
 import Technovation from './components/pages/Technovation.vue'
 import Arkalogica from './components/pages/Arkalogica.vue';
 import Arkavtalk from './components/pages/Arkavtalk.vue';
+import CPScoreboard from './components/pages/CPScoreboard';
 import NotFound from './components/pages/NotFound.vue'
 
 import Toolbar from './components/partials/Toolbar.vue'
@@ -54,6 +55,7 @@ const routes = [
   {path: "/preevent/dataacademy", component: Dataacademy},
   {path: "/preevent/codingclass", component: Codingclass},
   // {path: "/event/seminar", component: Seminar}, 
+  {path: "/competition/cp/scoreboard", component: CPScoreboard},
   {path: "*", component: NotFound}
 ];
 
@@ -155,6 +157,9 @@ export default {
   .heading {
     font-size: 2rem;
     color: #04464F;
+  }
+  .flex-row {
+    flex-direction: row;
   }
   .flex-column {
     flex-direction: column;

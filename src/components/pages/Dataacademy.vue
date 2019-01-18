@@ -15,7 +15,7 @@
           <div class="heading-title heading-medium">
             <h1 class="heading-yellow futura-bt">DATA<br>ACADEMY</h1>
             <h1 class="shadow futura-bt">DATA<br>ACADEMY</h1>
-
+            <br/>
             <h5 class="shadow futura-bt">IN COLLABORATION WITH</h5>
             <img src="../../assets/gojek.png" alt="gojek-ico" height="50px" style="margin-top: 0px; display:block;">
           </div>
@@ -39,10 +39,10 @@
         </v-flex>
         <v-flex xl8 lg8 md8 id="preevent-content">
           <div class="text-xs-justify" style="margin-left: 8px">
-            <p>Data Academy merupakan sebuah acara yang akan mengajarkanmu mempelajari dan menyelesaikan suatu masalah dengan data processing yang baik. Dalam acara ini, kalian akan mendapatkan berbagai seminar tentang data science dari pembicara-pembicara terkemuka, juga praktik data dashboarding maupun preprocessing.</p>
+            <p>Di tengah tingginya kebutuhan akan data scientist di industri, Data Academy Arkavidia hadir untuk memberikan kesempatan bagi pesertanya untuk menambah wawasan seputar data science. Berkolaborasi dengan GO-JEK, peserta Data Academy Arkavidia akan belajar langsung bersama para data scientist dari GO-JEK untuk mengeksplorasi berbagai topik dalam data science dan berkesempatan melihat langsung bagaimana data science diaplikasikan dalam industri.</p>
           </div>
             <v-flex md1 xs12>
-            <a href="#" class="no-decoration" target='_blank'>
+            <a href="https://bit.ly/DataAcademy2019" class="no-decoration" target='_blank'>
              <v-btn class="box-stroke" >Daftar Sekarang!</v-btn>
             </a>
           </v-flex>
@@ -76,7 +76,7 @@
               <TimelineItem direction="right" image="https://static.arkavidia.id/5/images/icons/competition/icon_pendaftaran.svg" title="PENDAFTARAN" time="11 - 17 Januari 2019" description="Pendaftaran"/>
               <TimelineItem direction="left" image="https://static.arkavidia.id/5/images/icons/competition/icon_type.svg" title="BABAK INTERVIEW" time="18 - 23 Januari 2019" description="Interview calon peserta lomba"/> 
               <TimelineItem direction="right" image="https://static.arkavidia.id/5/images/icons/competition/icon_pengumuman.svg" title="PENGUMUMAN PESERTA" time="28 Januari 2019" description="Pengumuman peserta"/> 
-              <TimelineItem direction="left" image="https://static.arkavidia.id/5/images/icons/competition/icon_podium.svg" title="LOMBA" time="2 - 3 Februari 2019" description="Data Academy"/> 
+              <TimelineItem direction="left" image="https://static.arkavidia.id/5/images/icons/competition/icon_podium.svg" title="ACARA" time="2 - 3 Februari 2019" description="Data Academy"/> 
             </Timeline>
           </v-layout>    
         </v-flex>
