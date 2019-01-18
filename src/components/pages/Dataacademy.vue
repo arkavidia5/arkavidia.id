@@ -105,7 +105,6 @@ export default {
 <style scoped>
 @media only screen and (max-width: 767px) {
   .preevent#dataacademy #preevent-title {
-    margin-top: 50px;
     padding-left: 10px;
     display: inline;
     z-index: 2;

@@ -15,6 +15,10 @@
           <div class="heading-title heading-medium">
             <h1 class="heading-yellow futura-bt">GLOBAL<br>GAME<br>JAM</h1>
             <h1 class="shadow futura-bt">GLOBAL<br>GAME<br>JAM</h1>
+
+
+            <h5 class="shadow futura-bt">IN COLLABORATION WITH</h5>
+            <img src="../../assets/agate.png" alt="agate-ico" height="50px" style="margin-top: 0px; display:block;">
           </div>
           <div class="view-more">
             <div class="futura-bt" style="letter-spacing: 4px; color: #094260">VIEW MORE</div>
@@ -193,6 +197,12 @@ export default {
     margin-top: 20px;
   }
 
+  .view-more {
+    position: absolute;
+    bottom: 10px;
+    width: 100%;
+  }
+
   .preevent #preevent-details {
     height: 100vh;
   }
@@ -261,7 +271,7 @@ export default {
 
 .preevent .heading-title {
   font-weight: bold;
-  top: 48vh;
+  top: 25vh;
   position: relative;
   min-width: 240px;
   line-height: 2em;
