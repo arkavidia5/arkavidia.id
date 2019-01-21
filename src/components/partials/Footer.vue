@@ -115,20 +115,38 @@ export default {
           "size": "XL",
         },
         {
-          "name": "AWS Educate",
-          "url" : "https://static.arkavidia.id/5/logo/aws.svg",                 
-          "size": "L",
+          "name": "Gojek",
+          "url" : "https://static.arkavidia.id/5/logo/gojek.png",                 
+          "size": "XL",
+        },
+        {
+          "name": "Bukalapak",
+          "url": "https://static.arkavidia.id/5/logo/bukalapak.png",
+          "size": "L"
         },
         {
           "name": "Shopee",
           "url" : "https://static.arkavidia.id/5/logo/shopee.png",                 
           "size": "L",
         },
+      
         {
-          "name": "Gojek",
-          "url" : "https://static.arkavidia.id/5/logo/gojek.png",                 
+          "name": "AWS Educate",
+          "url" : "https://static.arkavidia.id/5/logo/aws.svg",                 
           "size": "L",
-        }
+        },
+        {
+          "name": "blank",
+          "url": "https://static.arkavidia.id/5/logo/blank.png",
+          "size": "L"
+        },
+         {
+          "name": "Xtremax",
+          "url": "https://static.arkavidia.id/5/logo/xtremax.png",
+          "size": "S",
+        },
+        
+       
       ],
       medpars: [
         {
@@ -146,7 +164,23 @@ export default {
         {
           "name": "Seputar Event",
           "url": "https://static.arkavidia.id/5/logo/seputarevent.png",
-        }
+        },
+        {
+          "name": "Ruang Mahasiswa",
+          "url": "https://static.arkavidia.id/5/logo/ruangmahasiwa.png",
+        },
+        {
+          "name": "Info UPI ",
+          "url": "https://static.arkavidia.id/5/logo/infoupi.png",
+        },
+        {
+          "name": "Radio Untar",
+          "url": "https://static.arkavidia.id/5/logo/radiountar.png",
+        },
+        {
+          "name": "8eh",
+          "url": "https://static.arkavidia.id/5/logo/8eh.png",
+        },
       ],
       compars: [
         {
