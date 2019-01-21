@@ -31,8 +31,12 @@
               <div class="mid-button-group mt-3">
                 <div class="btn-line mb-3 ml-2"></div>
                 <!-- <button class="outlined-button futura-bt ma-2" style="font-size: 1.3rem">Unduh Rulebook</button> -->
-                <!-- <button class="outlined-button futura-bt ma-2" style="font-size: 1.3rem">Daftar Sekarang!</button> -->
               </div>
+            </div>
+            <div align="right">
+              <a href="https://dashboard.arkavidia.id/event/arkavtalk" class="no-decoration" target='_blank'>
+                  <v-btn class="outlined-button futura-bt ma-2" style="font-size: 1.3rem" >Daftar Sekarang!</v-btn>
+              </a>
             </div>
           </v-flex>
           <v-flex xl3 lg2 xs1/>
