@@ -120,6 +120,11 @@ export default {
           "size": "XL",
         },
         {
+          "name": "Paragon",
+          "url": "https://static.arkavidia.id/5/logo/paragon.png",
+          "size": "XL"
+        },
+        {
           "name": "Bukalapak",
           "url": "https://static.arkavidia.id/5/logo/bukalapak.png",
           "size": "L"
@@ -227,6 +232,10 @@ export default {
   }
   .box-wrapper {
     padding: 15px;
+  }
+  .sp-XL-logo {
+    object-fit: contain;
+    max-height: 140px;
   }
   .sp-L-logo {
     object-fit: contain;
