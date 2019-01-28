@@ -235,7 +235,7 @@ export default {
   }
   .sp-XL-logo {
     object-fit: contain;
-    max-height: 140px;
+    max-height: 170px;
   }
   .sp-L-logo {
     object-fit: contain;
