@@ -22,16 +22,104 @@
     <v-container fluid id="arkavtalk-details">
       <v-container class="content">
         <v-layout row class="mt-5 mb-5">
-          <v-flex xl3 lg2 xs1/>
-          <v-flex xl6 lg8 xs10>
-            <p class="text-xs-justify" style="font-size: 1.3rem">
+          <v-flex xs1/>
+          <v-flex xs12>
+            <!-- <p class="text-xs-justify" style="font-size: 1.3rem">
               ArkavTalk adalah salah satu rangkaian acara dari main event ARKAVIDIA 5.0. ArkavTalk kali ini dibagi menjadi dua topik besar, yang pertama adalah topik tentang pendidikan di masa kini yang memanfaatkan teknologi informasi. Topik pertama ditujukan untuk setiap siswa dan mahasiswa yang menjadi pengguna langsung dari layanan educational technology. Topik kedua adalah perkembangan IT dalam bidang Artificial Intelligence, Big Data, Cloud Computing dan Cyber Security. ArkavTalk akan dibawakan oleh startup-startup IT yang bergerak di bidang pendidikan, dan startup-startup IT di bidang lainnya. Pendaftaran ArkavTalk akan dibuka pada bulan Januari 2019.
-            </p>
+            </p> -->
             <div align="center">
-              <div class="mid-button-group mt-3">
-                <div class="btn-line mb-3 ml-2"></div>
-                <!-- <button class="outlined-button futura-bt ma-2" style="font-size: 1.3rem">Unduh Rulebook</button> -->
-              </div>
+              <!-- <div class="mid-button-group mt-3">
+                <div class="btn-line mb-3 ml-2">
+                  <h1>E</h1>
+                </div>
+              </div> -->
+              <h1 class="heading-medium">Topics</h1>
+
+              <br>
+              <template id="sesi1">
+                <h2 class="heading-small">Sesi 1</h2>
+                <div class="heading small-text">9 Februari 2019, 08.30</div>
+                <div class="heading small-text">Auditorium CC Timur, ITB Kampus Ganesha</div>
+                <div class="heading small-text">HTM : Rp 20.000</div>
+                <v-layout class="row">
+                  <v-flex class="xs10 offset-xs1">
+                    <v-layout class="row row-pembicara wrap">
+                      <v-flex class="xs12 md4 pa-3">
+                        <span class="heading small">Why Learning <br> Should Be <br> Your Lifestyle</span>
+                        <div class="foto-pembicara">
+                          <img src="https://static.arkavidia.id/5/images/logo.svg" alt="" >
+                        </div>
+                        <div class="heading small mt-2 mb-0"><b>Zaneti Sugiharti</b></div>
+                        <div class="position-text">Head of Marketing & <br> Communications HarukaEDU</div>
+                      </v-flex>
+                      <v-flex class="xs12 md4 pa-3">
+                        <span class="heading small">Set Up <br> Your Own Learning <br> Environment</span>
+                        <div class="foto-pembicara">
+                          <img src="https://static.arkavidia.id/5/images/logo.svg" alt="" >
+                        </div>
+                        <div class="heading small mt-2"><b>Tri Nuraini</b></div>
+                        <div class="position-text">Head of PR & Marketing <br> Quipper Indonesia</div>
+
+                      </v-flex>
+                      <v-flex class="xs12 md4 pa-3">
+                        <span class="heading small">Boost Your Learning <br> Experience With <br> Online Course</span>
+                        <div class="foto-pembicara">
+                          <img src="https://static.arkavidia.id/5/images/logo.svg" alt="" >
+                        </div>
+                        <div class="heading small mt-2"><b>Lucyanna Pandjaitan</b></div>
+                        <div class="position-text">Presiden Direktur & <br> CEO IndonesiaX</div>
+
+                      </v-flex>
+                    </v-layout>
+                  </v-flex>
+                </v-layout>
+                <br>
+              </template>
+              <template id="sesi2">
+                <h2 class="heading-small">Sesi 2</h2>
+                <div class="heading small-text">9 Februari 2019, 12.30</div>
+                <div class="heading small-text">Auditorium CC Timur, ITB Kampus Ganesha</div>
+                <div class="heading small-text">HTM : Rp 30.000</div>
+                <v-layout class="row row-pembicara wrap">
+                      <v-flex class="xs12 md3 pa-1">
+                        <span class="heading small">How Data <br> Transform <br> Our Life</span>  
+                          <div class="foto-pembicara">
+                            <img src="https://static.arkavidia.id/5/images/logo.svg" alt="" >
+                          </div>
+                          <div class="heading small mt-2"><b>Syafri Bahar</b></div>
+                          <div class="position-text">Vice President of <br> Data Science Go-Jek</div>
+                      </v-flex>
+                      <v-flex class="xs12 md3 pa-1">
+                        <span class="heading small">Dive Inside <br> E-commerce <br> Recommendation System</span>  
+                        <div class="foto-pembicara">
+                          <img src="https://static.arkavidia.id/5/images/logo.svg" alt="" >
+                        </div>
+                        <div class="heading small mt-2"><b>Reza Aditya Permadi</b></div>
+                        <div class="position-text">AI Research Manager <br> Bukalapak</div>
+
+                      </v-flex>
+                      <v-flex class="xs12 md3 pa-1">
+                        <span class="heading small">Unboxing <br> E-commerce <br> Design Tricks</span>  
+                        <div class="foto-pembicara">
+                          <img src="https://static.arkavidia.id/5/images/logo.svg" alt="" >
+                        </div>
+                        <div class="heading small mt-2"><b>Adze Ganesha</b></div>
+                        <div class="position-text">Product Design Expert (UX) <br> Tokopedia</div>
+
+                      </v-flex>
+                       <v-flex class="xs12 md3 pa-1">
+                        <span class="heading small">Recent Technology <br> in Cloud Computing and <br> Its Impact to The Future </span>  
+                        <div class="foto-pembicara">
+                          <img src="https://static.arkavidia.id/5/images/logo.svg" alt="" >
+                        </div>
+                        <div class="heading small mt-2"><b>Eric Cahya</b></div>
+                        <div class="position-text">Infrastructure Manager <br> Xtremax</div>
+
+                      </v-flex>
+                </v-layout>
+                <br>
+              </template>
+              
             </div>
             <div align="right">
               <a href="https://dashboard.arkavidia.id/event/arkavtalk" class="no-decoration" target='_blank'>
@@ -194,5 +282,34 @@
     #arkavtalk-details > .content {
       background: none;
     }
+  }
+  .small-text {
+    font-size: 1.5rem !important;
+  }
+  .foto-pembicara {
+    border-radius: 50% ;
+    height: 125px !important;
+    width: 125px !important;
+    object-fit: cover;
+    border: 7px solid #04464F;
+    background: white;
+  }
+  .foto-pembicara>img {
+    max-height: 100%;
+    max-width: 100%;
+    object-fit: contain;
+  }
+  .row-pembicara {
+    margin-top: 20px;
+  }
+  .heading.small {
+    font-family: 'Futura Md BT Bold';
+    font-weight: 900;
+    font-size: 1.2rem;
+  }
+  .position-text {
+    color: #137F7F;
+    font-size: 0.9rem;
+    line-height: 1 rem;
   }
 </style>
