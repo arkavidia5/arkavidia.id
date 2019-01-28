@@ -47,7 +47,7 @@
                       <v-flex class="xs12 md4 pa-3">
                         <span class="heading small">Why Learning <br> Should Be <br> Your Lifestyle</span>
                         <div class="foto-pembicara">
-                          <img src="https://static.arkavidia.id/5/images/logo.svg" alt="" >
+                          <img src="../../assets/pembicara/zaneti.jpg" alt="" >
                         </div>
                         <div class="heading small mt-2 mb-0"><b>Zaneti Sugiharti</b></div>
                         <div class="position-text">Head of Marketing & <br> Communications HarukaEDU</div>
@@ -55,7 +55,7 @@
                       <v-flex class="xs12 md4 pa-3">
                         <span class="heading small">Set Up <br> Your Own Learning <br> Environment</span>
                         <div class="foto-pembicara">
-                          <img src="https://static.arkavidia.id/5/images/logo.svg" alt="" >
+                          <img src="../../assets/pembicara/tri.jpeg" alt="" >
                         </div>
                         <div class="heading small mt-2"><b>Tri Nuraini</b></div>
                         <div class="position-text">Head of PR & Marketing <br> Quipper Indonesia</div>
@@ -64,7 +64,7 @@
                       <v-flex class="xs12 md4 pa-3">
                         <span class="heading small">Boost Your Learning <br> Experience With <br> Online Course</span>
                         <div class="foto-pembicara">
-                          <img src="https://static.arkavidia.id/5/images/logo.svg" alt="" >
+                          <img src="../../assets/pembicara/lucyanna.png" alt="" >
                         </div>
                         <div class="heading small mt-2"><b>Lucyanna Pandjaitan</b></div>
                         <div class="position-text">Presiden Direktur & <br> CEO IndonesiaX</div>
@@ -84,7 +84,7 @@
                       <v-flex class="xs12 md3 pa-1">
                         <span class="heading small">How Data <br> Transform <br> Our Life</span>  
                           <div class="foto-pembicara">
-                            <img src="https://static.arkavidia.id/5/images/logo.svg" alt="" >
+                            <img src="../../assets/pembicara/syafri.jpg" alt="" >
                           </div>
                           <div class="heading small mt-2"><b>Syafri Bahar</b></div>
                           <div class="position-text">Vice President of <br> Data Science Go-Jek</div>
@@ -92,7 +92,7 @@
                       <v-flex class="xs12 md3 pa-1">
                         <span class="heading small">Dive Inside <br> E-commerce <br> Recommendation System</span>  
                         <div class="foto-pembicara">
-                          <img src="https://static.arkavidia.id/5/images/logo.svg" alt="" >
+                          <img src="../../assets/pembicara/reza.jpg" alt="" >
                         </div>
                         <div class="heading small mt-2"><b>Reza Aditya Permadi</b></div>
                         <div class="position-text">AI Research Manager <br> Bukalapak</div>
@@ -101,7 +101,7 @@
                       <v-flex class="xs12 md3 pa-1">
                         <span class="heading small">Unboxing <br> E-commerce <br> Design Tricks</span>  
                         <div class="foto-pembicara">
-                          <img src="https://static.arkavidia.id/5/images/logo.svg" alt="" >
+                          <img src="../../assets/pembicara/adze.jpg" alt="" >
                         </div>
                         <div class="heading small mt-2"><b>Adze Ganesha</b></div>
                         <div class="position-text">Product Design Expert (UX) <br> Tokopedia</div>
@@ -110,7 +110,7 @@
                        <v-flex class="xs12 md3 pa-1">
                         <span class="heading small">Recent Technology <br> in Cloud Computing and <br> Its Impact to The Future </span>  
                         <div class="foto-pembicara">
-                          <img src="https://static.arkavidia.id/5/images/logo.svg" alt="" >
+                          <img src="../../assets/pembicara/eric.png" alt="" >
                         </div>
                         <div class="heading small mt-2"><b>Eric Cahya</b></div>
                         <div class="position-text">Infrastructure Manager <br> Xtremax</div>
@@ -298,6 +298,7 @@
     max-height: 100%;
     max-width: 100%;
     object-fit: contain;
+    border-radius: 50%;
   }
   .row-pembicara {
     margin-top: 20px;
