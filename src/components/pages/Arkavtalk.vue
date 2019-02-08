@@ -33,7 +33,7 @@
                   <h1>E</h1>
                 </div>
               </div> -->
-              <h1 class="heading-medium">Topics</h1>
+              <h1 class="heading-medium" >Topics</h1>
 
               <br>
               <template id="sesi1">
@@ -41,7 +41,7 @@
                 <div class="heading small-text">9 Februari 2019, 08.30</div>
                 <div class="heading small-text">Auditorium CC Timur, ITB Kampus Ganesha</div>
                 <div class="heading small-text">HTM : Rp 20.000</div>
-                <v-layout class="row">
+                <v-layout class="row" id="topics">
                   <v-flex class="xs10 offset-xs1">
                     <v-layout class="row row-pembicara wrap">
                       <v-flex class="xs12 md4 pa-3">
@@ -51,6 +51,7 @@
                         </div>
                         <div class="heading small mt-2 mb-0"><b>Zaneti Sugiharti</b></div>
                         <div class="position-text">Head of Marketing & <br> Communications HarukaEDU</div>
+                        <div class="accent--color">09.15 - 09.45</div>
                       </v-flex>
                       <v-flex class="xs12 md4 pa-3">
                         <span class="heading small seminar-title">Set Up <br> Your Own Learning <br> Environment</span>
@@ -59,7 +60,7 @@
                         </div>
                         <div class="heading small mt-2"><b>Tri Nuraini</b></div>
                         <div class="position-text">Head of PR & Marketing <br> Quipper Indonesia</div>
-
+                        <div class="accent--color">09.50 - 10.20</div>
                       </v-flex>
                       <v-flex class="xs12 md3 pa-3">
                         <span class="heading small seminar-title">Boost Your Learning <br> Experience With <br> Online Course</span>
@@ -68,6 +69,7 @@
                         </div>
                         <div class="heading small mt-2"><b>Lucyanna Pandjaitan</b></div>
                         <div class="position-text">Presiden Direktur & <br> CEO IndonesiaX</div>
+                        <div class="accent--color">10.25 - 10.55</div>
 
                       </v-flex>
                     </v-layout>
@@ -81,49 +83,53 @@
                 <div class="heading small-text">Auditorium CC Timur, ITB Kampus Ganesha</div>
                 <div class="heading small-text">HTM : Rp 30.000</div>
                 <v-layout class="row row-pembicara wrap">
-                      <v-flex class="xs12 md3 pa-1 mt-3">
-                        <span class="heading small seminar-title">How Data <br> Transform <br> Our Life</span>  
-                          <div class="foto-pembicara">
-                            <img src="../../assets/pembicara/syafri.jpg" alt="" >
-                          </div>
-                          <div class="heading small mt-2"><b>Syafri Bahar</b></div>
-                          <div class="position-text">Vice President of <br> Data Science Go-Jek</div>
-                      </v-flex>
-                      <v-flex class="xs12 md3 pa-1 mt-3">
-                        <span class="heading small seminar-title">Dive Inside <br> E-commerce <br> Recommendation System</span>  
-                        <div class="foto-pembicara">
-                          <img src="../../assets/pembicara/reza.jpg" alt="" >
-                        </div>
-                        <div class="heading small mt-2"><b>Reza Aditya Permadi</b></div>
-                        <div class="position-text">AI Research Manager <br> Bukalapak</div>
-
-                      </v-flex>
-                      <v-flex class="xs12 md3 pa-1 mt-3">
-                        <span class="heading small seminar-title">Unboxing <br> E-commerce <br> Design Tricks</span>  
+                        <v-flex class="xs12 md3 pa-1 mt-3">
+                        <span class="heading small seminar-title">Unboxing <br> E-commerce <br> Design Tricks</span>
                         <div class="foto-pembicara">
                           <img src="../../assets/pembicara/adze.jpg" alt="" >
                         </div>
                         <div class="heading small mt-2"><b>Adze Ganesha</b></div>
                         <div class="position-text">Product Design Expert (UX) <br> Tokopedia</div>
+                        <div class="accent--color">13.10 - 13.40</div>
 
                       </v-flex>
+                      <v-flex class="xs12 md3 pa-1 mt-3">
+                        <span class="heading small seminar-title">Dive Inside <br> E-commerce <br> Recommendation System</span>
+                        <div class="foto-pembicara">
+                          <img src="../../assets/pembicara/reza.jpg" alt="" >
+                        </div>
+                        <div class="heading small mt-2"><b>Reza Aditya Permadi</b></div>
+                        <div class="position-text">AI Research Manager <br> Bukalapak</div>
+                        <div class="accent--color">14.00 - 14.30</div>
+                      </v-flex>
+
                        <v-flex class="xs12 md3 pa-1 mt-3">
-                        <span class="heading small seminar-title">Recent Technology <br> in Cloud Computing and <br> Its Impact to The Future </span>  
+                        <span class="heading small seminar-title">Recent Technology <br> in Cloud Computing and <br> Its Impact to The Future </span>
                         <div class="foto-pembicara">
                           <img src="../../assets/pembicara/eric.png" alt="" >
                         </div>
                         <div class="heading small mt-2"><b>Eric Cahya</b></div>
                         <div class="position-text">Infrastructure Manager <br> Xtremax</div>
+                        <div class="accent--color">14.50 - 15.20</div>
+                      </v-flex>
+                       <v-flex class="xs12 md3 pa-1 mt-3">
+                        <span class="heading small seminar-title">How Data <br> Transform <br> Our Life</span>
+                          <div class="foto-pembicara">
+                            <img src="../../assets/pembicara/syafri.jpg" alt="" >
+                          </div>
+                          <div class="heading small mt-2"><b>Syafri Bahar</b></div>
+                          <div class="position-text">Vice President of <br> Data Science Go-Jek</div>
+                          <div class="accent--color">16.00 - 16.30</div>
 
                       </v-flex>
                 </v-layout>
                 <br>
               </template>
-              
+
             </div>
             <div align="right">
               <a href="https://dashboard.arkavidia.id/event/arkavtalk" class="no-decoration" target='_blank'>
-                  <v-btn class="outlined-button futura-bt ma-2" style="font-size: 1.3rem" >Daftar Sekarang!</v-btn>
+                  <!-- <v-btn class="outlined-button futura-bt ma-2" style="font-size: 1.3rem" >Daftar Sekarang!</v-btn> -->
               </a>
             </div>
           </v-flex>
@@ -317,13 +323,16 @@
     .seminar-title {
       font-size: 1.3vw !important;
     }
-      
+
   }
   @media only screen and (max-width: 767px) {
     .seminar-title {
       font-size: inherit;
     }
-      
+
   }
-  
+  .accent--color {
+    color: #F69320;
+  }
+
 </style>

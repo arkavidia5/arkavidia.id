@@ -44,10 +44,10 @@
           </div>
           <v-flex md1 xs12>
             <a href="https://bit.ly/GGJ-ITB-2019" class="no-decoration" target='_blank'>
-             <v-btn class="box-stroke" >Daftar Sekarang!</v-btn>
+             <!-- <v-btn class="box-stroke" >Daftar Sekarang!</v-btn> -->
             </a>
           </v-flex>
-            
+
           <div>
             <div class="mid-button-group mt-3">
               <div class="btn-line mb-3 ml-2"></div>

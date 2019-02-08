@@ -43,7 +43,7 @@
           </div>
             <v-flex md1 xs12>
             <a href="https://bit.ly/DataAcademy2019" class="no-decoration" target='_blank'>
-             <v-btn class="box-stroke" >Daftar Sekarang!</v-btn>
+             <!-- <v-btn class="box-stroke" >Daftar Sekarang!</v-btn> -->
             </a>
           </v-flex>
 
@@ -74,11 +74,11 @@
           <v-layout row>
             <Timeline>
               <TimelineItem direction="right" image="https://static.arkavidia.id/5/images/icons/competition/icon_pendaftaran.svg" title="PENDAFTARAN" time="11 - 17 Januari 2019" description="Pendaftaran"/>
-              <TimelineItem direction="left" image="https://static.arkavidia.id/5/images/icons/competition/icon_type.svg" title="BABAK INTERVIEW" time="18 - 23 Januari 2019" description="Interview calon peserta lomba"/> 
-              <TimelineItem direction="right" image="https://static.arkavidia.id/5/images/icons/competition/icon_pengumuman.svg" title="PENGUMUMAN PESERTA" time="28 Januari 2019" description="Pengumuman peserta"/> 
-              <TimelineItem direction="left" image="https://static.arkavidia.id/5/images/icons/competition/icon_podium.svg" title="ACARA" time="2 - 3 Februari 2019" description="Data Academy"/> 
+              <TimelineItem direction="left" image="https://static.arkavidia.id/5/images/icons/competition/icon_type.svg" title="BABAK INTERVIEW" time="18 - 23 Januari 2019" description="Interview calon peserta lomba"/>
+              <TimelineItem direction="right" image="https://static.arkavidia.id/5/images/icons/competition/icon_pengumuman.svg" title="PENGUMUMAN PESERTA" time="28 Januari 2019" description="Pengumuman peserta"/>
+              <TimelineItem direction="left" image="https://static.arkavidia.id/5/images/icons/competition/icon_podium.svg" title="ACARA" time="2 - 3 Februari 2019" description="Data Academy"/>
             </Timeline>
-          </v-layout>    
+          </v-layout>
         </v-flex>
       </v-layout>
     </v-container>

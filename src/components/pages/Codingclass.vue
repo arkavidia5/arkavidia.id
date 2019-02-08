@@ -40,7 +40,7 @@
           </div>
             <v-flex md1 xs12>
             <a href="https://dashboard.arkavidia.id/preevent/codingclass" class="no-decoration" target='_blank'>
-             <v-btn class="box-stroke" >Daftar Sekarang!</v-btn>
+             <!-- <v-btn class="box-stroke" >Daftar Sekarang!</v-btn> -->
             </a>
           </v-flex>
 

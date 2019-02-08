@@ -11,12 +11,44 @@
       </v-responsive>
     </v-layout>
     <v-layout row gradient down/>
-    <!-- <v-layout row section whats-on justify-center>
+    <v-layout row section whats-on justify-center>
       <h1 class="futura-lt bold heading">
         What's on Arkavidia?
       </h1>
-    </v-layout> -->
-    <!-- <PageBreak/> -->
+    </v-layout>
+    <v-container>
+      <v-layout class="row wrap">
+        <v-flex class="md3 xs12 sm6 pa-4">
+          <a href="https://itfest.arkavidia.id">
+          <div class="bordered">
+            <img src="../../assets/dday_itfest.svg" alt="" width="100%">
+          </div>
+          </a>
+        </v-flex>
+        <v-flex class="md3 pa-4">
+          <router-link to="/competition/cp/scoreboard">
+          <div class="bordered">
+            <img src="../../assets/dday_cp.svg" alt="" width="100%">
+          </div>
+          </router-link>
+        </v-flex>
+        <v-flex class="md3 xs12 sm6 pa-4">
+          <a href="http://ctf.arkavidia.id/scoreboard">
+          <div class="bordered">
+            <img src="../../assets/dday_ctf.svg" alt="" width="100%">
+          </div>
+          </a>
+        </v-flex>
+        <v-flex class="md3 xs12 sm6 pa-4">
+          <router-link to="/event/arkavtalk#topics">
+          <div class="bordered">
+          <img src="../../assets/dday_arkavtalk.svg" alt="" width="100%">
+          </div>
+          </router-link>
+        </v-flex>
+      </v-layout>
+    </v-container>
+    <PageBreak/>
     <v-layout row section events justify-center>
        <v-container>
          <v-layout row justify-center>
@@ -24,7 +56,7 @@
             Pre-Events
           </h1>
          </v-layout>
-        <v-layout row justify-center wrap style="margin-top:15px;">          
+        <v-layout row justify-center wrap style="margin-top:15px;">
           <v-flex md2 xs6>
             <router-link to="/preevent/gamejam" class="d-flex justify-center align-center no-decoration black--text flex-column" >
               <img src="../../assets/ggj-01.svg" alt="gamejam-ico" height="150">
@@ -54,7 +86,7 @@
             Events
           </h1>
          </v-layout>
-        <v-layout row justify-center mt-4>          
+        <v-layout row justify-center mt-4>
           <router-link to="/event/festival" class="d-flex justify-center align-center no-decoration black--text mr-4 flex-column" >
             <img src="https://static.arkavidia.id/5/images/icons/itfestival.svg" alt="itfest-ico" height="150">
             <h3 style="margin-top:4px;">IT Festival</h3>
@@ -95,7 +127,7 @@
             <h3 style="margin-top:4px; text-align:center;" class="competition-text">Capture the Flag</h3>
           </router-link>
           </v-flex>
-          <v-flex md3 xs6>  
+          <v-flex md3 xs6>
           <router-link to="/competition/arkalogica" class="d-flex justify-center align-center no-decoration black--text flex-column" >
             <img src="https://static.arkavidia.id/5/images/icons/arkalogica.svg" alt="arkalogica-ico" height="120">
             <h3 style="margin-top:4px; text-align:center" class="competition-text">Arkalogica</h3>
@@ -161,7 +193,7 @@ a {
 }
 .landing {
   width: 100%;
-  position: relative;  
+  position: relative;
 }
 .landing>div{
    background-image: url('https://static.arkavidia.id/5/images/landing-bg-2.svg');
@@ -173,6 +205,11 @@ a {
   height: 50px;
   justify-content:center;
   align-items:center;
+}
+.bordered {
+  border: 2px solid #04464F;
+  padding: 10px;
+  border-radius: 5px;
 }
 
 </style>

@@ -8,7 +8,7 @@
             <div>
               <v-layout class="row">
                 <v-flex md12 xs8 style="z-index: 2">
-                  <p class="text-stroke heading-medium line-height-small margin-bottom-none">Competition 
+                  <p class="text-stroke heading-medium line-height-small margin-bottom-none">Competition
                     <span class="dash-box">_</span>
                   </p>
                   <br>
@@ -29,11 +29,11 @@
                   <br>
                   <v-layout row mb-4  justify-start justify-md-start>
                     <v-flex align-center md3  xs6 d-flex ml-md-4 >
-                      <img src="https://static.arkavidia.id/5/images/icons/mahasiswa.svg" alt="mahasiswa" height="50"> 
+                      <img src="https://static.arkavidia.id/5/images/icons/mahasiswa.svg" alt="mahasiswa" height="50">
                       <span style="font-size: 1.1rem;" class="ml-md-1">Mahasiswa</span>
                     </v-flex>
                     <v-flex align-center xs4 md3 justify-center d-flex>
-                      <img src="https://static.arkavidia.id/5/images/icons/siswa.svg" alt="mahasiswa" height="50"> 
+                      <img src="https://static.arkavidia.id/5/images/icons/siswa.svg" alt="mahasiswa" height="50">
                       <span style="font-size: 1.1rem;" class="ml-md-1">Siswa SMA/Sederajat</span>
                     </v-flex>
                   </v-layout>
@@ -49,8 +49,8 @@
                     </v-flex>
                     <v-flex xs8 sm6 md6 offset-xs2 offset-sm0>
                     <a href="https://dashboard.arkavidia.id/register" class="no-decoration" target="_blank">
-                      <v-btn class="box-stroke">Daftar Sekarang!
-                      </v-btn>
+                      <!-- <v-btn class="box-stroke">Daftar Sekarang!
+                      </v-btn> -->
                     </a>
                     </v-flex>
                   </v-layout>
@@ -58,7 +58,7 @@
               </v-layout>
             </div>
           </v-flex>
-          <v-flex md4 xs4 class="d-flex flex-column " v-if="this.$vuetify.breakpoint.mdAndUp"> 
+          <v-flex md4 xs4 class="d-flex flex-column " v-if="this.$vuetify.breakpoint.mdAndUp">
             <img src="../../assets/tower_ctf.svg" alt="technovation-ico" height="250px">
           </v-flex>
         </v-layout>
@@ -79,11 +79,11 @@
             <v-layout row>
               <Timeline>
                 <TimelineItem direction="right" image="https://static.arkavidia.id/5/images/icons/competition/icon_pendaftaran.svg" title="PENDAFTARAN" time="5 November - 02 Desember 2018" description="Pendaftaran dilakukan secara online melalui website"/>
-                <TimelineItem direction="left" image="https://static.arkavidia.id/5/images/icons/competition/icon_type.svg" title="BABAK PENYISIHAN" time="12 Januari 2019" description="Penyisihan dilakukan secara online"/> 
-                <TimelineItem direction="right" image="https://static.arkavidia.id/5/images/icons/competition/icon_pengumuman.svg" title="PENGUMUMAN FINALIS" time="20 Januari 2019" description="Pengumuman finalis di media sosial Arkavidia 5.0"/> 
-                <TimelineItem direction="left" image="https://static.arkavidia.id/5/images/icons/competition/icon_podium.svg" title="FINAL" time="9 Februari 2019" description="Final dilakukan onsite di ITB"/> 
+                <TimelineItem direction="left" image="https://static.arkavidia.id/5/images/icons/competition/icon_type.svg" title="BABAK PENYISIHAN" time="12 Januari 2019" description="Penyisihan dilakukan secara online"/>
+                <TimelineItem direction="right" image="https://static.arkavidia.id/5/images/icons/competition/icon_pengumuman.svg" title="PENGUMUMAN FINALIS" time="20 Januari 2019" description="Pengumuman finalis di media sosial Arkavidia 5.0"/>
+                <TimelineItem direction="left" image="https://static.arkavidia.id/5/images/icons/competition/icon_podium.svg" title="FINAL" time="9 Februari 2019" description="Final dilakukan onsite di ITB"/>
               </Timeline>
-            </v-layout>    
+            </v-layout>
           </v-flex>
         </v-layout>
         <!-- /Timeline -->
@@ -151,7 +151,7 @@ import TimelineItem from '../partials/TimelineItem'
 export default {
   name: 'CTF',
   components: {
-    Accordion, 
+    Accordion,
     Timeline,
     TimelineItem
   },
