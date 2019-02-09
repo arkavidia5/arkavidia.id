@@ -16,6 +16,14 @@
           <v-flex md12 xs8 style="z-index: 2">
             <button
               class="category box-stroke"
+              v-bind:class="{ active: cid === 7 }"
+              v-on:click="cid = 7, isFetch = true, lastFetched = null, scoreboard = []"> Final Senior </button>
+            <button
+              class="category box-stroke"
+              v-bind:class="{ active: cid === 6 }"
+              v-on:click="cid = 6, isFetch = true, lastFetched = null, scoreboard = []"> Final Junior </button>
+            <button
+              class="category box-stroke"
               v-bind:class="{ active: cid === 4 }"
               v-on:click="cid = 4, isFetch = true, lastFetched = null, scoreboard = []"> Penyisihan Senior </button>
             <button
@@ -97,7 +105,7 @@ export default {
   },
   data: function () {
     return {
-      cid: 4,
+      cid: 7,
       scoreboard: [],
       teams: {},
       lastFetched: null,
