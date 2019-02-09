@@ -28,11 +28,11 @@
                   </h2>
                   <br>
                   <v-layout row mb-4  justify-start justify-md-start>
-                    <v-flex align-center md3  xs6 d-flex ml-md-4 >
+                    <v-flex align-center xs6 d-flex ml-md-4 >
                       <img src="https://static.arkavidia.id/5/images/icons/mahasiswa.svg" alt="mahasiswa" height="50">
                       <span style="font-size: 1.1rem;" class="ml-md-1">Mahasiswa</span>
                     </v-flex>
-                    <v-flex align-center xs4 md3 justify-center d-flex>
+                    <v-flex align-center xs6 justify-center d-flex>
                       <img src="https://static.arkavidia.id/5/images/icons/siswa.svg" alt="mahasiswa" height="50">
                       <span style="font-size: 1.1rem;" class="ml-md-1">Siswa SMA/Sederajat</span>
                     </v-flex>
